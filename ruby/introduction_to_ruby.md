@@ -1,2 +1,2 @@
-# Introduction to Ruby
+## Introduction to Ruby
 
