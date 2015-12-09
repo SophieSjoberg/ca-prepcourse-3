@@ -160,7 +160,6 @@ $ git config --global core.editor "atom --wait"
 When you work with git and version control it is a good idea to set up your prompt that displays some useful information such as:
 - What branch are you currently on
 - What is your current status in regard to your own GH repository (`origin`)
-- What is your current status in regard to the main project repo (`upstream`)
 
 There is a very nice modification made availiable on GitHub called [Bash Git Prompt](https://github.com/magicmonty/bash-git-prompt). You an install it using Homebrew with these steps:
 
