@@ -7,7 +7,7 @@ Interactive Ruby Shell is an interactive programming environment that comes with
 $ irb
 2.2.2 :001 > # type your ruby command
 ```
-
+### Variables
 
 ### Strings
 
