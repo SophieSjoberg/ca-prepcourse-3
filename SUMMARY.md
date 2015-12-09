@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [The Terminal](terminal/terminal_1.md)
 * [Setup for developers](terminal/setup_for_developers.md)
-   * Working in the cloud
+   * [Working in the cloud](terminal/working_in_the_cloud.md)
 * [Your first website](the_web/your_first_website.md)
 * [Introduction to Ruby](ruby/introduction_to_ruby.md)
    * [The basics](ruby/the_basics.md)
