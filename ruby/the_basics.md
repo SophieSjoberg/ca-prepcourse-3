@@ -164,6 +164,24 @@ And, consequently, we can access the `age` and `weight` in similar way:
  => 85.5 
 ```
 
+### Exercise
+
+Here's a simple exercise for you to try what we have covered in this section:
+
+1. Create an array and store it in a variable called `my_group`
+2. Create three hashes describing an individual and name them `person_1`, `person_2`and `person_3`. The hash should contain the following keys:
+    - `name`
+    - `gender`
+    - `age`
+3. Add all persons to your `my_group` array.
+4. Do everything in IRB but also save it in a `.rb` file called `my_group.rb`. We'll be returning to this example later on. 
+
+
+
+
+
+
+
 
 
 
