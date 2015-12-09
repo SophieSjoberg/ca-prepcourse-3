@@ -27,7 +27,6 @@ Thomas
  => nil
 ```
 
-
 ### Strings
 
 ### Numbers
