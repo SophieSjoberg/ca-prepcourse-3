@@ -26,16 +26,7 @@ Install:
 ```shell
 $ xcode-select --install
 ```
-![Step1](../images/xcode_clt_step1.png)
-
-![Step2](../images/xcode_clt_step2.png)
-
-![Step3](../images/xcode_clt_step3.png)
-
-![Step4](../images/xcode_clt_step4.png)
-
-
-Verify installation:
+Work your way through the dialogs presented by the installer, complete the process and verify installation:
 ```shell
 $ xcode-select -p
 /Library/Developer/CommandLineTools
