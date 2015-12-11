@@ -22,7 +22,14 @@ The back end of a website consists of a server, an application and a database. A
 * NoSQL (MongoDB)
 
 ### Full stack
-Full stack developers work, like back-end devs, on the server side of web programming, but they can also speak the front-end languages that control how content looks on a web site's user-facing side. 
+Full stack developers work mostly on the server side of web programming, but they can also speak the front-end languages that control how content looks on a web site's user-facing side. 
+
+At Craft Academy we've chosen Ruby, with all its access to a wide array of frameworks and tools, as the first back end language we introduce to students. For front end development, we will be using Javascript  with accompanying frameworks that makes development of rich applications possible - both for a desktop and mobile user experience (AngularJS and Ionic).
+
+### More then code
+
+
+
 
 
 
