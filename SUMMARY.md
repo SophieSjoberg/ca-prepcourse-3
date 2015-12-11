@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * The stack
 * [The Terminal](terminal/terminal_1.md)
 * [Setup for developers](terminal/setup_for_developers.md)
    * [Working in the cloud](terminal/working_in_the_cloud.md)
