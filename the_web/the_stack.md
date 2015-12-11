@@ -26,7 +26,6 @@ Full stack developers work mostly on the server side of web programming, but the
 
 At Craft Academy we've chosen Ruby, with all its access to a wide array of frameworks and tools, as the first back end language we introduce to students. For front end development, we will be using Javascript  with accompanying frameworks that makes development of rich applications possible - both for a desktop and mobile user experience (AngularJS and Ionic).
 
-### More then code
 
 
 
