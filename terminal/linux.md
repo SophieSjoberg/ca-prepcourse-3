@@ -13,13 +13,18 @@ $ sudo apt-get update && sudo apt-get upgrade -y
 $ sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
 ```
 
-Next we are going to install Ruby using [Ruby Version Manager (RVM)](http://rvm.io/)
+Next we are going to install [Ruby Version Manager (RVM)](http://rvm.io/). RVM will allow us to install and manage multiple versions of Ruby in our environment.
 
 ```shell
 $ sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev -y
 $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 $ curl -L https://get.rvm.io | bash -s stable
 $ source ~/.rvm/scripts/rvm
+```
+
+And now let's install rubies
+
+```shell
 $ rvm install 2.2.3
 $ rvm use 2.2.3 --default
 $ ruby -v
