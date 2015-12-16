@@ -55,7 +55,7 @@ Try instead to pass in a name and a balance as arguments:
 ```
 Looks like that works better, right?
 
-However, we are still not quite where we want to be. In many cases you want to be not only be able to access the values (that we can do at this point), but also modify them. For that we need some **setter methods**. We can define those methods ourselves, but Ruby offers us a better way. How about this code:
+However, we are still not quite where we want to be. In many cases you want to be not only be able to access the values (that we can do at this point), but also modify them. For that we need some **setter methods**. We could define those methods ourselves, but Ruby offers us a better way. How about this code:
 
 ```ruby
 class Account  
