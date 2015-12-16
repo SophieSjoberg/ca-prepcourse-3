@@ -10,7 +10,7 @@ Request-Response is the most basic and common of the client-service interaction 
 
 This pattern is typically implemented in a purely synchronous fashion, as in web service calls over HTTP, which holds a connection open and waits until the response is delivered or the timeout period expires. 
 
-HTTP is **connectionless** and **stateless**. The server and client are aware of each other only during a current request. Afterwards, both of them forget about each other. Due to this nature of the protocol, neither the client nor the browser can retain information between different requests across the web pages.
+The HTTP protocol is **connection-** and **stateless**. The server and client are aware of each other only during a current request. Afterwards, both of them forget about each other. Due to this nature of the protocol, neither the client nor the browser can retain information between different requests across the web pages.
 
 This is very important to understand when building applications that will run over HTTP protocol: the server forgets about who asked for what when a request have been served. 
 
