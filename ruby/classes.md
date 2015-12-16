@@ -65,10 +65,15 @@ end
 
 ### Exercise
 Have a look at the latest code defining the `Account` class. 
-* What methods are available to you now? 
+* What methods are available to you now?
+* What does the `self` keyword mean?
 * Can you modify the attributes of an account? 
 * Is it good to always be able to do that? 
-* What changes would you introduce
+* What changes would you introduce?
+
+Think about this by putting this class and objects you can create with it in a real life context. For instance, if this was a real life bank account, would it be good to be useful to be able to modify the account holders name after the account has been opened? Why? Why not?
+
+
 
 
 
