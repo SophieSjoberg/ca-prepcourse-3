@@ -12,11 +12,14 @@ This is the bare minimum code you need to write to create a class. Try to define
 $ irb
 2.2.0 :001 > class Account
 2.2.0 :002?>   end
- => nil 
-2.2.0 :003 > Account.new
+ => nil
+ ````
+Now let's create a account object and use it:
+```ruby
+2.2.0 :003 > a = Account.new
  => #<Account:0x007fc55110ad60> 
 ```
-The `Account.new` command creates an **instance** of the `Account` class. At this point there is not much we can do with this object, but still, it has come to life ;-)
+The `a = Account.new` command creates an **instance** of the `Account` class and stores it in a local variable called `a`. At this point there is not much we can do with this object, but still, it has come to life ;-)
 
 ### The `initialize` method
 Let's say that we want the `Account` class to have some attributes, like the account holders name and account balance (Yeah, I forgot to mention that, let's assume that we are creating a bank account and not a user account in a system). 
