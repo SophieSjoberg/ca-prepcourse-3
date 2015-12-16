@@ -13,3 +13,11 @@ Object-oriented programming is a programming paradigm based on the concept of "o
 
 ### General-purpose
 In computer software a general-purpose programming language is a programming language designed to be used in a wide variety of application domains. In many ways a general-purpose language only has this status because it does not include language constructs designed to be used within a specific application domain.
+
+## Object Oriented Language
+As we already mentioned, Ruby is a perfect Object Oriented Programming Language. The features of the object-oriented programming language include:
+
+* Encapsulation
+* Abstraction
+* Polymorphism
+* Inheritance
