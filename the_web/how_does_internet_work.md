@@ -3,7 +3,11 @@ Good question! Let me assure you that I have no intention to try to explain ever
 
 Forget about it.
 
+## The HTTP-protocol
+
 Let's have a closer look at stuff that matters for us as developers. And remember, we could go on forever and talk about this. But since we run a practical course and not a theoretical seminar - we will just scratch the surface of the HTTP protocol and the basics of how internet works.
+
+**Hypertext Transfer Protocol (HTTP)** is the foundation of data communication on the internet - at least the part that concerns us at the moment, the World Wide Web. The main characteristic of HTTP is that it functions as a request-response protocol. 
 
 ### Request–Response
 Request-Response is the most basic and common of the client-service interaction patterns. Accessing a web page is an example of request–response communication. First, a  computer (you via your browser) sends a request for some data (a web page) and then another computer (server) responds to the request. 
@@ -26,7 +30,12 @@ This is the main method used for retrieving html, images, JavaScript, CSS, etc. 
 Even though you can send data to the server using GET and the query string, in many cases POST will be preferable. Sending large amounts of data using GET is not practical and has limitations.
 
 #### PUT & DELETE
-**PUT** and **DELETE** are two other HTTP verbs, but we will return to them further down the road when a more detailed discussion of the main HTTP methods is required. 
+**PUT** and **DELETE** are two other HTTP verbs. 
+The PUT method requests that the enclosed entity be stored under the supplied URI. If the URI refers to an already existing resource, it is modified; if the URI does not point to an existing resource, then the server can create the resource with that URI.
+
+The DELETE method deletes the specified resource.
+
+We will return to these methods further down the road when a more detailed discussion of the main HTTP verbs is required. 
 
 ### HTTP Status Codes
 * 200's are used for successful requests.
