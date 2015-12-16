@@ -42,6 +42,8 @@ Hello Anders
 
 Please note the different way you point to the file when you use the `load` command and when you use the `require` command. Why is that?
 
+### Exercise
+
 
 
 
