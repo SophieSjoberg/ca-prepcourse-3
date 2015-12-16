@@ -15,7 +15,7 @@ HTTP is **connectionless** and **stateless**. The server and client are aware of
 This is very important to understand when building applications that will run over HTTP protocol: the server forgets about who asked for what when a request have been served. 
 
 ### HTTP Verbs
-The primary or most-commonly-used HTTP verbs (or methods, as they are properly called) are POST, GET, PUT, and DELETE. These correspond to create, read, update, and delete (or CRUD) operations, respectively. 
+The primary or most-commonly-used HTTP verbs are POST, GET, PUT, and DELETE. These correspond to create, read, update, and delete (or CRUD) operations, respectively. 
 
 #### GET: Retrieve a resource
 
