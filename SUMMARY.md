@@ -13,5 +13,5 @@
    * [The basics](ruby/the_basics.md)
    * [Basic syntax](ruby/basic_syntax.rb)
    * [Classes](ruby/classes.md)
-   * Operators
+   * [Operators](ruby/operators.md)
 
