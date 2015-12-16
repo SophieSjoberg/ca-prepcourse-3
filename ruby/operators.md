@@ -10,7 +10,7 @@ Ruby provides a number of basic operators for performing arithmetic (the method 
 |     *    | **Multiplication** - Multiplies values on either side of the operator               | `a * b = 200` |
 | /        | **Division** - Divides left hand operand by right hand operand                      | `a / b = 2`   |
 | %        | **Modulus** - Divides left hand operand by right hand operand and returns remainder | `a % b = 0`   |
-| **       | **Exponent** - Performs exponential (power) calculation on operators                | `a**b = 10^20 |
+| **       | **Exponent** - Performs exponential (power) calculation on operators                | `a**b = 10^20` |
 
 ### Comparison Operators
 Comparison operators are used to check for equality between two values. Ruby provides a number of such operators:
@@ -24,7 +24,7 @@ Comparison operators are used to check for equality between two values. Ruby pro
 | >=       | Checks if the value of left operand is greater than or equal to the value of right operand, if yes then condition becomes true.                                             | `a >= b` returns `false`        |
 | <=       | Checks if the value of left operand is less than or equal to the value of right operand, if yes then condition becomes true.                                                | `a <= b` returns `true`         |
 | <=>      | **Combined comparison operator** - Returns 0 if first operand equals second, 1 if first operand is greater than the second and -1 if first operand is less than the second. | `a <=> b`returns `-1`           |
-| ===      | Used to test equality within a when clause of a case statement.                                                                                                             | `(1...10) === 5 returns `true`  |
+| ===      | Used to test equality within a when clause of a case statement.                                                                                                             | `(1...10) === 5` returns `true`  |
 | .eql?    | `true` if the receiver and argument have both the same type and equal values (compare to `1 == 1.0` returns `true`).                                                        |  `1.eql?(1.0)` returns `false`  |
 | equal?   | `true` if the receiver and argument have the same object id.                                                                                                                | see below.                      |
 
