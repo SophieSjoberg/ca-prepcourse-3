@@ -15,7 +15,7 @@ end
 
 ```
 
-If you want to execute it from your terminal you can do:
+(Think about what this code does and consider the simplicity of Ruby.) If you want to execute it from your terminal you can do:
 
 ```shell
 $ ruby hello_world.rb
