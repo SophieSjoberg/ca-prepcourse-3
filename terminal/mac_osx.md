@@ -160,10 +160,12 @@ $ brew install bash-git-prompt
 Once the installation is complete, you need to open the `.bash_profile` file:
 
 ```bash
-$ touch ~/.bash_profile
+$ atom ~/.bash_profile
 ```
 
-and add the following configuration:
+This should open the file in your newly installed text editor.
+
+Now add the following configuration at the bottom of the file and save. 
 
 ```bash
 # ~/.bash_profile
@@ -172,8 +174,7 @@ if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
     source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
 fi
 ```
-
-Once you save and close `.bash_profile`, go back to your terminal and reload it:
+Once you save and close `.bash_profile`, you can close Atom and go back to your terminal and reload the file to make the changes you've made visible.:
 
 ```shell
 source ~/.bash_profile
