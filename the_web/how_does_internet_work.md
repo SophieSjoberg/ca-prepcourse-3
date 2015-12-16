@@ -14,13 +14,19 @@ HTTP is **connectionless** and **stateless**. The server and client are aware of
 
 This is very important to understand when building applications that will run over HTTP protocol: the server forgets about who asked for what when a request have been served. 
 
-### GET: Retrieve a Document
+### HTTP Verbs
+The primary or most-commonly-used HTTP verbs (or methods, as they are properly called) are POST, GET, PUT, and DELETE. These correspond to create, read, update, and delete (or CRUD) operations, respectively. 
+
+#### GET: Retrieve a resource
 
 This is the main method used for retrieving html, images, JavaScript, CSS, etc. Most data that loads in your browser was requested using this method.
 
-### POST: Send Data to the Server
+#### POST: Send Data to the Server
 
 Even though you can send data to the server using GET and the query string, in many cases POST will be preferable. Sending large amounts of data using GET is not practical and has limitations.
+
+#### PUT & DELETE
+**PUT** and **DELETE** are two other HTTP verbs, but we will return to them further down the road when a more detailed discussion of the main HTTP methods is required. 
 
 ### HTTP Status Codes
 * 200's are used for successful requests.
