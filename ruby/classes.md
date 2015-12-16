@@ -22,7 +22,7 @@ The `Account.new` command creates an **instance** of the `Account` class. At thi
 
 ### Extending Ruby classes
 
-As a programmer, you are free to modify, change or extend any class. Even those that are built in to the Ruby language. For instance, let's say that you want a method that checke if a given number id even or odd. That might come in handy, right? We know that a number without decimals is of a `Fixnum` class. Let's extend that class with a custom method:
+As a programmer, you are free to modify, change or extend any class. Even those that are built in to the Ruby language. For instance, let's say that you want a method that check if a given number id even or odd. That might come in handy, right? We know that a number without decimals is of a `Fixnum` class. Let's extend that class with a custom method:
 
 ```ruby
 class Fixnum
