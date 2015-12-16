@@ -1,6 +1,7 @@
 ## Operators
 
 ### Arithmetic Operators
+Ruby provides a number of basic operators for performing arithmetic (the method or process of computation with figures: the most elementary branch of mathematics). These are as follows:
 
 | Operator | Description                                                                         | Example       |
 |:--------:|-------------------------------------------------------------------------------------|---------------|
