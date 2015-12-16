@@ -10,19 +10,29 @@ First thing we want to do is make sure our system has the latest updates and sec
 
 ```shell
 $ sudo apt-get update && sudo apt-get upgrade -y
-$ sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
+$ sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
 ```
 
-Next we are going to install [Ruby Version Manager (RVM)](http://rvm.io/). RVM will allow us to install and manage multiple versions of Ruby in our environment.
+Next we are going to install [Ruby Version Manager (RVM)](http://rvm.io/). `RVM` will allow us to install and manage multiple versions of Ruby in our environment. We first have to download the [author's](http://rvm.io/authors/mpapis) public key to ensure we're downloading the correct packages.
 
 ```shell
-$ sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev -y
 $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-$ curl -L https://get.rvm.io | bash -s stable
+```
+
+If for some reason the above command fails try the following:
+
+```shell
+$ command curl -sSL https://rvm.io/mpapis.asc | gpg --import -
+```
+
+We can now install `RVM` on our system.
+
+```shell
+$ \curl -sSL https://get.rvm.io | bash
 $ source ~/.rvm/scripts/rvm
 ```
 
-And now let's install rubies
+Now that we have `RVM` installed, let's install ruby.
 
 ```shell
 $ rvm install 2.2.3
@@ -42,3 +52,23 @@ Lastly we need to install [bundler](http://bundler.io/)
 $ gem install bundler
 ```
 
+### Git configuration
+
+`Git` is a version control system we will be using throughout the course.
+
+```shell
+$ sudo add-apt-repository ppa:git-core/ppa
+$ sudo apt-get update
+$ sudo apt-get install git-core
+```
+
+Next, let's tell git who we are.
+
+```shell
+$ git config --global user.name "you name"
+$ git config --global user.email "your@email.com"
+```
+
+### Wrap
+
+This should do for now. We will install the rest of packages we need as we progress through the course. 
