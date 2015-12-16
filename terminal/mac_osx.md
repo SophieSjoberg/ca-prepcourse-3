@@ -157,7 +157,13 @@ There is a very nice modification made availiable on GitHub called [Bash Git Pro
 $ brew install bash-git-prompt
 ```
 
-Once the installation is complete, you need to open the `.bash_profile` file and add the following configuration:
+Once the installation is complete, you need to open the `.bash_profile` file:
+
+```bash
+$ touch ~/.bash_profile
+```
+
+and add the following configuration:
 
 ```bash
 # ~/.bash_profile
