@@ -1,7 +1,7 @@
 ## Basic syntax
 
 ### Files
-A Ruby program and/or classes can be stored in a file. By convention, Ruby source files have the `.rb` file extension. In most editors, like Atom, your code will automatically be color coded. That is very convenient.
+A Ruby program can be stored in a file. By convention, Ruby source files have the `.rb` file extension. In most editors, like Atom, your code will automatically be color coded. That is very convenient.
 
 Let's say you write a short Ruby script and save it in a file called `hello_world.rb`. 
 
