@@ -6,7 +6,7 @@ Forget about it.
 Let's have a closer look at stuff that matters for us as developers.
 
 ### Request–Response
-Request-Response is the most basic and common of the client-service interaction patterns. Accessing a web page is an example of request–response communication. Request–response is one of the basic methods computers use to communicate with each other, in which the first computer sends a request for some data and the second computer responds to the request. Usually, there is a series of such interchanges until the complete message is sent. 
+Request-Response is the most basic and common of the client-service interaction patterns. Accessing a web page is an example of request–response communication. First, a  computer (you via your browser) sends a request for some data (a web page) and then another computer (server) responds to the request. Usually, there is a series of such interchanges until the complete message is sent. 
 
 This pattern is typically implemented in a purely synchronous fashion, as in web service calls over HTTP, which holds a connection open and waits until the response is delivered or the timeout period expires. 
 
