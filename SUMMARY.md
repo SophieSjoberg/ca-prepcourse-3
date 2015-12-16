@@ -4,7 +4,7 @@
    * [How does internet work?](the_web/how_does_internet_work.md)
    * [The stack](the_web/the_stack.md)
    * [Soft Skills](the_web/soft_skills.md)
-   * Pair Learning
+   * [Pair Learning](workflow/pair_learning.md)
 * [The Terminal](terminal/terminal_1.md)
 * [Setup for developers](terminal/setup_for_developers.md)
    * [Mac OSX](terminal/mac_osx.md)
