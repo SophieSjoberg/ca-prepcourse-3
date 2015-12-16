@@ -35,13 +35,15 @@ The PUT method requests that the enclosed entity be stored under the supplied UR
 
 The DELETE method deletes the specified resource.
 
-We will return to these methods further down the road when a more detailed discussion of the main HTTP verbs is required. 
+We will return to these methods further down the road when a more detailed discussion of the main HTTP verbs is required.
 
 ### HTTP Status Codes
 * 200's are used for successful requests.
 * 300's are for redirections.
 * 400's are used if there was a problem with the request.
 * 500's are used if there was a problem with the server.
+
+**Let's give it a rest for now. No need to get a headache over this. We're here to code, right?**
 
 
 
