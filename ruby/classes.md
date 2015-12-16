@@ -31,7 +31,7 @@ class Fixnum
   end
 end
 ```
-We just created a `is_even?` method that can be called on a number. We are using a `Modulus` operator (`%`) that divides the number we are calling this method on with 2 and returns `true` if the reminder equals to `0`. If not, the method returns `false`.
+We just created a `is_even?` method that can be called on any number. We are using a `Modulus` operator (`%`) that divides the number we are calling this method on with 2 and returns `true` if the reminder equals to `0`. If not, the method returns `false`.
 
 Try to define this method in `irb` and call it on some numbers.
 ```bash
