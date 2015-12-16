@@ -48,3 +48,5 @@ $ irb
  => false 
 ```
 
+If you do this and want to use the extension or modification in a program that you've created, then I suggest you create a separate file and store it in the `lib` folder, something like: `/lib/core_ext.rb`. Make sure to `require` that file in your main program file or controller or what have you. 
+
