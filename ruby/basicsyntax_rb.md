@@ -24,7 +24,7 @@ Hello Kalle
 Hello Anders
 ```
 
-If you are in `irb` you can load this file with the `load` command:
+If you are in `irb` you can load this file with the `load` or `require` command:
 
 ```bash
 $ irb
@@ -32,7 +32,15 @@ $ irb
 Hello Thomas
 Hello Kalle
 Hello Anders
+ => true 
+2.2.0 :002 > require './hello_world.rb'
+Hello Thomas
+Hello Kalle
+Hello Anders
+ => true 
 ```
+
+Please note the different way you point to the file when you use the `load` command and when you use the `require` command. Why is that?
 
 
 
