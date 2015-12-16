@@ -2,23 +2,21 @@
 
 General Pair Programming Tips
 
-Do's:
+| Do's         | Don'ts            |
+|--------------|-------------------|
+| Talk         | Be Bossy          |
+| Listen       | Be Intimidated    |
+| Rotate Roles | Be Quiet          |
+| Be Patient   | Suffer in Silence |
+| Respect      |                   |
+| Take Breaks  |                   |
+| Prepare      |                   |
+| Have Fun     |                   ||
 
-Talk
-Listen
-Rotate Roles
-Be Patient
-Respect
-Take Breaks
-Prepare
-Personal Hygiene
-Have Fun
 
 
-Don't:
 
-Be Bossy
-Be Intimidated
-Be Quiet
-Suffer in Silence
+
+
+
 
