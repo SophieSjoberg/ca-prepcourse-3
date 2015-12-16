@@ -44,6 +44,15 @@ Please note the different way you point to the file when you use the `load` comm
 
 ### Exercise
 
+Let's return to your `my_group.rb` program. I have a small challenge for you
+I want you to iterate through the array of hashes you created and display information for each person. Something like this:
+```
+Thomas is a 44 years old man
+Anna is a 38 years old woman
+# and so on...
+```
+You are free to google, stack overflow or whatever you need to do to find out how to do this, but I want you to know that the answer is right above you in this chapter. ;-)
+
 
 
 
