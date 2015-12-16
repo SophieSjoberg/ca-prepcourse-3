@@ -51,7 +51,7 @@ Thomas is a 44 years old man
 Anna is a 38 years old woman
 # and so on...
 ```
-You are free to google, stack overflow or whatever you need to do to find out how to do this, but I want you to know that the answer is right above in this chapter. ;-)
+You are free to google, stack overflow or whatever you need to do to find out how to do this, but I want you to know that the answer is right above in this chapter. ;-) **Happy coding!**
 
 
 
