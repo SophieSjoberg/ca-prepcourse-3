@@ -52,9 +52,9 @@ Assignment Operators allows us to assign the result of an expression to a variab
 
 | Operator | Description                                                                                                                                    | Example |
 |:--------:|------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| &&       | Logical **AND** operator. If both the operands are non zero, then the condition becomes true.                                                  |         |
-| &#124;&#124;       | Logical **OR** Operator. If any of the two operands are non zero, then the condition becomes true.                                             |         |
-| !        | Logical **NOT** Operator. Use to reverses the logical state of its operand. If a condition is true, then Logical NOT operator will make false. |         |
-| and      | Control flow **AND** modifier                                                                                                                  |         |
-| or       | Control flow **OR** modifier                                                                                                                   |         |
-| not      | Control flow **NOT** modifier                                                                                                                  |         ||
+| &&       | Logical **AND** operator. If both the operands are non zero, then the condition becomes true.                                                  |   [TBD]      |
+| &#124;&#124;       | Logical **OR** Operator. If any of the two operands are non zero, then the condition becomes true.                                             |   [TBD]       |
+| !        | Logical **NOT** Operator. Use to reverses the logical state of its operand. If a condition is true, then Logical NOT operator will make false. |   [TBD]       |
+| and      | Control flow **AND** modifier                                                                                                                  |     [TBD]     |
+| or       | Control flow **OR** modifier                                                                                                                   |    [TBD]      |
+| not      | Control flow **NOT** modifier                                                                                                                  |         [TBD] |
