@@ -7,5 +7,6 @@ Apart from the technical skills that we work with during the camp, we also focus
 Although in-depth knowledge of a particular programming language or system is important, an ability to look at the overall structure and understand the writing and rebuilding of different applications, not only from a technical but also from an business perspective, is highly sought by the market.
 
 ### Communication skills
+You should be able to show that you understand and can communicate the big picture. To all sorts of stakeholders - both technical and non-technical.
 
 ### Teaching, mentoring, and knowledge sharing
