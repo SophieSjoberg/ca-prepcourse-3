@@ -35,6 +35,8 @@ if `aObj` is a duplicate of `bObj` then:
 
 ### Assignment Operators
 
+Assignment Operators allows us to assign the result of an expression to a variable.
+
 | Operator | Description                                                                                                                  | Example                                        |
 |:--------:|------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
 | =        | Simple assignment operator, Assigns values from right side operands to left side operand                                     | `c = a + b` will assigne value of a + b into c |
