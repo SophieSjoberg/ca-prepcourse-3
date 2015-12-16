@@ -18,6 +18,25 @@ $ irb
 ```
 The `Account.new` command creates an **instance** of the `Account` class. At this point there is not much we can do with this object, but still, it has come to life ;-)
 
+### The `initialize` method
+Let's say that we want the `Account` class to have some attributes, like the account holders name and account balance (Yeah, I forgot to mention that, let's assume that we are creating a bank account and not a user account in a system). 
+
+Every Ruby class invokes a constructor method called `initialize`. The `initialize` method is useful when you want to initialize some class variables at the time of object creation. This method may take a list of parameters and like any other ruby method it would be preceded by the `def` keyword:
+
+```ruby
+class Account  
+  def initialize(holder, balance)
+    @holder = holder
+    @balance = balance
+  end
+end
+```
+
+
+
+
+
+
 
 
 ### Extending Ruby classes
