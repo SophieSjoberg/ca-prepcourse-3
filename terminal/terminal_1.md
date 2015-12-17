@@ -10,7 +10,7 @@ Use the Terminal program, located in your `Applications/Utilities` folder.
 
 Another quick way to start it is by using `cmd + space` then search terminal.
 
-![](Screenshot 2015-12-17 07.02.00.png)
+![](../images/terminal_search.png)
 
 ### Current Directory ( `pwd` )
 
