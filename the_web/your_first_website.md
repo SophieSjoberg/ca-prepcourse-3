@@ -21,7 +21,7 @@ In your terminal, go to the folder where you want to store your project, and clo
 
 ```html
 $ git clone https://github.com/<your_username>/<your_username>.github.io
-$ cd username.github.io
+$ cd <your_username>.github.io
 $ echo "<h1>Hello World</h1>" > index.html
 $  echo "<p>I'm Thomas, and I attend the Craft Academy Bootcamp<p>" >> index.html
 ```
