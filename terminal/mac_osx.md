@@ -1,11 +1,13 @@
 # Mac OSX
 
+Almost everything that follows below needs to be dine by typing in commands in your terminal. There's plenty of steps that needs to be finished before your development environment is set up. See this as a learning experience - a big part of a programmers job is to use third party tools and tweak his own, or a remote system. 
+
 #### Xcode Command Line Tools
 [Xcode](https://developer.apple.com/xcode/) is an integrated development environment (IDE) with a suite of tools for developing software for OS X and iOS. But Xcode is more than what just meets the eye. Ruby gems often use so called "native extensions", that connects them with other non-Ruby components on your machine. Without Xcode installed, you don't have the necessary code compilers installed and can not use those extensions. While installing Xcode you also install LLVM, GCC, and many other developer tools. 
 
 For the purpose of this course, we are going to install Xcode Command Line Tools, a part of the Xcode IDE, without installing the entire Xcode package. 
 
-Check if Xcode Command Line Tools are installed:
+Check if Xcode Command Line Tools are installed by typing in the following command in your terminal:
 ```shell
 $ xcode-select -p
 ```
