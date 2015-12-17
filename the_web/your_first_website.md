@@ -20,7 +20,7 @@ Head over to GitHub and create a new repository named `username.github.io`, wher
 In your terminal, go to the folder where you want to store your project, and clone the new repository:
 
 ```html
-$ git clone https://github.com/username/username.github.io
+$ git clone https://github.com/<your_username>/<your_username>.github.io
 $ cd username.github.io
 $ echo "<h1>Hello World</h1>" > index.html
 $  echo "<p>I'm Thomas, and I attend the Craft Academy Bootcamp<p>" >> index.html
@@ -33,7 +33,7 @@ $ git commit -m "initial commit"
 $ git push origin master
 ```
 
-** Open your browser and go to `http://username.github.io`. **
+** Open your browser and go to `http://<your_username>.github.io`. **
 
 You have just deployed your first web site. 
 
