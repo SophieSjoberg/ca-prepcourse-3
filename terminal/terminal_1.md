@@ -24,6 +24,8 @@ One tip I usually give to everybody that cares to listen, is to change the color
 
 ### Create directories ( `mkdir` )
 
+### Create files
+
 ### Copy files ( `cp` )
 
 ### Delete files ( `rm` )
