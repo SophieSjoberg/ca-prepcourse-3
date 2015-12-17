@@ -33,7 +33,7 @@ $ git commit -m "initial commit"
 $ git push origin master
 ```
 
-** Open your browser and go to `username.github.io`. **
+** Open your browser and go to `http://username.github.io`. **
 
 You have just deployed your first web site. 
 
