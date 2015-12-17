@@ -73,6 +73,6 @@ Now you can double-click the `index.html` and open it for editing. We want to ma
 </html>
 ```
 
-What we've done now is we added the very basic HTML5 document structure. 
+What we've done now is we added the basic HTML5 document structure. 
 
 
