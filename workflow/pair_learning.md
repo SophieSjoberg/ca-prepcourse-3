@@ -1,5 +1,5 @@
 ## Pair Learning
-Pair Programming is an software development technique in which two programmers work as a pair together on one feature - often at one workstation.
+Pair Programming is an software development technique in which two programmers work together on one feature or problem set - often at one workstation. Used as part of a general teamwork approach it leads to improved code quality, team communication, knowledge share and huge learning gains.
 
 At Craft Academy, we practice Pair Programming as a learning technique.
 ###General Pair Programming Tips
