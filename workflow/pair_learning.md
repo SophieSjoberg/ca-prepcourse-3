@@ -13,7 +13,8 @@ At Craft Academy, we practice Pair Programming as a learning technique.
 | Respect      |                   |
 | Take Breaks  |                   |
 | Prepare      |                   |
-| Have Fun     |                   ||
+| Have Fun     |                   |
+|Take care of<br>your personal<br> Hygiene|||
 
 
 
