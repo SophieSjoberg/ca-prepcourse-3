@@ -138,7 +138,7 @@ There is not much you can do with this material if you are working on a windows 
 [ubuntu-download]: http://www.ubuntu.com/download/desktop
 [vt-xsearch]: https://www.google.com/search?q=enable+intel%C2%AE+virtualization+technology
 [what-is-swap]: http://askubuntu.com/questions/508870/what-is-a-swap-area
-[step-2]:
+
 
 
 [img-01]: ../images/virtual-box-windows/01-vb-install.png?raw=true
