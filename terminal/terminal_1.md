@@ -19,6 +19,8 @@ One tip I usually give to everybody that cares to listen, is to change the color
 ## Basic commands
 We will only cover some very basic commands. Each and every one commands we list here can be used in a variety of ways - some very complicated. Don't worry about that but know that you can do almost anything you might imagine using the CLI (command line interface) and as a programmer, you should get used to it. We will be introducing more advanced commands as we progress, but for now, let's settle fot these basic ones.
 
+If you feel that you want to dig deeper into the command line, we suggest that you go through the [Command Line Crash Course](http://cli.learncodethehardway.org/book/). It's a great free resource. 
+
 ### Current Directory - `pwd` 
 `pwd` — stands for Present Working Directory and will show you a clear path to your location.
 ![](../images/terminal_pwd.png)
