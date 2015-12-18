@@ -1,5 +1,8 @@
-# Windows, really?
-# How to Install Ubuntu 14.04 LTS on Oracle Virtual Box
+## Windows, really?
+There is not much you can do with this material if you are working on a windows based computer. You can however, install Linux on your machine and follow the course using that partition. Another possibility is that you use a so called VirualBox. We have prepared a step-by-step guide for you to follow if you want to set that up.
+
+**Note! The following walkthrough is fairly advanced so you should really take it slow and follow the instructions carefully.**
+### Install Ubuntu 14.04 LTS on Oracle Virtual Box
 
 1. Step 1: Download [VirtualBox Windows Installer][vbox-win-install] and Install it.
 
@@ -13,11 +16,11 @@
 
 3. Step 3: Create a new VM
 
-  - Open VirtualBox
+  Open VirtualBox
 
     ![virtual box][img-03]
 
-  - Click 'New' to create a new VM
+  Click 'New' to create a new VM
 
     ![create virtual machine wizard][img-04]
 
@@ -27,11 +30,11 @@
 
     Select the version of ubuntu that matches the version you downloaded at step 2.
 
-    >  **Note:** In this case, i downloaded the 32-bit version of Ubuntu. If you don't have `Ubuntu (64-bit)` listed you might have to enable `intel® VT-x technology` on your computer. A quick [Google search][vt-xsearch] will help you find out how to do that for your particular computer.
+    **Note:** In this case, i downloaded the 32-bit version of Ubuntu. If you don't have `Ubuntu (64-bit)` listed you might have to enable `intel® VT-x technology` on your computer. A quick [Google search][vt-xsearch] will help you find out how to do that for your particular computer.
 
     Then click 'Next'
 
-  - In the next screen, enter the memory size (minimum required 512 MB, recommended 1024 MB) then click 'Next'
+  In the next screen, enter the memory size (minimum required 512 MB, recommended 1024 MB) then click 'Next'
   - Create a virtual hard disk for your VM
 
     ![create virtual hdd][img-06]
@@ -124,15 +127,11 @@
     - etc.
 
 
-  You can now grab some :coffee: while the installation proceeds. Once done, restart the VM.
+  **You can now grab some coffee while the installation proceeds. Once done, restart the VM.**
 
 
-  And that's IT :smiley:, Congratulations you now have a Virtual Machine running ubuntu.
+ ** And that's IT! Congratulations you now have a Virtual Machine running Ubuntu.**
 
-
-
-#### TODO:
-  - [ ] Add Instructions to install VirtualBox guest additions
 
 
 [vbox-win-install]: http://download.virtualbox.org/virtualbox/5.0.2/VirtualBox-5.0.2-102096-Win.exe
@@ -142,27 +141,27 @@
 [step-2]:
 
 
-[img-01]: /../screenshots/virtual-box-windows/01-vb-install.png?raw=true
-[img-02]: /../screenshots/virtual-box-windows/02-download-ubuntu.png?raw=true
-[img-03]: /../screenshots/virtual-box-windows/03-new-vm-wizard.png?raw=true
-[img-04]: /../screenshots/virtual-box-windows/04-vm-name.png?raw=true
-[img-05]: /../screenshots/virtual-box-windows/05-vm-memory-size.png?raw=true
-[img-06]: /../screenshots/virtual-box-windows/06-vm-create-hdd.png
-[img-07]: /../screenshots/virtual-box-windows/07-vm-hdd-type.png?raw=true
-[img-08]: /../screenshots/virtual-box-windows/08-vm-storage-mode.png?raw=true
-[img-09]: /../screenshots/virtual-box-windows/09-vm-hdd-size.png?raw=true
-[img-10]: /../screenshots/virtual-box-windows/10-vm-load-iso.png?raw=true
-[img-11]: /../screenshots/virtual-box-windows/11-vm-load-iso-1.png?raw=true
-[img-12]: /../screenshots/virtual-box-windows/12-vm-load-iso-2.png?raw=true
-[img-13]: /../screenshots/virtual-box-windows/13-vm-load-iso-3.png?raw=true
-[img-14]: /../screenshots/virtual-box-windows/14-vm-start.png?raw=true
-[img-15]: /../screenshots/virtual-box-windows/15-ubuntu-install.png?raw=true
-[img-16]: /../screenshots/virtual-box-windows/16-ubuntu-install-1.png?raw=true
-[img-17]: /../screenshots/virtual-box-windows/17-ubuntu-install-2.png?raw=true
-[img-18]: /../screenshots/virtual-box-windows/18-ubuntu-install-3.png?raw=true
-[img-19]: /../screenshots/virtual-box-windows/19-ubuntu-install-4.png?raw=true
-[img-20]: /../screenshots/virtual-box-windows/20-ubuntu-install-5.png?raw=true
-[img-21]: /../screenshots/virtual-box-windows/21-ubuntu-install-6.png?raw=true
-[img-22]: /../screenshots/virtual-box-windows/22-ubuntu-install-7.png?raw=true
-[img-23]: /../screenshots/virtual-box-windows/23-ubuntu-install-8.png?raw=true
+[img-01]: ../images/virtual-box-windows/01-vb-install.png?raw=true
+[img-02]: ../images/virtual-box-windows/02-download-ubuntu.png?raw=true
+[img-03]: ../images/virtual-box-windows/03-new-vm-wizard.png?raw=true
+[img-04]: ../images/virtual-box-windows/04-vm-name.png?raw=true
+[img-05]: ../images/virtual-box-windows/05-vm-memory-size.png?raw=true
+[img-06]: ../images/virtual-box-windows/06-vm-create-hdd.png
+[img-07]: ../images/virtual-box-windows/07-vm-hdd-type.png?raw=true
+[img-08]: ../images/virtual-box-windows/08-vm-storage-mode.png?raw=true
+[img-09]: ../images/virtual-box-windows/09-vm-hdd-size.png?raw=true
+[img-10]: ../images/virtual-box-windows/10-vm-load-iso.png?raw=true
+[img-11]: ../images/virtual-box-windows/11-vm-load-iso-1.png?raw=true
+[img-12]: ../images/virtual-box-windows/12-vm-load-iso-2.png?raw=true
+[img-13]: ../images/virtual-box-windows/13-vm-load-iso-3.png?raw=true
+[img-14]: ../images/virtual-box-windows/14-vm-start.png?raw=true
+[img-15]: ../images/virtual-box-windows/15-ubuntu-install.png?raw=true
+[img-16]: ../images/virtual-box-windows/16-ubuntu-install-1.png?raw=true
+[img-17]: ../images/virtual-box-windows/17-ubuntu-install-2.png?raw=true
+[img-18]: ../images/virtual-box-windows/18-ubuntu-install-3.png?raw=true
+[img-19]: ../images/virtual-box-windows/19-ubuntu-install-4.png?raw=true
+[img-20]: ../images/virtual-box-windows/20-ubuntu-install-5.png?raw=true
+[img-21]: ../images/virtual-box-windows/21-ubuntu-install-6.png?raw=true
+[img-22]: ../images/virtual-box-windows/22-ubuntu-install-7.png?raw=true
+[img-23]: ../images/virtual-box-windows/23-ubuntu-install-8.png?raw=true
 
