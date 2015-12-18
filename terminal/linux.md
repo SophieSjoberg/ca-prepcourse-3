@@ -69,6 +69,20 @@ $ git config --global user.name "you name"
 $ git config --global user.email "your@email.com"
 ```
 
+#### Atom
+At the beginning of the course (week 1 - 6) we'll be using a text editor to write code. There are many editors out there we can use. [Sublime](http://www.sublimetext.com/) is one, [TextMate](https://macromates.com/) is another, but our editor of choice for this course is [Atom](https://atom.io). It is brought to us by the good people of GitHub and comes with over 3000 extension packages - all open sourced.
+
+*"Atom is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file."* - https://atom.io
+
+Download and install Atom by following the instructions on their web site. Once you are done you can browse around for some packages you might find useful. Or you wait with that until you actually know what 'useful' is in the context of coding. If you want to find out more about how to install Atom packages head over to the excellent [documentation](https://atom.io/docs/v1.2.4/using-atom-atom-packages) site. Also, read through this blog post about some Atom extensions that might prove useful: http://www.sitepoint.com/10-essential-atom-add-ons/
+
+For now, what you really want to do is to set Atom as the default editor fir Git (trust me, you'll going to need it):
+
+```shell
+$ git config --global core.editor "atom --wait"
+```
+
+
 ### Wrap
 
 This should do for now. We will install the rest of packages we need as we progress through the course. 
