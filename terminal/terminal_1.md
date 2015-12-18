@@ -21,13 +21,17 @@ One tip I usually give to everybody that cares to listen, is to change the color
 
 ### List files ( `ls` )
 
-### Change directories ( `cd` )
-
 ### Create directories ( `mkdir` )
 You create folders with `mkdir`. Simply type `mkdir Projects` and your new folder will be created.
+![](../images/terminal_mkdir.png)
+
+### Change directories ( `cd` )
+![](../images/terminal_cd.png)
 
 ### Create files
 The command for creating a file is called `touch`, so if we wanted to create a ruby source file called script, we would type `touch script.rb`
+
+![](../images/terminal_touch.png)
 
 ### Copy files ( `cp` )
 The syntax for this command is straightforward: `cp` followed by the file name — `script.rb` followed by the path to the directory you want to save it in. In our case, the full command looks like this: `cp script.rb /Users/Thomas/Projects/`, or, using a relative path command, `cp script.rb ../Projects`. 
