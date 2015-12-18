@@ -130,7 +130,7 @@ There is not much you can do with this material if you are working on a windows 
   **You can now grab some coffee while the installation proceeds. Once done, restart the VM.**
 
 
- ** And that's IT! Congratulations you now have a Virtual Machine running Ubuntu.**
+ ** And that's IT! Congratulations, you now have a Virtual Machine running Ubuntu.**
 
 
 
