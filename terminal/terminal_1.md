@@ -17,17 +17,24 @@ One tip I usually give to everybody that cares to listen, is to change the color
 ![](../images/terminal_settings.png)
 
 ### Current Directory ( `pwd` )
+`pwd` — stands for Present Working Directory and will show you a clear path to your location.
 
 ### List files ( `ls` )
 
 ### Change directories ( `cd` )
 
 ### Create directories ( `mkdir` )
+You create folders with `mkdir`. Simply type `mkdir Projects` and your new folder will be created.
 
 ### Create files
+The command for creating a file is called `touch`, so if we wanted to create a ruby source file called script, we would type `touch script.rb`
 
 ### Copy files ( `cp` )
+The syntax for this command is straightforward: `cp` followed by the file name — `script.rb` followed by the path to the directory you want to save it in. In our case, the full command looks like this: `cp script.rb /Users/Thomas/Projects/`, or, using a relative path command, `cp script.rb ../Projects`. 
 
 ### Delete files ( `rm` )
+The command for deleting a file is `rm`. The command for this is simply `rm script.rb`.
+
+To be on the safe side, you can use the `-i` parameter to toggle interactive mode, where the Terminal will explicitly confirm your deletion command before executing it, in this case asking us if we want to `remove script.rb?` We can then answer `yes` or simply `y` to proceed.
 
 ### Move files ( `mv` )
