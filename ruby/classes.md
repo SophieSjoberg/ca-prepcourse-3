@@ -6,7 +6,7 @@ A class is the blueprint from which individual objects are created. A Ruby class
 class Account
 end 
 ``` 
-This is the bare minimum code you need to write to create a class. Try to define and insatiate the `Account` class in `irb`:
+This is the bare minimum code you need to write to create a class. Try to define and instantiate the `Account` class in `irb`:
 
 ```bash
 $ irb
