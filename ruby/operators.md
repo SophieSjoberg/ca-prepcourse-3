@@ -1,4 +1,11 @@
 ## Operators
+In the tables below we will list a number of operators in the Ruby language. Try them out in `irb` as you go along. 
+We assume that `a` and  `b` are variables with the following values:
+
+```
+a = 10
+b = 20
+```
 
 ### Arithmetic Operators
 Ruby provides a number of basic operators for performing arithmetic (the method or process of computation with figures: the most elementary branch of mathematics). These are as follows:
