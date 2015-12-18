@@ -11,7 +11,7 @@
    * [Mac OSX](terminal/mac_osx.md)
    * [Linux](terminal/linux.md)
    * [Working in the cloud](terminal/working_in_the_cloud.md)
-   * [Windows, really?](workflow/vm_on_windows.md)
+   * [Windows, really?](terminal/vm_on_windows_md)
 * [Your first website](the_web/your_first_website.md)
 * [Introduction to Ruby](ruby/introduction_to_ruby.md)
    * [The basics](ruby/the_basics.md)
