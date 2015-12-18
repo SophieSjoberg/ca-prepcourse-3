@@ -19,7 +19,7 @@ Ruby provides a number of basic operators for performing arithmetic (the method 
 | %        | **Modulus** - Divides left hand operand by right hand operand and returns remainder | `a % b = 0`   |
 | **       | **Exponent** - Performs exponential (power) calculation on operators                | `a**b = 10^20` |
 
-This is a good tile to red about Simple Arithmetic in chapter 1 of [Chris Pine's, Learn to Program book ](https://pine.fm/LearnToProgram/chap_01.html) and go through the examples and exercises there.
+This is a good time to read about Simple Arithmetic in chapter 1 of [Chris Pine's, Learn to Program book ](https://pine.fm/LearnToProgram/chap_01.html) and go through the examples and exercises there.
 
 ### Comparison Operators
 Comparison operators are used to check for equality between two values. Ruby provides a number of such operators:
