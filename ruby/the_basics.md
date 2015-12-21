@@ -42,7 +42,7 @@ And since we have "Thomas" stored in a variable called `name` we can also do:
 2.2.2 :006 > name.class
  => String 
 ```
-There is many more things we can do with strings and we will be going over them in a separate section.
+There are many more things we can do with strings and we will be going over them in a separate section.
 
 #### Numbers
 Generally speaking there are two main types of numbers **floats** and **integers** (or `Fixnum`). Floats represent real numbers while integers are a subset of the real numbers. While floats can be decimal numbers, an integer is written without a fraction or a decimal component. Let's have a look at our `age` variable:
@@ -96,7 +96,7 @@ Ruby is a very programmer friendly language and we get a lot of methods for free
 2.2.2 :020 > collection.first
  => "Thomas"
 ```
-Arrays can store any type of data, whether it be a string, an integer, booleans, objects, even additional arrays. We'll be covering Arrays in a separate section. One thing that we want to have a look at is how to add and remove objects from an array.
+Arrays can store any type of data, whether it be a string, an integer, a Boolean, objects, even additional arrays. We will be covering Arrays in a separate section. One thing that we want to have a look at is how to add and remove objects from an array.
 
 ##### Pop and Push
 Let's say we want to add another name to our `collection` variable. We can use the `push` method to do that:
@@ -122,8 +122,8 @@ And now if we check what is stored in the `collection` variable, "Anna" is not l
 2.2.2 :055 > collection
  => ["Thomas", "Kalle", "Anders"] 
 ```
-Let's restore the array and try another method. We will deleta an object from the array by it's index. Try this:
-```
+Let's restore the array and try another method. We will delete an object from the array by it's index. Try this:
+```bash
 2.2.2 :064 > collection = ["Thomas", "Kalle", "Anders"]
  => ["Thomas", "Kalle", "Anders"] 
 2.2.2 :065 > collection.delete_at(1)
