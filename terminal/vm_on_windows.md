@@ -1,7 +1,13 @@
 ## Windows, really?
-There is not much you can do with this material if you are working on a windows based computer. You can however, install Linux on your machine and follow the course using that partition. Another possibility is that you use a so called VirualBox. We have prepared a step-by-step guide for you to follow if you want to set that up.
 
-**Note! The following walkthrough is fairly advanced so you should really take it slow and follow the instructions carefully.**
+Although there are ways to setup your windows environment for this course, it will soon become a nightmare to follow up. 
+
+One thing you can do at this stage is setup your computer to dual boot a Linux operating system. If you're up for the challenge, a quick Google search will point you to resources on how to achieve that. 
+
+We will take a rather simpler approach in this guide. We will use [VirtualBox](https://www.virtualbox.org/) to create and setup a Linux virtual machine. You will then use that virtual machine to go through the pre-course material.
+
+**Note! The following walk-through is rather advanced. You should really take it slow and follow the instructions carefully.**
+
 ### Install Ubuntu 14.04 LTS on Oracle Virtual Box
 
 1. Step 1: Download [VirtualBox Windows Installer][vbox-win-install] and Install it.
@@ -20,7 +26,7 @@ There is not much you can do with this material if you are working on a windows 
 
     ![virtual box][img-03]
 
-  Click 'New' to create a new VM
+  Click `New` to create a new VM
 
     ![create virtual machine wizard][img-04]
 
@@ -116,7 +122,7 @@ There is not much you can do with this material if you are working on a windows 
 
     ![Ubuntu install step 6][img-22]
 
-  You should now have something simmilar to this
+  You should now have something like this
 
     ![Ubuntu install step 6][img-23]
 
