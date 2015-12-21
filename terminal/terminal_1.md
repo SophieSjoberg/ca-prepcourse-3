@@ -33,13 +33,13 @@ You create folders with `mkdir`. Simply type `mkdir Projects` and your new folde
 ### Change directories - `cd` 
 ![](../images/terminal_cd.png)
 
-### Create files
+### Create files - `touch`
 The command for creating a file is called `touch`, so if we wanted to create a ruby source file called script, we would type `touch script.rb`
 
 ![](../images/terminal_touch.png)
 
 ### List files - `ls` 
-The `ls` command lists all files and subfolders in the current folder.
+The `ls` command lists all files and sub folders in the current folder.
 ![](../images/terminal_ls.png)
 
 ### Copy files - `cp` 
