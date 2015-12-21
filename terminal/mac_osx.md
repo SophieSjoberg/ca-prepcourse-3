@@ -16,7 +16,8 @@ Install:
 ```shell
 $ xcode-select --install
 ```
-Work your way through the dialogs presented by the installer, complete the process and verify installation:
+Work your way through the dialog screens presented by the installer. Complete the process and verify installation:
+
 ```shell
 $ xcode-select -p
 /Library/Developer/CommandLineTools
@@ -81,13 +82,13 @@ $ rvm list
 
 And install new rubies with:
 ```shell
-$ rvm install 2.2.0  #or whatever version you need
+$ rvm install 2.2.3  # or whatever version you need
 ```
 
-Switching between versions is done with the `use` command:
+To switch between Ruby versions make use of the `use` command:
 
 ```shell
-$ rvm use 2.2.0
+$ rvm use 2.2.3
 ```
 Read the [RVM documentation](https://github.com/rvm/rvm#action) to see all the different actions you can use.
 
@@ -102,7 +103,7 @@ You install it with a terminal command:
 $ gem install bundler
 ```
 
-Now, you can keep control of which gems you programs are using by adding them to a file called `Gemfile` in your project folder (Please note the capital 'G'). 
+Now, you can keep control of which gems your programs are using by adding them to a file called `Gemfile` in your project folder (Please note the capital 'G'). 
 
 An example `Gemfile` can look like this:
 ```ruby
@@ -117,7 +118,7 @@ To install those gems and their dependencies, you run the following command in y
 $ bundle install
 ```
 
-We'll be covering bundler and gems more extensively later on when we work with our challenges. 
+We'll be covering `bundler` and gems more extensively later on when we work with our challenges. 
 
 
 #### Git
@@ -145,11 +146,11 @@ Now, you are ready to use Git.
 #### Atom
 At the beginning of the course (week 1 - 6) we'll be using a text editor to write code. There are many editors out there we can use. [Sublime](http://www.sublimetext.com/) is one, [TextMate](https://macromates.com/) is another, but our editor of choice for this course is [Atom](https://atom.io). It is brought to us by the good people of GitHub and comes with over 3000 extension packages - all open sourced.
 
-*"Atom is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file."* - https://atom.io
+*"Atom is a text editor that's modern, approachable, yet hackable to the core — a tool you can customize to do anything but also use productively without ever touching a config file."* - https://atom.io
 
-Download and install Atom by following the instructions on their web site. Once you are done you can browse around for some packages you might find useful. Or you wait with that until you actually know what 'useful' is in the context of coding. If you want to find out more about how to install Atom packages head over to the excellent [documentation](https://atom.io/docs/v1.2.4/using-atom-atom-packages) site. Also, read through this blog post about some Atom extensions that might prove useful: http://www.sitepoint.com/10-essential-atom-add-ons/
+Download and install Atom by following the instructions on their web site. Once that's done you can browse around for some packages you might find useful. Or you wait with that until you actually know what '*useful*' is in the context of coding. If you want to find out more about how to install Atom packages head over to their excellent [documentation](https://atom.io/docs/v1.2.4/using-atom-atom-packages) site. Also, read through this blog post about some Atom extensions that might prove useful: http://www.sitepoint.com/10-essential-atom-add-ons/
 
-For now, what you really want to do is to set Atom as the default editor fir Git (trust me, you'll going to need it):
+For now, what you really want to do is to set Atom as the default editor fir Git (trust me, you are going to need it):
 
 ```shell
 $ git config --global core.editor "atom --wait"
@@ -158,9 +159,9 @@ $ git config --global core.editor "atom --wait"
 #### Terminal prompt
 When you work with git and version control it is a good idea to set up your prompt that displays some useful information such as:
 - What branch are you currently on
-- What is your current status in regard to your GitHub repository (`origin`)
+- What is your current status compared to your GitHub repository (`origin`)
 
-There is a very nice modification made availiable on GitHub called [Bash Git Prompt](https://github.com/magicmonty/bash-git-prompt). You an install it using Homebrew with these steps:
+There is a very nice modification made available on GitHub called [Bash Git Prompt](https://github.com/magicmonty/bash-git-prompt). You an install it using Homebrew with these steps:
 
 ```shell
 $ brew install bash-git-prompt
