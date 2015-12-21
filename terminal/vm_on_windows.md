@@ -136,7 +136,7 @@ We will take a rather simpler approach in this guide. We will use [VirtualBox](h
   **You can now grab some coffee while the installation proceeds. Once done, restart the VM.**
 
 
- ** And that's IT! Congratulations, you now have a Virtual Machine running Ubuntu.**
+ ** And that's IT! Congratulations, you now have a Virtual Machine running Ubuntu. From here, you can head to our [Linux instructions](/linux.md) to complete your setup.**
 
 
 
