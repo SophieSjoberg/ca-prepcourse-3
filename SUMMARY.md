@@ -18,5 +18,5 @@
    * [Basic syntax](ruby/basicsyntax_rb.md)
    * [Classes](ruby/classes.md)
    * [Operators](ruby/operators.md)
-   * Don't read me
+   * [Don't read me](ruby/dont_read_me.md)
 
