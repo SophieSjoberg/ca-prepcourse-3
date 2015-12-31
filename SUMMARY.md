@@ -18,4 +18,5 @@
    * [Basic syntax](ruby/basicsyntax_rb.md)
    * [Classes](ruby/classes.md)
    * [Operators](ruby/operators.md)
+   * Don't read me
 
