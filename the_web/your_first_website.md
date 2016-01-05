@@ -15,7 +15,7 @@ One of the many features of GitHub offers is the possibility of to create web si
 
 Head over to GitHub and create a new repository named `username.github.io`, where username is your username on GitHub. In my case it would be: `tochman.github.io`. **Please note: If the first part of the repository name doesn't exactly match your username, it won't work, so make sure to get it right.**
 
-![](../images/github_io_step1.png)
+![Creating a new repository](../images/github_io_step1.png)
 
 In your terminal, go to the folder where you want to store your project, and clone the new repository:
 
@@ -37,7 +37,7 @@ $ git push origin master
 
 You have just deployed your first web site. 
 
-![](../images/github_io_step2.png)
+![Your first website](../images/github_io_step2.png)
 
 ### The look and feel of your site
 
