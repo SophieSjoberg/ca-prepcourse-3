@@ -9,6 +9,7 @@ There's are a ton of different terminal commands you can use. We'll only cover t
 Use the Terminal program, located in your `Applications/Utilities` folder.
 
 Another quick way to start it is by using `cmd + space` then search terminal.
+<img src="../images/terminal_search.png" alt="test">
 
 ![](../images/terminal_search.png)
 
