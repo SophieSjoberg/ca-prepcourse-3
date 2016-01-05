@@ -13,6 +13,7 @@
    * [Windows, really?](terminal/vm_on_windows.md)
 * [The Terminal](terminal/terminal_1.md)
 * [Your first website](the_web/your_first_website.md)
+* [Version Control](git/version_control.md)
 * [Introduction to Ruby](ruby/introduction_to_ruby.md)
    * [The basics](ruby/the_basics.md)
    * [Basic syntax](ruby/basicsyntax_rb.md)
@@ -24,5 +25,4 @@
    * [Setting the stage](tdd/step_1_setting_the_stage.md)
    * [Testing first](tdd/step_2_testing_first.md)
    * [Wrap it up](tdd/step_3_wrap_it_up.md)
-* [Version Control](git/version_control.md)
 
