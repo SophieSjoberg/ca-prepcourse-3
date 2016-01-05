@@ -22,5 +22,5 @@
 * [Test Driven Development](tdd/tdd_intro.md)
    * [Fizz-Buzz](tdd/fizz-buzz_1.md)
    * [Setting the stage](tdd/step_1_setting_the_stage.md)
-   * Testing first
+   * [Testing first](tdd/step_2_testing_first.md)
 
