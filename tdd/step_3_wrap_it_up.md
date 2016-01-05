@@ -4,7 +4,28 @@ Now it is up to you to write the rest of your tests and implement the code you n
 
 You have to make sure that each and every scenario that can arise is tested, meaning that all numbers has to be checked and returned the right value according to the game rules.
 
+Try out your program in `irb`. Remember that you have to `load` or `require` the source file.
+
+```irb
+$ irb
+2.2.0 :001 > load './lib/fizz_buzz.rb'
+ => true 
+2.2.0 :002 > fizz_buzz(23)
+ => 23 
+2.2.0 :003 > fizz_buzz(3)
+ => "fizz" 
+2.2.0 :004 > fizz_buzz(6)
+ => "fizz" 
+2.2.0 :005 > fizz_buzz(10)
+ => "buzz" 
+2.2.0 :006 > fizz_buzz(45)
+ => "fizz buzz" 
+2.2.0 :007 > 
+```
+
 At the very end of your development process you want to make a run through an series of numbers and get a similar response as we showed you in the first step of this exercise.
+
+In the example below, we'll create an `Array`and store it in a variable called `output`. As the next step we'll do 100 loops and add call `fizz_buzz` on each number from 1 to 100. Finally we'll display the content of the `output`-array.
 
 ```irb
 $ irb
@@ -12,6 +33,56 @@ $ irb
  => true 
 2.2.0 :002 > output = []
  => []
-2.2.0 :003 > 100.times {|n| output << fizz_buzz(n)}
+2.2.0 :003 > 100.times {|n| output << fizz_buzz(n+1)}
+ => 100 
+2.2.0 :004 > output
+ => [1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizz buzz", 16, 17, "fizz", 19, "buzz", "fizz", 22, 23, "fizz", "buzz", 26, "fizz", 28, 29, "fizz buzz", 31, 32, "fizz", 34, "buzz", "fizz", 37, 38, "fizz", "buzz", 41, "fizz", 43, 44, "fizz buzz", 46, 47, "fizz", 49, "buzz", "fizz", 52, 53, "fizz", "buzz", 56, "fizz", 58, 59, "fizz buzz", 61, 62, "fizz", 64, "buzz", "fizz", 67, 68, "fizz", "buzz", 71, "fizz", 73, 74, "fizz buzz", 76, 77, "fizz", 79, "buzz", "fizz", 82, 83, "fizz", "buzz", 86, "fizz", 88, 89, "fizz buzz", 91, 92, "fizz", 94, "buzz", "fizz", 97, 98, "fizz", "buzz"] 
 ```
+
+### Refactoring
+Since we are calling basically the same calculation in all `divisible_by_...?` methods, we can extract that to s method of its own. Something like:
+
+```ruby
+# lib/fizz_buzz.rb
+
+def divisible_by(number, divider)
+  number % divider == 0
+end
+```
+
+And once we have that method available, we can refactor our other methods to perform the calculation using the `divisible method, but still get the same results. 
+
+Our final source file could look something like this:
+
+```ruby
+# lib/fizz_buzz.rb
+
+def fizz_buzz(number)
+  case
+    when divisible_by_fifteen?(number) then 'fizz buzz'
+    when divisible_by_five?(number) then 'buzz'
+    when divisible_by_three?(number) then 'fizz'
+    else number
+  end
+end
+
+def divisible_by_three?(number)
+  divisible_by(number, 3)
+end
+
+def divisible_by_five?(number)
+  divisible_by(number, 5)
+end
+
+def divisible_by_fifteen?(number)
+  divisible_by(number, 15)
+end
+
+def divisible_by(number, divider)
+  number % divider == 0
+end
+```
+
+
+
 
