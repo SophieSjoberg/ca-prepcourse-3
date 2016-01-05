@@ -1,4 +1,4 @@
 /* CSS for website */
-code {
+pre, code {
     word-wrap:break-word;
 }
