@@ -2,7 +2,7 @@
 
 We will be using Test Driven Development - this means, in general terms, that we will start with writing a test for the application, watch it fail, write the implementation and watch the test pass.
 
-We will be using Ruby to write out implementation code. For our tests, we will be using a testing framework called RSpec.
+We will be using Ruby to write out implementation code. For our tests, we will be using a testing framework called [RSpec](http://rspec.info/).
 
 In your terminal, create a project folder called `fizz_buzz` and `cd` into it:
 
