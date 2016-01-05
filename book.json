@@ -1,11 +1,12 @@
 {
     "plugins": [
         "code_tomorrow_scheme",
-        "image-captions"
+        "image-captions",
+        "highlight"
     ],
     "pluginsConfig": {
         "image-captions": {
-          "caption": "Image - _CAPTION_"
-      }
+            "caption": "Image - _CAPTION_"
+        }
     }
 }
