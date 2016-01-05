@@ -172,7 +172,7 @@ How about:
 * `divisible_by_five?`
 * `divisible_by_fifteen?`
 
-As good as any, I would say....
+As good naming convention as any, I would say....
 
 Let's go with that and make use of the Ruby `case` command.
 ```ruby
@@ -184,6 +184,11 @@ def fizz_buzz(number)
     else number
   end
 end
+```
+And we also need to add a `divisible_by_three` method and allow it to take one argument. One way to figure out if a number is divisible by another is to use the modulus operator. Remember, in computing, a modulus operation finds the remainder after division of one number by another. If the reminder is `0` then the method returns `true` - if not, it will return `false`.
+
+```ruby
+# lib/fizz_buzz.rb
 
 def divisible_by_three?(number)
   number % 3 == 0
@@ -207,6 +212,7 @@ Okay, so at this point we need to take a step back and review and reflect on wha
 1. How does the `case..when..then` flow control work?
 2. Can you come up with another example of flow control that you could have used here?
 3. How does the `%` operator work?
+4. what is the difference between `=` and `==`?
 
 Some of the answers are available to you in this documentation, some are not. Feel free so search on Google, StackOverflow,etc for answers.  
 
