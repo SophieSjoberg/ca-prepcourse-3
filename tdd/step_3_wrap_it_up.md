@@ -52,7 +52,34 @@ end
 
 And once we have that method available, we can refactor our other methods to perform the calculation using the `divisible method, but still get the same results. 
 
-Our final source file could look something like this:
+Our final spec file can look like this:
+
+```ruby
+# spec/fizz_buzz_spec.rb
+
+require './lib/fizz_buzz'
+
+describe 'fizz_buzz' do
+  it "retuns number if no conditions are met" do
+    expect(fizz_buzz(1)).to eq 1 
+  end
+  
+  it "returns 'fizz' if number is divisible by 3" do
+    expect(fizz_buzz(6)).to eq 'fizz'
+  end
+  
+  it "returns 'buzz' if number is divisible by 5" do
+    expect(fizz_buzz(10)).to eq 'buzz'
+  end
+  
+  it "returns 'fizz buzz' if number is divisible by 15" do
+    expect(fizz_buzz(30)).to eq 'fizz buzz'
+  end
+  
+end
+```
+
+And our final source file could look something like this:
 
 ```ruby
 # lib/fizz_buzz.rb
