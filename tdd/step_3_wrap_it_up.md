@@ -50,7 +50,7 @@ def has_zero_reminder(number, divider)
 end
 ```
 
-And once we have that method available, we can refactor our other methods to perform the calculation using the `divisible method, but still get the same results. 
+And once we have that method available, we can refactor our other methods to perform the calculation using the `has_zero_reminder` method, but still get the same results. 
 
 Our final spec file can look like this:
 
