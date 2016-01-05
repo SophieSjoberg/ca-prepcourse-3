@@ -9,9 +9,9 @@ The objective is to write a program that takes a number or an array of numbers a
 
 ####Conditions
 Return: 
-* “fizz” if the number is dividable by 3
-* “buzz” if the number is dividable by 5
-* “fizzbuzz” if the number is dividable by 15
+* “fizz” if the number is divisible by 3
+* “buzz” if the number is divisible by 5
+* “fizzbuzz” if the number is divisible by 15
 * the same number if no other requirement is fulfilled
 
 #### Sample output
