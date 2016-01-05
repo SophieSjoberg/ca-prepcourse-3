@@ -1,6 +1,5 @@
 {
     "plugins": [
-        "code_tomorrow_scheme",
         "image-captions"
     ],
     "pluginsConfig": {
