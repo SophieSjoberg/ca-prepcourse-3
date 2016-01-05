@@ -110,6 +110,14 @@ def has_zero_reminder(number, divider)
 end
 ```
 
+### Follow up
+
+Here are some links to documentation for the things mentioned in this chapter. It is always a good idea to glance over the docs to see what else exists in the API or DSL you are using.
+
+* [RSpec: basic structure](https://relishapp.com/rspec/rspec-core/v/3-1/docs/example-groups/basic-structure-describe-it)
+* [RSpec: expectations](https://relishapp.com/rspec/rspec-expectations/docs)
+* [RSpec: built-in matchers](https://relishapp.com/rspec/rspec-expectations/v/3-1/docs/built-in-matchers)
+
 
 
 
