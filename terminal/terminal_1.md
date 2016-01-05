@@ -14,7 +14,7 @@ Another quick way to start it is by using `cmd + space` then search terminal.
 
 One tip I usually give to everybody that cares to listen, is to change the color profile of the terminal to a dark background. It makes it easier to work in the long run. Open up Settings and change the profile to Pro. 
 
-![](../images/terminal_settings.png)
+![Terminal settings](../images/terminal_settings.png)
 
 ## Basic commands
 We will only cover some very basic commands. Each and every one commands we list here can be used in a variety of ways - some very complicated. Don't worry about that but know that you can do almost anything you might imagine using the CLI (command line interface) and as a programmer, you should get used to it. We will be introducing more advanced commands as we progress, but for now, let's settle fot these basic ones.
@@ -66,5 +66,5 @@ You can start your text editor from the command line as well:
 Or, if you wish to navigate the folder in Finder, you can do it using the `open` command:
 ![](../images/terminal_open.png)
 
-![](../images/terminal_open_in_finder.png)
+![Your files in Finder](../images/terminal_open_in_finder.png)
 
