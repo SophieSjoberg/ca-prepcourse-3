@@ -3,5 +3,9 @@
         "code_tomorrow_scheme",
         "image-captions"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "image-captions": {
+          "caption": "Image - _CAPTION_"
+      }
+    }
 }
