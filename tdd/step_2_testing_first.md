@@ -212,7 +212,7 @@ Okay, so at this point we need to take a step back and review and reflect on wha
 1. How does the `case..when..then` flow control work?
 2. Can you come up with another example of flow control that you could have used here?
 3. How does the `%` operator work?
-4. what is the difference between `=` and `==`?
+4. What is the difference between `=` and `==`?
 
 Some of the answers are available to you in this documentation, some are not. Feel free so search on Google, StackOverflow,etc for answers.  
 
