@@ -129,7 +129,7 @@ There is a very good resource available on-line that allows you to practice your
 
 Start [Git Immersion Labs](http://gitimmersion.com/lab_01.html)
 
-**Note that we have covered some of the steps in Git Immersion, but please go over everything again. Git is a very important skill to master if you want to succeed with the Craft Academy course.**
+**Note that we have covered some of the steps included in Git Immersion, but please go over everything again. Git is a very important skill to master if you want to succeed with the Craft Academy course.**
 ### Resources
 
 * Git Pro online book - http://git-scm.com/book/en/v2
