@@ -100,6 +100,13 @@ $ git add .
 $ git commit -m “my commit”
 ```
 
+### Resources
+
+* Git Pro online book - http://git-scm.com/book/en/v2
+* Basic Video tutorials - http://git-scm.com/videos
+* Git reference_ http://git-scm.com/docs
+
+
 
 
 
