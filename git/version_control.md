@@ -117,7 +117,7 @@ $ git status
 Add the `hello.rb` file to git to track it, and create a commit
 ```shell
 $ git add hello.rb
-$ git commit -m “my commit”
+$ git commit -m “my first commit”
 ```
 Check your commit history
 ```shell
