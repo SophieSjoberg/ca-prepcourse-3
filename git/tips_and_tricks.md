@@ -18,3 +18,5 @@ $ atom ~/.gitconfig
   dump = cat-file -p
 ```
 
+Now you can use the abbreviations instead for full git commands. That can be pretty handy since you will be working a lot with git during this course and in your profession as a developer. 
+
