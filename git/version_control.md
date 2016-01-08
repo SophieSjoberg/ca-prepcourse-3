@@ -7,7 +7,7 @@ Git allows for:
 * View of who modified the source last 
 * Collaboration between multiple developers
 * Clients don't checkout single files, they clone the entire repository
-* Many types available - we focus on git
+* Many types version control systems available - we focus on git
 
 ### Why is it called “Git”?
 **British mild profanity [slang](http://www.urbandictionary.com/define.php?term=git
