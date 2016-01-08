@@ -10,8 +10,8 @@ Git allows for:
 * Many types available - we focus on git
 
 ### Why is it called “Git”?
-British mild profanity [slang](http://www.urbandictionary.com/define.php?term=git
-) for silly, incompetent, stupid, annoying, senile elderly or childish person. 
+**British mild profanity [slang](http://www.urbandictionary.com/define.php?term=git
+) for silly, incompetent, stupid, annoying, senile elderly or childish person.** 
 
 Linus Torvalds, the creator of Git: “I'm an egotistical bastard, and I name all my projects after myself. First Linux, now git.” 
 
