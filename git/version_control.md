@@ -94,12 +94,42 @@ Initialize git
 $ git init
 Initialized empty Git repository in .git/
 ```
-Add file for git to track and create a commit
+
+Create a file called `hello.rb` inside the `my_project` folder.
 ```shell
-$ git add .
-$ git commit -m “my commit”
+$ touch hello.rb
 ```
 
+Add the following code to that file
+
+```ruby
+puts 'Hello World'
+```
+Run the code (just for the sake of it - it has no bearing on the exercise).
+```shell
+$ ruby hello.rb
+```
+Check the status
+```shell
+$ git status
+```
+
+Add the `hello.rb` file to git to track it, and create a commit
+```shell
+$ git add hello.rb
+$ git commit -m “my commit”
+```
+Check your commit history
+```shell
+$ git log
+```
+
+### Labs - Git Immersion
+There is a very good resource available on-line that allows you to practice your git skills called Git Immersion. Head over to their website and work your way through all labs. Make sure to follow the instructions carefully and push up your work to your GitHub account.
+
+Start [Git Immersion Labs](http://gitimmersion.com/lab_01.html)
+
+**Note that we have covered some of the steps in Git Immersion, but please go over everything again. Git is a very important skill to master if you want to succeed with the Craft Academy course.**
 ### Resources
 
 * Git Pro online book - http://git-scm.com/book/en/v2
