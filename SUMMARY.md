@@ -14,7 +14,7 @@
 * [The Terminal](terminal/terminal_1.md)
 * [Your first website](the_web/your_first_website.md)
 * [Version Control](git/version_control.md)
-   * Tips and Tricks
+   * [Tips and Tricks](git/tips_and_tricks.md)
 * [Introduction to Ruby](ruby/introduction_to_ruby.md)
    * [The basics](ruby/the_basics.md)
    * [Basic syntax](ruby/basicsyntax_rb.md)
