@@ -1,7 +1,7 @@
 ## Version Control
 ### What is Version Control? 
 A system that records changes to files over time. 
-Allows:
+Git allows for:
 * Reverting files or entire project to a previous state 
 * Comparing changes over time 
 * View of who modified the source last 
