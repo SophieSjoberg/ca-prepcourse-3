@@ -23,7 +23,7 @@ In your terminal, go to the folder where you want to store your project, and clo
 $ git clone https://github.com/<your_username>/<your_username>.github.io
 $ cd <your_username>.github.io
 $ echo "<h1>Hello World</h1>" > index.html
-$  echo "<p>I'm Thomas, and I attend the Craft Academy Bootcamp<p>" >> index.html
+$ echo "<p>I'm Thomas, and I attend the Craft Academy Bootcamp<p>" >> index.html
 ```
 
 Use Git to commit, and push your changes to GitHub:
@@ -57,6 +57,8 @@ That will open the Atom editor. It should look something like that:
 Now you can double-click the `index.html` and open it for editing. We want to make the following changes to that file:
 
 ```html
+# index.html
+
 <!DOCTYPE HTML>
 
 <html>
