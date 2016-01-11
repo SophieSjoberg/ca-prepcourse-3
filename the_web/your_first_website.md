@@ -99,8 +99,8 @@ Wrap your content around this template.
       </div>
     </div>
 
-    <script src='https://code.jquery.com/jquery-2.1.4.js'></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.1/foundation.js"></script>
+   <script src='https://code.jquery.com/jquery-2.1.4.js'></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.1/foundation.js"></script>
 
   </body>
 </html>
