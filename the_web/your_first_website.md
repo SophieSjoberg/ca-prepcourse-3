@@ -95,7 +95,7 @@ Wrap your content around this template.
   <body>
     <div class="row">
       <div class="medium-8 columns">
-        <place your code in here>
+        <!--place your code in here-->
       </div>
     </div>
 
