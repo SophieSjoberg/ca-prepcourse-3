@@ -108,6 +108,8 @@ Wrap your content around this template.
 
 This code adds a css framework called Foundation 6 and jQuery. You can find more information about Foundation on http://foundation.zurb.com/sites/docs/
 
+At this point I would like you to get creative. ;-) Add some more content to the page using some foundation classes. You can find code snippets at the foundation docs site. **Play around and have some fun!**
+
 
 
 
