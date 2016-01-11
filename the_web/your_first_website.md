@@ -75,4 +75,39 @@ Now you can double-click the `index.html` and open it for editing. We want to ma
 
 What we've done now is we added the basic HTML5 document structure. 
 
+We can do more, of course.How about adding some basic css? We could define our own css classes but for now I would like us to take advantage of one of the many free resources available to us in terms of open sourced frameworks. 
+
+Wrap your content around this template.
+
+```html
+# index.html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.1/foundation.min.css">
+
+  </head>
+  <body>
+    <div class="row">
+      <div class="medium-8 columns">
+        <place your code in here>
+      </div>
+    </div>
+
+    <script src='https://code.jquery.com/jquery-2.1.4.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.1/foundation.js"></script>
+
+  </body>
+</html>
+```
+
+This code adds a css framework called Foundation 6 and jQuery. You can find more information about Foundation on http://foundation.zurb.com/sites/docs/
+
+
+
+
+
 
