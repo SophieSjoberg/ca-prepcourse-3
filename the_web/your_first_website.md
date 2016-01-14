@@ -110,6 +110,8 @@ This code adds a css framework called Foundation 6 and jQuery. You can find more
 
 At this point I would like you to get creative. ;-) Add some more content to the page using some foundation classes. You can find code snippets at the foundation docs site. **Play around and have some fun!**
 
+**CSS and HTML skills are essential for you if you want to excel during the CA Bootcamp. I suggest that you take a day or two and go over [this online material](http://www.teaching-materials.org/htmlcss-1day/) in order to get a basic understanding for that subject.**  
+
 
 
 
