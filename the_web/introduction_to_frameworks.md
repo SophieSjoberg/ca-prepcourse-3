@@ -37,7 +37,7 @@ Padrino was created and open-sourced in 2010. The framework was originally creat
 ## Ruby on Rails
 Ruby on Rails, or simply Rails, is a web application framework written in Ruby under MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages. It encourages and facilitates the use of web standards such as JSON or XML for data transfer, and HTML, CSS and JavaScript for display and user interfacing. In addition to MVC, Rails emphasizes the use of other well-known software engineering patterns and paradigms, including Convention over Configuration (CoC), Don't Repeat Yourself (DRY), and the Active Record pattern.
 
-Some of the biggest and most well known sites on the internet, are built with Ruby on Rails. GitHub, Airbnb, Shopify, Twitter (in its early days), Groupon, ets have all used this framework as a building block. See [this blog post](https://prograils.com/posts/top-10-famous-sites-built-with-ruby-on-rails) to find out more.
+Some of the biggest and most well known sites on the internet are built with Ruby on Rails. GitHub, Airbnb, Shopify, Twitter (in its early days), Groupon, ets have all used this framework as a building block. See [this blog post](https://prograils.com/posts/top-10-famous-sites-built-with-ruby-on-rails) to find out more.
 <br/><small>Source <a href="https://en.wikipedia.org/wiki/Ruby_on_Rails">Wikipedia</a></small>
 
 ![](../images/framework_ror.jpg)
