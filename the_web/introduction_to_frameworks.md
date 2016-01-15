@@ -28,7 +28,7 @@ Some notable companies and institutions that use Sinatra include Apple, BBC, the
 Padrino is a full-stack ruby framework built upon the Sinatra web library. 
 Padrino is an open source web application framework, written in Ruby and based on Sinatra.[2][3] It is an alternative to other Ruby web application frameworks such as Ruby on Rails, Merb, Nitro and Camping. It is dependent on the Rack web server interface.
 
-Padrino was created and open-sourced in 2010. The framework was originally created by Nathan Esquenazi, Davide D'Agostino and Arthur Chiu based on the prior sinatra_more gem. The framework was created in order to extend Sinatra to more easily support rich web applications. Padrino, as of March 2013, has 7 developers that comprise the core development team.
+Padrino was created and open-sourced in 2010. The framework was originally created by Nathan Esquenazi, Davide D'Agostino and Arthur Chiu based on the prior sinatra_more gem. The framework was created in order to extend Sinatra to more easily support rich web applications.
 <br/><small>Source 
 <a href="http://bit.ly/1TZEhTn"> Wikipedia</a></small>
 
