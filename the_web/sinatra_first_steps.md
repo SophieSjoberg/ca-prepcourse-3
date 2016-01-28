@@ -42,10 +42,10 @@ Create a `my_app_spec.rb` in the `features` folder.
 Add your first test:
 ```ruby
 describe 'home page' do
-  it "displays 'Hello World'" do
+  it "displays text" do
     visit '/'
     expect(page.current_path).to eq '/'
-    expect(page).to have_content 'Hello World'
+    expect(page).to have_content 'This is in my index file'
   end
 end
 
