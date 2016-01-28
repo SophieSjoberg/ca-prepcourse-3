@@ -30,21 +30,28 @@ group :development, :test do
   gem 'capybara'
   gem 'launchy'
   gem 'rspec'
-  gem 'rspec-sinatra'
   gem 'shotgun'
 end
 ```
-add `gem 'rack-test'` to your Gemfile and `require "rack/test"` it on top of your `spec/spec_helper.rb`. 
+Add `gem 'rack-test'` to your Gemfile and run `bundle`
 
-Also add `config.include Rack::Test::Methods` to your Rspec.configure block.
-create a `features` folder in `spec` 
+Also add `config.include Rack::Test::Methods` to your `Rspec.configure block` in `spec/spec-helper.rb`.
+
+Create a `features` folder in `spec` 
 ```
 mkdir spec/features
 ``` 
 create a `my_app_spec.rb` in the `features` folder. 
 Add your first test:
 ```ruby
-    #
+describe 'home page' do
+  it "displays 'Hello World'" do
+    visit '/'
+    expect(page.current_path).to eq '/'
+    expect(page).to have_content 'Hello World'
+  end
+end
+
 ```
 
 In order to get the assets to load, modify your `config.ru` to include:
@@ -65,7 +72,30 @@ Also, you are going to need a layout file in your `views` folder
 $ mkdir lib/vievs/layout.erb
 
 ```
-[Not be continued...]
+
+Open that file and add:
+
+```erb
+<h1>This is in my application layout file<h1>
+<%= yield %>
+```
+
+Create a `index.erb` file in the `views` folder. Add following content:
+
+```erb
+<p>This is in my index file</p>
+```
+
+###Reflect and review
+Google each and every one of the gems in the `:development, :test` group of your Gemfile
+````
+ruby gem capybara
+ruby launch
+etc...
+```
+What are these gems and what do they do? Can you see why we have included them? Write a short description with an explanation of each gem and add it to this small projects README. 
+
+
 
 
 
