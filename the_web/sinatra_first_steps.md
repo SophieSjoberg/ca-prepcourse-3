@@ -86,6 +86,12 @@ Create a `index.erb` file in the `views` folder. Add following content:
 <p>This is in my index file</p>
 ```
 
+create a file called `app.css` in the `assets/css` folder. Add this code to that file
+
+```css
+
+```
+
 ###Reflect and review
 Google each and every one of the gems in the `:development, :test` group of your Gemfile
 ````
