@@ -34,7 +34,7 @@ group :development, :test do
   gem 'shotgun'
 end
 ```
-add `gem ‘rack-test` to your Gemfile and `require` it on top of your `spec/spec_helper.rb`. 
+add `gem 'rack-test'` to your Gemfile and `require` it on top of your `spec/spec_helper.rb`. 
 
 Also add `config.include Rack::Test::Methods` to your Rspec.configure block.
 create a `features` folder in `spec` 
