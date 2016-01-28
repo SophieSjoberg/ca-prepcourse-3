@@ -41,7 +41,7 @@ Create a `features` folder in `spec`
 ```
 mkdir spec/features
 ``` 
-create a `my_app_spec.rb` in the `features` folder. 
+Create a `my_app_spec.rb` in the `features` folder. 
 Add your first test:
 ```ruby
 describe 'home page' do
@@ -119,6 +119,8 @@ etc...
 What are these gems and what do they do? Can you see why we have included them? Write a short description with an explanation of each gem and add it to this small projects README. 
 
 2. What can you say about the minimum requirements of a HTML-5 page? What needs to be there and why?
+
+3. When we speak about `assets`, what do we mean?
 
 
 
