@@ -15,10 +15,7 @@ Run
 ```shell
 $ rspec-sinatra init --app  MyApp lib/my_app.rb
 ```
-And
-```
-$ rspec --init
-``` 
+
 Also, edit the `.rspec` file and add `--format documentation` to see a more verbose rspec output. 
 Create a Gemfile: `touch Gemfile` and add some basic libraries you will be using: 
 ```
