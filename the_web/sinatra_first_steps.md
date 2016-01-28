@@ -65,7 +65,7 @@ Also, you are going to need a layout file in your `views` folder
 $ mkdir lib/vievs/layout.erb
 
 ```
-
+[Not be continued...]
 
 
 
