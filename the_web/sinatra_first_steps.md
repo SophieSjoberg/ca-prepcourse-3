@@ -86,9 +86,26 @@ Create a `index.erb` file in the `views` folder. Add following content:
 <p>This is in my index file</p>
 ```
 
-create a file called `app.css` in the `assets/css` folder. Add this code to that file
+Create a file called `app.css` in the `assets/css` folder. Add this code to that file
 
 ```css
+h1 {
+  color: red;
+}
+```
+
+Modify your `views/layout.erb`
+```erb
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>My Sinatra App</title>
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <h1>This is in my application layout file<h1>
+  <%= yield %>
+</body>
 
 ```
 
