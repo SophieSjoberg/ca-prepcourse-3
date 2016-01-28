@@ -110,13 +110,15 @@ Modify your `views/layout.erb`
 ```
 
 ###Reflect and review
-Google each and every one of the gems in the `:development, :test` group of your Gemfile
+1. Google each and every one of the gems in the `:development, :test` group of your Gemfile. Try the following searches:
 ````
 ruby gem capybara
-ruby launch
+ruby launchy gem
 etc...
 ```
 What are these gems and what do they do? Can you see why we have included them? Write a short description with an explanation of each gem and add it to this small projects README. 
+
+2. What can you say about the minimum requirements of a HTML-5 page? What needs to be there and why?
 
 
 
