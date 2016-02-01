@@ -16,7 +16,14 @@ Run
 $ rspec-sinatra init --app  MyApp lib/my_app.rb
 ```
 
-Also, edit the `.rspec` file and add `--format documentation` to see a more verbose rspec output. 
+Also, edit the `.rspec` file and add `--format documentation` to see a more verbose rspec output. Your `.rspec` file needs to look like this:
+
+```
+--format documentation
+--color
+--require spec_helper
+```
+
 Create a Gemfile: `touch Gemfile` and add some basic libraries you will be using: 
 ```
 source 'https://rubygems.org'
