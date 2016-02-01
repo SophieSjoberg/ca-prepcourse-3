@@ -28,4 +28,5 @@
    * [Wrap it up](tdd/step_3_wrap_it_up.md)
 * [Introduction to Frameworks](the_web/introduction_to_frameworks.md)
    * [Sinatra - first steps](the_web/sinatra_first_steps.md)
+* Static Website with Middleman
 
