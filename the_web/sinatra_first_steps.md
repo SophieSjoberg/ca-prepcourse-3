@@ -58,6 +58,19 @@ end
 
 ```
 
+We need to modify the route in the `my_app.rb` file (that is the file that, among other things, tells the application what to do depending on the request it gets).
+
+Change the `get '/'` route to render the `index.erb` template:
+
+```ruby
+# lib/my_app.erb
+
+  get '/' do
+    erb :index
+  end
+```
+
+
 In order to get the assets to load, modify your `config.ru` to include:
 ```
 use Rack::Static, urls: ['/css', '/js', '/images', '/fonts'], root: 'assets'
