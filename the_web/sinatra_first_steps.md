@@ -47,6 +47,11 @@ describe 'home page' do
     expect(page.current_path).to eq '/'
     expect(page).to have_content 'This is in my index file'
   end
+  
+  it "displays layout text" do
+   visit '/'
+   expect(page).to have_content 'This is in my application layout file'
+  end
 end
 
 ```
@@ -66,7 +71,7 @@ $ mkdir assets/fonts
 
 Also, you are going to need a layout file in your `views` folder
 ```shell
-$ mkdir lib/vievs/layout.erb
+$ mkdir lib/views/layout.erb
 
 ```
 
