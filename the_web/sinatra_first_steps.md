@@ -24,6 +24,7 @@ Also, edit the `.rspec` file and add `--format documentation` to see a more verb
 --require spec_helper
 ```
 
+
 Create a Gemfile: `touch Gemfile` and add some basic libraries you will be using: 
 ```
 source 'https://rubygems.org'
