@@ -42,6 +42,7 @@ Create a `my_app_spec.rb` in the `features` folder.
 Add your first test:
 ```ruby
 describe 'home page' do
+
   it "displays text" do
     visit '/'
     expect(page.current_path).to eq '/'
@@ -49,9 +50,10 @@ describe 'home page' do
   end
   
   it "displays layout text" do
-   visit '/'
-   expect(page).to have_content 'This is in my application layout file'
+    visit '/'
+    expect(page).to have_content 'This is in my application layout file'
   end
+  
 end
 
 ```
