@@ -16,7 +16,15 @@ Run
 $ rspec-sinatra init --app  MyApp lib/my_app.rb
 ```
 
-Also, edit the `.rspec` file and add `--format documentation` to see a more verbose rspec output. 
+Also, edit the `.rspec` file and add `--format documentation` to see a more verbose rspec output. Your `.rspec` file needs to look like this:
+
+```
+--format documentation
+--color
+--require spec_helper
+```
+
+
 Create a Gemfile: `touch Gemfile` and add some basic libraries you will be using: 
 ```
 source 'https://rubygems.org'
@@ -42,14 +50,34 @@ Create a `my_app_spec.rb` in the `features` folder.
 Add your first test:
 ```ruby
 describe 'home page' do
+
   it "displays text" do
     visit '/'
     expect(page.current_path).to eq '/'
     expect(page).to have_content 'This is in my index file'
   end
+  
+  it "displays layout text" do
+    visit '/'
+    expect(page).to have_content 'This is in my application layout file'
+  end
+  
 end
 
 ```
+
+We need to modify the route in the `my_app.rb` file (that is the file that, among other things, tells the application what to do depending on the request it gets).
+
+Change the `get '/'` route to render the `index.erb` template:
+
+```ruby
+# lib/my_app.erb
+
+  get '/' do
+    erb :index
+  end
+```
+
 
 In order to get the assets to load, modify your `config.ru` to include:
 ```
@@ -66,7 +94,7 @@ $ mkdir assets/fonts
 
 Also, you are going to need a layout file in your `views` folder
 ```shell
-$ mkdir lib/vievs/layout.erb
+$ mkdir lib/views/layout.erb
 
 ```
 
