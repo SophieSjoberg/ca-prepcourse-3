@@ -60,7 +60,7 @@ Our final spec file can look like this:
 require './lib/fizz_buzz'
 
 describe 'fizz_buzz' do
-  it "retuns number if no conditions are met" do
+  it "returns number if no conditions are met" do
     expect(fizz_buzz(1)).to eq 1 
   end
   

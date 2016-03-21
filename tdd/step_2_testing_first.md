@@ -1,6 +1,6 @@
 ## Testing first
 
-We will start by writing our specs for the game. First we need to create a test file. All our specs will reside in the `spec` folder. Go ahead and create a file named `fizz_buzz_spec.rb`
+We will start by writing our specs for the game. First we need to create a test file. All our specs will live in the `spec` folder. Go ahead and create a file named `fizz_buzz_spec.rb`
 
 ```shell
 $ touch spec/fizz_buzz_spec.rb
@@ -68,9 +68,9 @@ Let's make some decisions. Let's say that we want a main method in our program t
 Add the following `it` block to your test file (make sure to place it **inside** the `describe` block)
 
 ```ruby
-# spec/&fizz_buzz_spec.rb
+# spec/fizz_buzz_spec.rb
 
-it 'retuns '1' if number = 1' do
+it 'returns '1' if number = 1' do
     expect(fizz_buzz(1)).to eq 1 
 end
 ```
@@ -81,11 +81,11 @@ Go back to your terminal and run RSpec. You will get an error:
 rspec
 
 fizz_buzz
-  retuns '1' if number = 1 (FAILED - 1)
+  returns '1' if number = 1 (FAILED - 1)
 
 Failures:
 
-  1) fizz_buzz retuns '1' if number = 1
+  1) fizz_buzz returns '1' if number = 1
      Failure/Error: expect(fizz_buzz(1)).to eq 1
      
      NoMethodError:
@@ -97,7 +97,7 @@ Finished in 0.00046 seconds (files took 0.1437 seconds to load)
 
 Failed examples:
 
-rspec ./spec/fizz_buzz_spec.rb:4 # fizz_buzz retuns '1' if number = 1
+rspec ./spec/fizz_buzz_spec.rb:4 # fizz_buzz returns '1' if number = 1
 
 
 ```
@@ -119,13 +119,13 @@ This very simple method takes a number and simply returns it. It makes the test 
 $ rspec
 
 fizz_buzz
-  retuns '1' if number = 1
+  returns '1' if number = 1
 
 Finished in 0.00215 seconds (files took 0.14163 seconds to load)
 1 example, 0 failures
 ```
 
-So we asked the progtram to return '1' if we pass in '1'. All in accordance with the game rules, right? We've written the minimum amount of code needed to make that happen. At this stage we are all good.
+So we asked the program to return '1' if we pass in '1'. All in accordance with the game rules, right? We've written the minimum amount of code needed to make that happen. At this stage we are all good.
 
 But we are far from done, are we? One of the objectives is to return the word `fizz` if the number we pass in is divisible by 3. Let's write a test for that.
 
@@ -143,7 +143,7 @@ If you run `rspec` again, you'll get an error (of course)
 $ rspec
 
 fizz_buzz
-  retuns '1' if number = 1
+  returns '1' if number = 1
   returns 'fizz' if number is divisible by 3 (FAILED - 1)
 
 Failures:
@@ -201,7 +201,7 @@ Now, this code will make our second test to pass. Try it.
 $ rspec
 
 fizz_buzz
-  retuns '1' if number = 1
+  returns '1' if number = 1
   returns 'fizz' if number is divisible by 3
 
 Finished in 0.00148 seconds (files took 0.13955 seconds to load)
