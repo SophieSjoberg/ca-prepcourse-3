@@ -7,7 +7,7 @@
    * [Soft Skills](the_web/soft_skills.md)
    * [Pair Learning](workflow/pair_learning.md)
 * [The Terminal](terminal/terminal_1.md)
-   * Cheatsheet
+   * [Cheatsheet](terminal/cheatsheet.md)
 * [Setup for developers](terminal/setup_for_developers.md)
    * [Mac OSX](terminal/mac_osx.md)
    * [Linux](terminal/linux.md)
