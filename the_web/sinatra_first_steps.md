@@ -94,7 +94,7 @@ $ mkdir assets/fonts
 
 Also, you are going to need a layout file in your `views` folder
 ```shell
-$ mkdir lib/views/layout.erb
+$ touch lib/views/layout.erb
 
 ```
 
