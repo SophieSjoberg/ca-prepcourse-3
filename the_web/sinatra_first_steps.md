@@ -71,7 +71,7 @@ We need to modify the route in the `my_app.rb` file (that is the file that, amon
 Change the `get '/'` route to render the `index.erb` template:
 
 ```ruby
-# lib/my_app.erb
+# lib/my_app.rb
 
   get '/' do
     erb :index
