@@ -147,27 +147,27 @@ We will take a rather simpler approach in this guide. We will use [VirtualBox](h
 
 
 
-[img-01]: ../images/virtual-box-windows/01-vb-install.png?raw=true
-[img-02]: ../images/virtual-box-windows/02-download-ubuntu.png?raw=true
-[img-03]: ../images/virtual-box-windows/03-new-vm-wizard.png?raw=true
-[img-04]: ../images/virtual-box-windows/04-vm-name.png?raw=true
-[img-05]: ../images/virtual-box-windows/05-vm-memory-size.png?raw=true
+[img-01]: ../images/virtual-box-windows/01-vb-install.png
+[img-02]: ../images/virtual-box-windows/02-download-ubuntu.png
+[img-03]: ../images/virtual-box-windows/03-new-vm-wizard.png
+[img-04]: ../images/virtual-box-windows/04-vm-name.png
+[img-05]: ../images/virtual-box-windows/05-vm-memory-size.png
 [img-06]: ../images/virtual-box-windows/06-vm-create-hdd.png
-[img-07]: ../images/virtual-box-windows/07-vm-hdd-type.png?raw=true
-[img-08]: ../images/virtual-box-windows/08-vm-storage-mode.png?raw=true
-[img-09]: ../images/virtual-box-windows/09-vm-hdd-size.png?raw=true
-[img-10]: ../images/virtual-box-windows/10-vm-load-iso.png?raw=true
-[img-11]: ../images/virtual-box-windows/11-vm-load-iso-1.png?raw=true
-[img-12]: ../images/virtual-box-windows/12-vm-load-iso-2.png?raw=true
-[img-13]: ../images/virtual-box-windows/13-vm-load-iso-3.png?raw=true
-[img-14]: ../images/virtual-box-windows/14-vm-start.png?raw=true
-[img-15]: ../images/virtual-box-windows/15-ubuntu-install.png?raw=true
-[img-16]: ../images/virtual-box-windows/16-ubuntu-install-1.png?raw=true
-[img-17]: ../images/virtual-box-windows/17-ubuntu-install-2.png?raw=true
-[img-18]: ../images/virtual-box-windows/18-ubuntu-install-3.png?raw=true
-[img-19]: ../images/virtual-box-windows/19-ubuntu-install-4.png?raw=true
-[img-20]: ../images/virtual-box-windows/20-ubuntu-install-5.png?raw=true
-[img-21]: ../images/virtual-box-windows/21-ubuntu-install-6.png?raw=true
-[img-22]: ../images/virtual-box-windows/22-ubuntu-install-7.png?raw=true
-[img-23]: ../images/virtual-box-windows/23-ubuntu-install-8.png?raw=true
+[img-07]: ../images/virtual-box-windows/07-vm-hdd-type.png
+[img-08]: ../images/virtual-box-windows/08-vm-storage-mode.png
+[img-09]: ../images/virtual-box-windows/09-vm-hdd-size.png
+[img-10]: ../images/virtual-box-windows/10-vm-load-iso.png
+[img-11]: ../images/virtual-box-windows/11-vm-load-iso-1.png
+[img-12]: ../images/virtual-box-windows/12-vm-load-iso-2.png
+[img-13]: ../images/virtual-box-windows/13-vm-load-iso-3.png
+[img-14]: ../images/virtual-box-windows/14-vm-start.png
+[img-15]: ../images/virtual-box-windows/15-ubuntu-install.png
+[img-16]: ../images/virtual-box-windows/16-ubuntu-install-1.png
+[img-17]: ../images/virtual-box-windows/17-ubuntu-install-2.png
+[img-18]: ../images/virtual-box-windows/18-ubuntu-install-3.png
+[img-19]: ../images/virtual-box-windows/19-ubuntu-install-4.png
+[img-20]: ../images/virtual-box-windows/20-ubuntu-install-5.png
+[img-21]: ../images/virtual-box-windows/21-ubuntu-install-6.png
+[img-22]: ../images/virtual-box-windows/22-ubuntu-install-7.png
+[img-23]: ../images/virtual-box-windows/23-ubuntu-install-8.png
 
