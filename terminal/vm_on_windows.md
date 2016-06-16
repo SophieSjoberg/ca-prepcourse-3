@@ -12,54 +12,55 @@ We will take a rather simpler approach in this guide. We will use [VirtualBox](h
 
 1. Step 1: Download [VirtualBox Windows Installer][vbox-win-install] and Install it.
 
-  ![Virtual Box installation][img-01]
+  ![Virtual Box installation](../images/virtual-box-windows/01-vb-install.png)
 
 2. Step 2: Download a copy of [Ubuntu from here][ubuntu-download]
 
   Select between 32 or 64-bits version depending on your system architecture.
 
-    ![Ubuntu 32/64bits][img-02]
+  ![Download Ubuntu image](../images/virtual-box-windows/02-download-ubuntu.png)
 
 3. Step 3: Create a new VM
 
   Open VirtualBox
-
-    ![virtual box][img-03]
+  
+  ![Virtual box](../images/virtual-box-windows/03-new-vm-wizard.png)
 
   Click `New` to create a new VM
 
-    ![create virtual machine wizard][img-04]
+  ![Create Virtual Machine wizard](../images/virtual-box-windows/04-vm-name.png)
 
-    In the 'Create Virtual Machine' window, give your VM a name.
+  In the 'Create Virtual Machine' window, give your VM a name.
 
-    Select `Linux` as type
+  Select `Linux` as type
 
-    Select the version of ubuntu that matches the version you downloaded at step 2.
+  Select the version of Ubuntu that matches the version you downloaded at step 2.
 
-    **Note:** In this case, i downloaded the 32-bit version of Ubuntu. If you don't have `Ubuntu (64-bit)` listed you might have to enable `intel® VT-x technology` on your computer. A quick [Google search][vt-xsearch] will help you find out how to do that for your particular computer.
+  > **Note:** In this case, i downloaded the 32-bit version of Ubuntu. If you don't have `Ubuntu (64-bit)` listed you might have to enable `intel® VT-x technology` on your computer. A quick [Google search][vt-xsearch] will help you find out how to do that for your particular computer.
 
-    Then click 'Next'
+  Then click 'Next'
 
   In the next screen, enter the memory size (minimum required 512 MB, recommended 1024 MB) then click 'Next'
+  
   - Create a virtual hard disk for your VM
 
-    ![create virtual hdd][img-06]
+    ![Create virtual HDD](../images/virtual-box-windows/06-vm-create-hdd.png)
 
   - Select hard disk file type `VDI (VirtualBox Disk Image)`
 
-    ![hdd file type][img-07]
+    ![HDD file type](../images/virtual-box-windows/07-vm-hdd-type.png)
 
   - Hard disk mode
 
-    ![hdd mode][img-08]
+    ![HDD Mode](../images/virtual-box-windows/08-vm-storage-mode.png)
 
   - Set virtual hard disk size and file location
+    
+    ![HDD Size](../images/virtual-box-windows/09-vm-hdd-size.png)
 
-    ![hdd size][img-09]
-
-    *We recommend a minimum of 20GB.*
-
-    Click `create` to finalize the VM
+  *We recommend a minimum of 20GB.*
+  
+  Click `create` to finalize the VM
 
 4. Step 4: Install Ubuntu
 
@@ -68,63 +69,62 @@ We will take a rather simpler approach in this guide. We will use [VirtualBox](h
     - Click 'Settings'
     - Go to the 'Storage' section. You will then have the following screen
 
-      ![Load ISO][img-10]
-
+      ![Load ISO](../images/virtual-box-windows/10-vm-load-iso.png)
     - Click on the CD icon right next to the `Optical Drive` attribute dropdown list. Then select `Choose Virtual Optical Disk File...`
 
-      ![load ISO cntd.][img-11]
+      ![Load ISO contd.](../images/virtual-box-windows/11-vm-load-iso-1.png)
 
     - In the explorer windows, navigate to the location where you saved the ubuntu ISO from [Step 2][step-2]
 
-      ![select ubuntu iso file][img-12]
+      ![Select ubuntu ISO image](../images/virtual-box-windows/12-vm-load-iso-2.png)
 
     - Click `Open`.
 
-      ![confirm image][img-13]
+      ![Confirm image](../images/virtual-box-windows/13-vm-load-iso-3.png)
 
     - Click `OK`
 
   You are now ready to Install Ubuntu. Go ahead and start the Virtual Machine.
 
-    ![boot-up the VM][img-14]
+    ![Boot-up the VM](../images/virtual-box-windows/14-vm-start.png)
 
   The VM will boot from the Ubuntu image in our virtual optical drive and greet us with the Welcome screen
 
-    ![Ubuntu welcome screen][img-15]
+    ![Ubuntu Welcome screen](../images/virtual-box-windows/15-ubuntu-install.png)
 
   Click `Install Ubuntu` to start the installation process.
 
-    ![Ubuntu welcome screen][img-16]
+    ![Ubuntu welcome screen](../images/virtual-box-windows/16-ubuntu-install-1.png)
 
   Click `Continue`
 
-    ![Ubuntu install step 1][img-17]
+    ![Ubuntu install step 1](../images/virtual-box-windows/17-ubuntu-install-2.png)
 
   Since this is a standalone installation you should be able to get away with selecting the first option `Erase disk and install Ubuntu`. But we'll go ahead and pick the last option `Something else` to partition the hard disk.
 
-    ![Ubuntu install step 2][img-18]
+    ![Ubuntu install step 2](../images/virtual-box-windows/18-ubuntu-install-3.png)
 
   `/dev/sda` represents our virtual disk. In Ubuntu and `Unix` systems in general disks are often represented by the following path `/dev/sdx` where `x` is a letter from `a-z`. With multiple disks you'll then have something similar to `/dev/sda`, `/dev/sdb` etc.
 
   We'll go ahead and create a `New Partition Table`. Click `continue` in the warning windows that appear
 
-    ![Ubuntu install step 3][img-19]
+    ![Ubuntu install step 3](../images/virtual-box-windows/19-ubuntu-install-4.png)
 
   First we'll create a [Swap area][what-is-swap]. Click the `+` sign to open the `Create partition` dialog
 
-    ![Ubuntu install step 4][img-20]
+    ![Ubuntu install step 4](../images/virtual-box-windows/20-ubuntu-install-5.png)
 
-  A general rule of thumb is to have swap double the size of your RAM. In this case we set the size to 2048 since we have a RAM of 1024 MB on our VM.
+  In general I like to have the swap double the size of my available RAM. In this case we set the size to 2048 since we have a RAM of 1024 MB on our VM.
 
-    ![Ubuntu install step 5][img-21]
+    ![Ubuntu install step 5](../images/virtual-box-windows/21-ubuntu-install-6.png)
 
   Next we create our `root` partition, where the actual system will be installed. Don't forget to set the `Mount point` to `/`
 
-    ![Ubuntu install step 6][img-22]
+    ![Ubuntu install step 6](../images/virtual-box-windows/22-ubuntu-install-7.png)
 
   You should now have something like this
 
-    ![Ubuntu install step 6][img-23]
+    ![Ubuntu install step 6](../images/virtual-box-windows/23-ubuntu-install-8.png)
 
   You're now ready to install the system. Click `Install Now`. The following steps will be basic configurations for your system, namely:
     - Your location (Time zone)
@@ -140,34 +140,7 @@ We will take a rather simpler approach in this guide. We will use [VirtualBox](h
 
 
 
-[vbox-win-install]: http://download.virtualbox.org/virtualbox/5.0.2/VirtualBox-5.0.2-102096-Win.exe
+[vbox-win-install]: https://www.virtualbox.org/wiki/Downloads
 [ubuntu-download]: http://www.ubuntu.com/download/desktop
 [vt-xsearch]: https://www.google.com/search?q=enable+intel%C2%AE+virtualization+technology
 [what-is-swap]: http://askubuntu.com/questions/508870/what-is-a-swap-area
-
-
-
-[img-01]: ../images/virtual-box-windows/01-vb-install.png
-[img-02]: ../images/virtual-box-windows/02-download-ubuntu.png
-[img-03]: ../images/virtual-box-windows/03-new-vm-wizard.png
-[img-04]: ../images/virtual-box-windows/04-vm-name.png
-[img-05]: ../images/virtual-box-windows/05-vm-memory-size.png
-[img-06]: ../images/virtual-box-windows/06-vm-create-hdd.png
-[img-07]: ../images/virtual-box-windows/07-vm-hdd-type.png
-[img-08]: ../images/virtual-box-windows/08-vm-storage-mode.png
-[img-09]: ../images/virtual-box-windows/09-vm-hdd-size.png
-[img-10]: ../images/virtual-box-windows/10-vm-load-iso.png
-[img-11]: ../images/virtual-box-windows/11-vm-load-iso-1.png
-[img-12]: ../images/virtual-box-windows/12-vm-load-iso-2.png
-[img-13]: ../images/virtual-box-windows/13-vm-load-iso-3.png
-[img-14]: ../images/virtual-box-windows/14-vm-start.png
-[img-15]: ../images/virtual-box-windows/15-ubuntu-install.png
-[img-16]: ../images/virtual-box-windows/16-ubuntu-install-1.png
-[img-17]: ../images/virtual-box-windows/17-ubuntu-install-2.png
-[img-18]: ../images/virtual-box-windows/18-ubuntu-install-3.png
-[img-19]: ../images/virtual-box-windows/19-ubuntu-install-4.png
-[img-20]: ../images/virtual-box-windows/20-ubuntu-install-5.png
-[img-21]: ../images/virtual-box-windows/21-ubuntu-install-6.png
-[img-22]: ../images/virtual-box-windows/22-ubuntu-install-7.png
-[img-23]: ../images/virtual-box-windows/23-ubuntu-install-8.png
-
