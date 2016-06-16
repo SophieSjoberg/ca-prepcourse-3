@@ -4,7 +4,7 @@ You can go through the entire course using a service such as [Cloud9](https://c9
 
 
 
-![](../images/Skärmavbild 2015-12-17 kl. 07.55.43.png)
+![](../images/c9.png)
 
 Both Cloud9 and Koding have free plans and both allow several developers to collaborate and share code. Another handy service you can use to share code (but not execute it) is [Kobra.io](https://kobra.io) that also comes with handy video chat. 
 
