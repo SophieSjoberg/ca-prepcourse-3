@@ -59,6 +59,16 @@ To install RVM, run the following command in your terminal:
 $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 $ curl -L https://get.rvm.io | bash -s stable --auto-dotfiles --autolibs=enable --ruby
 ```
+
+> Note: If you get the following error after running the `gpg` command
+```shell
+-bash: gpg: command not found
+```
+You need to install gpg on your system:
+```shell
+brew install gnupg gnupg2
+```
+
 Once the installation is complete you must load RVM to make RVM available in your current session. Otherwise you'll need to restart your terminal. Run the following command in terminal:
 
 ```shell
