@@ -10,7 +10,7 @@ The front end of a website is the part that users interact with. Everything that
 * Javascript
 
 ### Back end
-The back end of a website consists of a server, an application and a database. A back-end developer builds and maintains the technology that powers those components that enables the front end side of a website to even exist in the first place.
+The back end of a website consists of a server, an application and a database. A back-end developer builds and maintains the technology that powers the components that enables the front end side of a website. to even exist in the first place.
 
 #### Technologies used
 * PHP

@@ -182,6 +182,7 @@ Now add the following configuration at the bottom of the file and save.
 # ~/.bash_profile
 
 if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+    export __GIT_PROMPT_DIR="$(brew --prefix bash-git-prompt)/share/"
     source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
 fi
 ```
