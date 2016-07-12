@@ -15,14 +15,12 @@ Ruby provides a number of basic operators for performing arithmetic \(the method
 | Operator | Description | Example |
 | :--- | :--- | :--- |
 | + | **Addition** - Adds values on either side of the operator | `a + b = 30` |
-
-
-
+| - | **Subtraction** - Subtracts right hand operand from left hand operand | `a - b = -10` |
 | Operator | Description | Example |
 | :--- | :--- | :--- |
 | + | **Addition** - Adds values on either side of the operator | `a + b = 30` |
 | - | **Subtraction** - Subtracts right hand operand from left hand operand | `a - b = 10` |
-| _    \| _**_Multiplication_**_ - Multiplies values on either side of the operator               \| \`a _ b = 200\` |
+| _    \| __**Multiplication**__ - Multiplies values on either side of the operator               \| \`a _ b = 200\` |
 | \/ | **Division** - Divides left hand operand by right hand operand | `a / b = 2` |
 | % | **Modulus** - Divides left hand operand by right hand operand and returns remainder | `a % b = 0` |
 | **       \| **Exponent** - Performs exponential \(power\) calculation on operators                \| \`a**b = 10^20\` |
