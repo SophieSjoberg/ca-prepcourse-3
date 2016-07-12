@@ -4,8 +4,8 @@ In the tables below we will list a number of operators in the Ruby language. Try
 We assume that `a` and  `b` are variables with the following values:
 
 ```
-a = 10
-b = 20
+a = 20
+b = 10
 ```
 
 ### Arithmetic Operators
@@ -15,15 +15,12 @@ Ruby provides a number of basic operators for performing arithmetic \(the method
 | Operator | Description | Example |
 | :--- | :--- | :--- |
 | + | **Addition** - Adds values on either side of the operator | `a + b = 30` |
-| - | **Subtraction** - Subtracts right hand operand from left hand operand | `a - b = -10` |
-| Operator | Description | Example |
-| :--- | :--- | :--- |
-| + | **Addition** - Adds values on either side of the operator | `a + b = 30` |
 | - | **Subtraction** - Subtracts right hand operand from left hand operand | `a - b = 10` |
-| _    \| __**Multiplication**__ - Multiplies values on either side of the operator               \| \`a _ b = 200\` |
+| \* | **Multiplication** - Multiplies values on either side of the operator | `a * b = 200` |
 | \/ | **Division** - Divides left hand operand by right hand operand | `a / b = 2` |
 | % | **Modulus** - Divides left hand operand by right hand operand and returns remainder | `a % b = 0` |
-| **       \| **Exponent** - Performs exponential \(power\) calculation on operators                \| \`a**b = 10^20\` |
+| \*\* | **Exponent** - Performs exponential (power) calculation on operators | `a**b = 10240000000000` |
+
 
 This is a good time to read about Simple Arithmetic in chapter 1 of [Chris Pine's, Learn to Program book ](https://pine.fm/LearnToProgram/chap_01.html) and go through the examples and exercises there.
 
