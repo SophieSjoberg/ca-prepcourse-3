@@ -14,7 +14,7 @@ Ruby provides a number of basic operators for performing arithmetic \(the method
 
 | Operator | Description | Example |
 | :--- | :--- | :--- |
-| + | Addition - Adds values on either side of the operator |  |
+| + | **Addition** - Adds values on either side of the operator | `a + b = 30` |
 
 
 
