@@ -40,7 +40,8 @@ $ irb
 ```
 
 ### Refactoring
-Since we are calling basically the same calculation in all `divisible_by_...?` methods, we can extract that to s method of its own. Something like:
+
+Since we are calling basically the same calculation in all `divisible_by_...?` methods, we can extract that to a method of its own. Something like:
 
 ```ruby
 # lib/fizz_buzz.rb
@@ -50,7 +51,7 @@ def has_zero_reminder(number, divider)
 end
 ```
 
-And once we have that method available, we can refactor our other methods to perform the calculation using the `has_zero_reminder` method, but still get the same results. 
+And once we have that method available, we can refactor our other methods to perform the calculation using the `has_zero_reminder` method, but still get the same results.
 
 Our final spec file can look like this:
 
@@ -63,19 +64,19 @@ describe 'fizz_buzz' do
   it "returns number if no conditions are met" do
     expect(fizz_buzz(1)).to eq 1 
   end
-  
+
   it "returns 'fizz' if number is divisible by 3" do
     expect(fizz_buzz(6)).to eq 'fizz'
   end
-  
+
   it "returns 'buzz' if number is divisible by 5" do
     expect(fizz_buzz(10)).to eq 'buzz'
   end
-  
+
   it "returns 'fizz buzz' if number is divisible by 15" do
     expect(fizz_buzz(30)).to eq 'fizz buzz'
   end
-  
+
 end
 ```
 
@@ -117,7 +118,4 @@ Here are some links to documentation for the things mentioned in this chapter. I
 * [RSpec: basic structure](https://relishapp.com/rspec/rspec-core/v/3-1/docs/example-groups/basic-structure-describe-it)
 * [RSpec: expectations](https://relishapp.com/rspec/rspec-expectations/docs)
 * [RSpec: built-in matchers](https://relishapp.com/rspec/rspec-expectations/v/3-1/docs/built-in-matchers)
-
-
-
 
