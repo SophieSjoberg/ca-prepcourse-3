@@ -92,7 +92,7 @@ $ git config --global core.editor "atom --wait"
 
 ### **Zsh**
 
-[**Zsh**](http://zsh.sourceforge.net) is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of [_bash_](https://www.gnu.org/software/bash/), _**ksh**_, and _**tcsh**_ were incorporated into zsh; many original features were added.
+**[Zsh](http://zsh.sourceforge.net)** is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of _[bash](https://www.gnu.org/software/bash/)_, **_ksh_**, and **_tcsh_** were incorporated into zsh; many original features were added.
 
 **Steps to install Zsh**
 
@@ -162,9 +162,9 @@ There are plenty of frameworks that have been created to help setup zsh configur
 
   ```
   setopt EXTENDED_GLOB 
-     for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
-         ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}" 
-     done
+    for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
+        ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}" 
+    done
   ```
 
   If you do the steps above, you will get the following files on your system:
@@ -185,7 +185,7 @@ There are plenty of frameworks that have been created to help setup zsh configur
   ```
   # Source Prezto.
   if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then 
-     source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+    source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
   fi
   ```
 
@@ -199,13 +199,13 @@ There are plenty of frameworks that have been created to help setup zsh configur
   # Set the Prezto modules to load (browse modules). 
   # The order matters. 
   zstyle ':prezto:load' pmodule \
-     'directory' \ 
-     'utility' \ 
-     'completion' \ 
-     'git' \ 
-     'prompt' \ 
-     'syntax-highlighting' \ 
-     'history-substring-search' \
+    'directory' \ 
+    'utility' \ 
+    'completion' \ 
+    'git' \ 
+    'prompt' \ 
+    'syntax-highlighting' \ 
+    'history-substring-search' \
   ```
 
 5. Set Zsh as your default shell:
@@ -221,15 +221,19 @@ There are plenty of frameworks that have been created to help setup zsh configur
 
 1. To list all available prompt themes:
 
-1. To preview a theme:
+  ```
+  prompt -l
+  ```
+
+2. To preview a theme:
 
   ```
   $ prompt -p <name-of-the-theme>
   ```
 
-2. To change to another prompt theme
+3. To change to another prompt theme
 
-3. ```
+4. ```
   $ prompt <name-of-the-theme>
   ```
 
