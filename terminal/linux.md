@@ -89,7 +89,7 @@ $ git config --global core.editor "atom --wait"
 
 ### **Zsh**
 
-**[Zsh](http://zsh.sourceforge.net)** is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of _[bash](https://www.gnu.org/software/bash/)_, **_ksh_**, and **_tcsh_** were incorporated into zsh; many original features were added.
+[**Zsh**](http://zsh.sourceforge.net) is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of [_bash_](https://www.gnu.org/software/bash/), _**ksh**_, and _**tcsh**_ were incorporated into zsh; many original features were added.
 
 **Steps to install Zsh**
 
@@ -140,6 +140,10 @@ There are plenty of frameworks that have been created to help setup zsh configur
 ### **Pretzo**
 
 [Prezto](https://github.com/sorin-ionescu/prezto) is a configuration framework for Zsh. It comes supplied with a variety of plugins and themes that can extend and customise your shell. There are other popular frameworks out there, one of which being [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) which is has more plugins and themes available, but is known to be considerably slower.
+
+**Steps to install Pretzo**
+
+
 
 ### Wrap
 
