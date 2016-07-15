@@ -89,7 +89,7 @@ $ git config --global core.editor "atom --wait"
 
 ### **Zsh**
 
-[**Zsh**](http://zsh.sourceforge.net) is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of [_bash_](https://www.gnu.org/software/bash/), _**ksh**_, and _**tcsh**_ were incorporated into zsh; many original features were added.
+**[Zsh](http://zsh.sourceforge.net)** is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of _[bash](https://www.gnu.org/software/bash/)_, **_ksh_**, and **_tcsh_** were incorporated into zsh; many original features were added.
 
 **Steps to install Zsh**
 
@@ -97,19 +97,23 @@ $ git config --global core.editor "atom --wait"
 
   * with the package manager of your choice \(_e.g._ `sudo apt-get install zsh`\) or
 
-  * from source, following instructions from the Zsh FAQ 
+  * from source, following instructions from the Zsh FAQ
 
 
-2. Verify installation by running the following commad in your terminal: `zsh --version`.
+
+1. Verify installation by running the following commad in your terminal: `zsh --version`.
   1. The expected result: zsh 5.2 or more recent.
 
 
-3. Make zsh your default shell by runnyng the following command in your terminal: `chsh -s $(which zsh)`
+1. Make zsh your default shell by runnyng the following command in your terminal: `chsh -s $(which zsh)`
 
   * **Note:** This will not work if Zsh is not in your authorized shells list \(`/etc/shells`\) or if you don't have permission to use `chsh`. If that's the case [you'll need to use a different procedure](https://www.google.com/search?q=zsh+default+without+chsh).
 
-4. Log out and login back again to use your new default shell.
-5. Go to your terminal to test if all worked by running: `echo $SHELL`. Expected result: `/bin/zsh`
+2. Log out and login back again to use your new default shell.
+
+3. Go to your terminal to test if all worked by running: `echo $SHELL`. 
+  1. The expected result should be: `/bin/zsh`
+
 
 There are plenty of frameworks that have been created to help setup zsh configurations and themes, the following list shows some frameworks that have been created in alphabetical order.
 
