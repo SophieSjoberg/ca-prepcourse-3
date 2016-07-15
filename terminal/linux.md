@@ -89,7 +89,7 @@ $ git config --global core.editor "atom --wait"
 
 ### **Zsh**
 
-[**Zsh**](http://zsh.sourceforge.net) is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of [_bash_](https://www.gnu.org/software/bash/), _**ksh**_, and _**tcsh**_ were incorporated into zsh; many original features were added.
+**[Zsh](http://zsh.sourceforge.net)** is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of _[bash](https://www.gnu.org/software/bash/)_, **_ksh_**, and **_tcsh_** were incorporated into zsh; many original features were added.
 
 **Steps to install Zsh**
 
@@ -143,6 +143,91 @@ There are plenty of frameworks that have been created to help setup zsh configur
 
 **Steps to install Pretzo**
 
+1. Open up a Terminal and launch zsh.
+
+  ```
+  zsh
+  ```
+
+2. Clone Pretzo git repository
+
+  ```
+  git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+  ```
+
+3. Create a Zsh configuration by copying the configuration files provided by the repo.
+
+  ```
+  setopt EXTENDED_GLOB 
+      for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
+          ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}" 
+      done
+  ```
+
+  If you do the steps above, you will get the following files on your system:
+
+  ```
+  lrwxrwxrwx 1 user user 32 Jan 20 20:41 .zlogin -> /home/user/.zprezto/runcoms/zlogin
+  lrwxrwxrwx 1 user user 33 Jan 20 20:41 .zlogout -> /home/user/.zprezto/runcoms/zlogout
+  drwxrwxr-x 5 user user 4096 Jan 20 20:43 .zprezto
+  lrwxrwxrwx 1 user user 35 Jan 20 20:42 .zpreztorc -> /home/user/.zprezto/runcoms/zpreztorc
+  lrwxrwxrwx 1 user user 34 Jan 20 20:42 .zprofile -> /home/user/.zprezto/runcoms/zprofile
+  lrwxrwxrwx 1 user user 25 Jan 20 20:33 .zsh -> /home/user/git/dotfiles/zsh
+  lrwxrwxrwx 1 user user 32 Jan 20 20:42 .zshenv -> /home/user/.zprezto/runcoms/zshenv
+  -rwx------ 1 user user 192662 Jan 20 20:48 .zsh_history
+  ```
+
+  If you do not need all the files, just clone the repository as described above and put the following line at the beginning of your .zshrc:
+
+  ```
+  # Source Prezto.
+  if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then 
+      source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+  fi
+  ```
+
+  **Please note:** You will be asked if you wish to overwrite your existing files \(like **.zshrc**\) or skip them, if they already exists.
+
+4. Configure your .zpreztorc
+
+  This is the heart of prezto - here you enable modules and configure them.
+  ```
+  # Set the Prezto modules to load (browse modules). 
+  # The order matters. 
+  zstyle ':prezto:load' pmodule \
+      'directory' \ 
+      'utility' \ 
+      'completion' \ 
+      'git' \ 
+      'prompt' \ 
+      'syntax-highlighting' \ 
+      'history-substring-search' \
+  ```
+
+5. Set Zsh as your default shell:
+
+  ```
+  chsh -s /bin/zsh
+  ```
+
+6. Open a new Zsh terminal window or tab.
+
+
+**Common Commands**
+
+1. To list all available prompt themes:
+
+
+2. To preview a theme:
+
+  ```
+  $ prompt -p <name-of-the-theme>
+  ```
+
+3. To change to another prompt theme
+4. ```
+  $ prompt <name-of-the-theme>
+  ```
 
 
 ### Wrap
