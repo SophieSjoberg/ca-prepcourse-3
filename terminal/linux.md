@@ -1,8 +1,8 @@
 # Linux
 
-In this section we will cover the steps required to setup your development environment on Ubuntu 14.04
+In this section we will cover the steps required to setup your development environment on Ubuntu 16.04
 
-If you haven't already, grab a copy of [Ubuntu 16.04 LTS \(Xenial Xerus\) here](http://www.ubuntu.com/download/desktop) and install it on your computer.
+If you haven't already, grab a copy of Ubuntu 16.04 LTS \(Xenial Xerus\) [here](http://www.ubuntu.com/download/desktop) and install it on your computer.
 
 ### Installing Ruby
 
@@ -75,6 +75,8 @@ At the beginning of the course \(week 1 - 6\) we'll be using a text editor to wr
 
 _"Atom is a text editor that's modern, approachable, yet hackable to the core — a tool you can customize to do anything but also use productively without ever touching a config file."_ - [https:\/\/atom.io](https://atom.io)
 
+![](/images/atom_io_landing_page.png)
+
 Download and install Atom by following the instructions on their web site. Once you are done you can browse around for some packages you might find useful. Or you wait with that until you actually know what 'useful' is in the context of coding. If you want to find out more about how to install Atom packages head over to the excellent [documentation](https://atom.io/docs/v1.2.4/using-atom-atom-packages) site. Also, read through this blog post about some Atom extensions that might prove useful: [http:\/\/www.sitepoint.com\/10-essential-atom-add-ons\/](http://www.sitepoint.com/10-essential-atom-add-ons/)
 
 For now, what you really want to do is to set Atom as the default editor fir Git \(trust me, you'll going to need it\):
@@ -83,9 +85,57 @@ For now, what you really want to do is to set Atom as the default editor fir Git
 $ git config --global core.editor "atom --wait"
 ```
 
+### **Zsh and Pretzo **
+
+### **Zsh**
+
+[**Zsh**](http://zsh.sourceforge.net) is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of [_bash_](https://www.gnu.org/software/bash/), _**ksh**_, and _**tcsh**_ were incorporated into zsh; many original features were added.
+
+**Steps to install Zsh**
+
+1. There are two main ways to install Zsh :
+
+  * with the package manager of your choice \(_e.g._ `sudo apt-get install zsh`\) or
+
+  * from source, following instructions from the Zsh FAQ 
+
+
+2. Verify installation by running the following commad in your terminal: `zsh --version`.
+  1. The expected result: zsh 5.2 or more recent.
+
+
+3. Make zsh your default shell by runnyng the following command in your terminal: `chsh -s $(which zsh)`
+
+  * **Note:** This will not work if Zsh is not in your authorized shells list \(`/etc/shells`\) or if you don't have permission to use `chsh`. If that's the case [you'll need to use a different procedure](https://www.google.com/search?q=zsh+default+without+chsh).
+
+4. Log out and login back again to use your new default shell.
+5. Go to your terminal to test if all worked by running: `echo $SHELL`. Expected result: `/bin/zsh`
+
+There are plenty of frameworks that have been created to help setup zsh configurations and themes, the following list shows some frameworks that have been created in alphabetical order.
+
+* [alf](https://github.com/psyrendust/alf)
+* [ant-zsh](https://github.com/anthraxx/ant-zsh)
+* [antibody](https://github.com/caarlos0/antibody)
+* [antigen-hs](https://github.com/Tarrasch/antigen-hs)
+* [antigen](https://github.com/zsh-users/antigen)
+* [dotzsh](https://github.com/dotphiles/dotzsh)
+* [fresh](https://github.com/freshshell/fresh)
+* [oh-my-zsh](http://ohmyz.sh/)
+* [prezto](https://github.com/sorin-ionescu/prezto)
+* [pumice](https://github.com/ryutamaki/pumice)
+* [zeesh](https://github.com/zeekay/zeesh)
+* [zgen](https://github.com/tarjoilija/zgen)
+* [zilsh](https://github.com/zilsh/zilsh)
+* [zim](https://github.com/Eriner/zim)
+* [zoppo](https://github.com/zoppo/zoppo)
+* [zplug](https://github.com/b4b4r07/zplug)
+* [zplugin](https://github.com/psprint/zplugin)
+* [ZPM](https://github.com/horosgrisa/ZPM)
+* [ztanesh](https://github.com/miohtama/ztanesh)
+
 ### **Pretzo**
 
-
+[Prezto](https://github.com/sorin-ionescu/prezto) is a configuration framework for Zsh. It comes supplied with a variety of plugins and themes that can extend and customise your shell. There are other popular frameworks out there, one of which being [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) which is has more plugins and themes available, but is known to be considerably slower.
 
 ### Wrap
 
