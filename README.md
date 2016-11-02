@@ -27,12 +27,12 @@ If you have any questions, feel free to contact us at info@craftacademy.se
 Gothenburg, December 2015<br>
 www.craftacademy.se
 
-**Disclaimer: This is very much a Work In Progress (WIP) and we will be pushing content regularly so please use the online version if you can or make sure you download/update the pdf, mobi or epub versions regurarly.**
+**Disclaimer: This is very much a Work In Progress (WIP) and we will be pushing content regularly so please use the online version if you can or make sure you download/update the pdf, mobi or epub versions regularly.**
 
  
 
-![Logo](http://assets.craftacademy.se/images/logo/logo-with-tagline_small.png "Craft Academy by Pragmatic Sweden AB")
+![Logo](https://assets.craftacademy.se/images/logo/logo-with-tagline_small.png "Craft Academy by Pragmatic Sweden AB")
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Craft Academy Bootcamp</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Pragmatic Sweden</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png" /><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Craft Academy Bootcamp</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Pragmatic Sweden</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 
