@@ -1,6 +1,20 @@
 # Mac OSX
 
-Almost everything that follows below needs to be dine by typing in commands in your terminal. There's plenty of steps that needs to be finished before your development environment is set up. See this as a learning experience - a big part of a programmers job is to use third party tools and tweak his own, or a remote system. 
+Almost everything that follows below needs to be dine by typing in commands in your terminal. There's plenty of steps that needs to be finished before your development environment is set up. See this as a learning experience - a big part of a programmers job is to use third party tools and tweak his own, or a remote system.
+
+#### Atom
+At the beginning of the course (week 1 - 6) we'll be using a text editor to write code. There are many editors out there we can use. [Sublime](http://www.sublimetext.com/) is one, [TextMate](https://macromates.com/) is another, but our editor of choice for this course is [Atom](https://atom.io). It is brought to us by the good people of GitHub and comes with over 3000 extension packages - all open sourced.
+
+*"Atom is a text editor that's modern, approachable, yet hackable to the core — a tool you can customize to do anything but also use productively without ever touching a config file."* - https://atom.io
+![Atom.io - Download for OS X](../images/atom_io_landing_page.png)
+
+Download and install Atom by following the instructions on their [web site](). Once that's done you can browse around for some packages you might find useful. Or you wait with that until you actually know what '*useful*' is in the context of coding. If you want to find out more about how to install Atom packages head over to their excellent [documentation](https://atom.io/docs/v1.2.4/using-atom-atom-packages) site. Also, read through this blog post about some Atom extensions that might prove useful: http://www.sitepoint.com/10-essential-atom-add-ons/
+
+For now, what you really want to do is to set Atom as the default editor fir Git (trust me, you are going to need it):
+
+```shell
+$ git config --global core.editor "atom --wait"
+```
 
 #### Xcode Command Line Tools
 [Xcode](https://developer.apple.com/xcode/) is an integrated development environment (IDE) with a suite of tools for developing software for OS X and iOS. But Xcode is more than what just meets the eye. Ruby gems often use so called "native extensions", that connects them with other non-Ruby components on your machine. Without Xcode installed, you don't have the necessary code compilers installed and can not use those extensions. While installing Xcode you also install LLVM, GCC, and many other developer tools. 
@@ -153,18 +167,20 @@ $ git config --global user.email "your@email.com"
 ```
 Now, you are ready to use Git. 
 
-#### Atom
-At the beginning of the course (week 1 - 6) we'll be using a text editor to write code. There are many editors out there we can use. [Sublime](http://www.sublimetext.com/) is one, [TextMate](https://macromates.com/) is another, but our editor of choice for this course is [Atom](https://atom.io). It is brought to us by the good people of GitHub and comes with over 3000 extension packages - all open sourced.
+#### Git Autocomplete
 
-*"Atom is a text editor that's modern, approachable, yet hackable to the core — a tool you can customize to do anything but also use productively without ever touching a config file."* - https://atom.io
-![Atom.io - Download for OS X](../images/atom_io_landing_page.png)
+Install bash-completion: `brew install brew install bash-completion` 
 
-Download and install Atom by following the instructions on their [web site](). Once that's done you can browse around for some packages you might find useful. Or you wait with that until you actually know what '*useful*' is in the context of coding. If you want to find out more about how to install Atom packages head over to their excellent [documentation](https://atom.io/docs/v1.2.4/using-atom-atom-packages) site. Also, read through this blog post about some Atom extensions that might prove useful: http://www.sitepoint.com/10-essential-atom-add-ons/
+Add bash-completion to your `~/.bash_profile`.
 
-For now, what you really want to do is to set Atom as the default editor fir Git (trust me, you are going to need it):
+```
+$ atom ~/.bash_profile
+```
 
-```shell
-$ git config --global core.editor "atom --wait"
+```
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
 ```
 
 #### Terminal prompt
