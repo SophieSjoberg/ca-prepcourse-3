@@ -1,9 +1,9 @@
 ## Soft Skills
 
-**Software development is a peoples business.**
+**Software development is a people's business.**
 
-That's a pretty bold statement, but the way we see it 
-Apart from the technical skills that we work with during the camp, we also focus an another side of the professional profile of our students. Soft skills may be the most important skills set you will gain during your time at Craft Academy. In the long run, these skill will allow you to continue to grow as a professional developer and make it possible to move up the ladder in an organization.
+That's a pretty bold statement, but the way we see it -
+apart from the technical skills that we work with during the camp - we also focus an another side of the professional profile of our students. Soft skills may be the most important skill set you will gain during your time at Craft Academy. In the long run, these skill will allow you to continue to grow as a professional developer and make it possible to move up the ladder in an organization.
 
 
 ### Holistic attitude
