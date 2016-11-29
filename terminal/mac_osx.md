@@ -162,10 +162,12 @@ $ git --version
 git version 2.4.4
 ```
 
-Next, let's tell git who we are.
+Next, let's tell git who we are. `your_name` should be replaced with your name.
 ```shell
-$ git config --global user.name < your name >
-$ git config --global user.email < your@email.com >
+$ git config --global user.name your_name
+    # Sets the default name for git to use when you commit
+$ git config --global user.email your@email.com
+    # Sets the default email for git to use when you commit
 ```
 Now, you are ready to use Git. 
 
