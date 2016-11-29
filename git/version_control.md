@@ -49,6 +49,12 @@ Now `touch git.txt` and `atom git.txt` to create and open a file. Add some text 
 
 ![](Screen Shot 2016-11-29 at 1.07.35 PM.png)
 
+#### Git Status
+To view all changes since the last commit, run:
+```shell
+$ git status
+```
+
 #### Staging area
 Git has a concept of a ‘staging area’. This is where we gather up all the changes we want to add to a commit or snapshot of our work. First stage all of the changes you want in a single “commit”.
 
@@ -95,81 +101,60 @@ Now add a remote repository by replacing `repo_url` with the url you copied abov
 ```shell
 $ git remote add origin repo_url
 ```
-`git remote -v` will show you a list of your remotes - the online folders you can connect to. Right now we only have `origin` - that refers to our own GitHub repository online. Later you will connect with your teammates with the same functions.
+`git remote -v` will show you a list of your remotes - the online folders you can connect to. Right now we only have `origin` - that refers to our own GitHub repository online. Later you will connect with your teammates with the same functions. "Origin" is just a nickname we use, by convention, for our own project online.
 
 ####Push
-Push to your remote repository
+Push to your remote repository.
 ```shell
 $ git push origin master 
-    #or
-$ git push origin my_branch:master
 ```
+We are pushing to `origin` our branch `master`. You only have one branch right now, but we are about to add a new one.
 
-Note that several commits can be pushed to git repository at once
+Now go to your GitHub repo and refresh the page - you should see your `git.txt` file.
+
+Note that you don't have to push after every commit. You can save them up and push them all together if you like.
 
 #### Branching
+Branching is one of the most useful parts of version control. With a branch, we can try out all kinds of new code and if none of it works, we can just delete the branch. It's a way to organize features (things we want to do in our project) and also helps us work effectively with colleagues.
+
+To see your current branches:
+
 ```shell
 $ git branch 
-$ git branch [new branch name]
-$ git checkout [new branch name]
-$ git checkout -b [new branch name]
-$ git checkout remote/branch
-$ git checkout -b branch
 ```
 
-### Exercise
-
-Create a new project and access the project folder
-
+To make a new branch:
 ```shell
-$ cd my_project
+$ git branch new_branch_name
 ```
-Initialize git
+
+To "checkout" or switch to your new branch:
 ```shell
-$ git init
-Initialized empty Git repository in .git/
+$ git checkout new_branch_name
 ```
 
-Create a file called `hello.rb` inside the `my_project` folder.
+To both create and checkout a branch in one line:
 ```shell
-$ touch hello.rb
+$ git checkout -b new_branch_name
 ```
 
-Add the following code to that file
+Now make a new branch - `git2`. Check it out and create a new text file inside this branch. Save, stage, commit, then push (use `git push origin git2` to `origin`. Go to GitHub and see what has happened. (Hint: check at the top left under "branch: master").
 
-```ruby
-puts 'Hello World'
-```
-Run the code (just for the sake of it - it has no bearing on the exercise).
+Locally (your own computer is referred to as `local`), check out `master` again. Where has your `git2` text file gone? The branch `master` doesn't know about it, so it will not appear in your text editor.
+
+#### Merging
+So now that we have a new branch and a second text file we would like to keep, we can merge the two branches so that can have all of our changes together.
+
+First check out `master`. Then:
 ```shell
-$ ruby hello.rb
+$ git merge git2
 ```
-Check the status
+You have now "merged" changes from `git2` into `master`. You can see both files. Try `git log` to see the history. You can now safely delete the `git2` branch with:
 ```shell
-$ git status
+$ git branch -D git2
 ```
 
-Add the `hello.rb` file to git to track it, and create a commit
-```shell
-$ git add hello.rb
-$ git commit -m “my first commit”
-```
-Check your commit history
-```shell
-$ git log
-```
-
-### Labs - Git Immersion
-There is a very good resource available on-line that allows you to practice your git skills called Git Immersion. Head over to their website and work your way through all labs. Make sure to follow the instructions carefully and push up your work to your GitHub account.
-
-Start [Git Immersion Labs](http://gitimmersion.com/lab_01.html)
-
-**Note that we have covered some of the steps included in Git Immersion, but please go over everything again. Git is a very important skill to master if you want to succeed with the Craft Academy course.**
-### Resources
-
-* Git Pro on-line book - http://git-scm.com/book/en/v2
-* Basic Video tutorials - http://git-scm.com/videos
-* Git reference_ http://git-scm.com/docs
+**Craft Academy bootcamp students: when you have finished this exercise, drop a link to your `basic_git` repo in Slack so we can track your progress.**
 
 
 
