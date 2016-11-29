@@ -31,4 +31,5 @@
 * [Introduction to Frameworks](the_web/introduction_to_frameworks.md)
    * [Sinatra - first steps](the_web/sinatra_first_steps.md)
 * [Week Two - HTML / CSS and Introduction to Ruby](week_two_-_html__css_and_introduction_to_ruby.md)
+* Week Three - Testing with RSpec and Introduction to Frameworks
 
