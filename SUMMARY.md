@@ -6,9 +6,9 @@
    * [The stack](the_web/the_stack.md)
    * [Soft Skills](the_web/soft_skills.md)
    * [Pair Learning](workflow/pair_learning.md)
+* Week One - The Terminal, Development Environment, Version Control
 * [The Terminal](terminal/terminal_1.md)
    * [Cheatsheet](terminal/cheatsheet.md)
-* Week One - The Terminal, Development Environment, Version Control
 * [Setup for developers](terminal/setup_for_developers.md)
    * [Mac OSX](terminal/mac_osx.md)
    * [Linux](terminal/linux.md)
