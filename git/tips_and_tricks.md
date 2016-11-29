@@ -1,4 +1,4 @@
-## Tips and Tricks
+## Git Shorthand
 
 `git status`, `git add`, `git commit`, and `git checkout` are such common commands that it is useful to have abbreviations for them.
 
