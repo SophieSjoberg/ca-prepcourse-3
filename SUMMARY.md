@@ -9,6 +9,7 @@
 * [Week One - The Terminal, Development Environment, Version Control](week_one_-_the_terminal,_development_environment,_.md)
 * [The Terminal](terminal/terminal_1.md)
 * [Cheatsheet](terminal/cheatsheet.md)
+   * Terminal Resources
 * [Setup for developers](terminal/setup_for_developers.md)
    * [Mac OSX](terminal/mac_osx.md)
    * [Linux](terminal/linux.md)
