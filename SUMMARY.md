@@ -6,6 +6,7 @@
    * [The stack](the_web/the_stack.md)
    * [Soft Skills](the_web/soft_skills.md)
    * [Pair Learning](workflow/pair_learning.md)
+* Week One - The Terminal, Development Environment, Version Control
 * [The Terminal](terminal/terminal_1.md)
    * [Cheatsheet](terminal/cheatsheet.md)
 * [Setup for developers](terminal/setup_for_developers.md)
@@ -29,5 +30,4 @@
    * [Wrap it up](tdd/step_3_wrap_it_up.md)
 * [Introduction to Frameworks](the_web/introduction_to_frameworks.md)
    * [Sinatra - first steps](the_web/sinatra_first_steps.md)
-* Week One - The Terminal, Development Environment, Version Control
 
