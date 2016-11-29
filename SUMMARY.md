@@ -8,7 +8,7 @@
    * [Pair Learning](workflow/pair_learning.md)
 * Week One - The Terminal, Development Environment, Version Control
 * [The Terminal](terminal/terminal_1.md)
-   * [Cheatsheet](terminal/cheatsheet.md)
+* [Cheatsheet](terminal/cheatsheet.md)
 * [Setup for developers](terminal/setup_for_developers.md)
    * [Mac OSX](terminal/mac_osx.md)
    * [Linux](terminal/linux.md)
