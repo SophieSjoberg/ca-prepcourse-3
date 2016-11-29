@@ -5,17 +5,6 @@
 Craft Academy is a 12-week intensive, practice-oriented course for aspiring junior developers. The course is delivered as a coding bootcamp by Craft Academy in Gothenburg, Sweden. It gives you the basics you need to create, develop and launch web-based applications.
 
 The aim is to teach you the fundamentals of web development, enabling you to hit the ground running – and keep running. But what is important is that modern engineering practices are considered to be part of this foundation. As a student, you'll work from day one with **automated testing**, **continuous integration and deployment**, and other essential skills. This means that when you enter the workforce and are faced with a problem, your instinct will be to solve intelligently rather than just hacking a solution together.
- 
- 
- Here's what we will cover in this prep course:
- 
- |  | Materials | Demos |
-| -- | -- | -- |
-| Week One | Terminal Commands<br>Setting up our developer environment<br>Version Control | Git workflow<br>Office Hours for help with setup |
-| Week Two | Basic HTML & CSS and our first website<br>Introduction to Ruby Programming | Publishing a website<br>Our first Ruby program |
-| Week Three | Introduction to testing with RSpec<br>Using the Sinatra framework | Our first unit tests with RSpec<br>Basic Sinatra |
-| Week Four | Introduction to programming with Javascript | Our first Javascript program |
- 
 
 ### Open Source
 This publication contains the course materials we ask all our future students to go through. You are free to use it for your personal learning needs even if you are not attending our bootcamp; we encourage that. 
