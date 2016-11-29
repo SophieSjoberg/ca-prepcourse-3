@@ -19,6 +19,7 @@
 * [Version Control](git/version_control.md)
    * [Tips and Tricks](git/tips_and_tricks.md)
    * [git-exercises](git/git-exercises.md)
+* [Week Two - HTML / CSS and Introduction to Ruby](week_two_-_html__css_and_introduction_to_ruby.md)
 * [Your first website](the_web/your_first_website.md)
 * [Introduction to Ruby](ruby/introduction_to_ruby.md)
    * [The basics](ruby/the_basics.md)
@@ -33,7 +34,6 @@
    * [Wrap it up](tdd/step_3_wrap_it_up.md)
 * [Introduction to Frameworks](the_web/introduction_to_frameworks.md)
    * [Sinatra - first steps](the_web/sinatra_first_steps.md)
-* [Week Two - HTML / CSS and Introduction to Ruby](week_two_-_html__css_and_introduction_to_ruby.md)
 * [Week Three - Testing with RSpec and Introduction to Frameworks](week_three_-_testing_with_rspec_and_introduction_t.md)
 * [Week Four - Javascript, JQuery and Wrapping up the Prep course](week_four_-_javascript,_jquery_and_wrapping_up_the.md)
 
