@@ -21,6 +21,7 @@
    * [git-exercises](git/git-exercises.md)
 * [Week Two - HTML / CSS and Introduction to Ruby](week_two_-_html__css_and_introduction_to_ruby.md)
 * [Your first website](the_web/your_first_website.md)
+   * HTML / CSS further reading
 * [Introduction to Ruby](ruby/introduction_to_ruby.md)
    * [The basics](ruby/the_basics.md)
    * [Basic syntax](ruby/basicsyntax_rb.md)
