@@ -1,6 +1,7 @@
 ## Operators
 
-In the tables below we will list a number of operators in the Ruby language. Try them out in `irb` as you go along. 
+In the tables below we will list a number of operators in the Ruby language. Try them out in `irb` as you go along. You won't be able to memorize all of these, but you will definitely need every single one of them at some point during the bootcamp. Bookmark this page or print it out as a reference. It's very important that you understand what all of these operators do. If one is confusing, make a note and come back and practice.
+
 We assume that `a` and  `b` are variables with the following values:
 
 ```
@@ -20,8 +21,6 @@ Ruby provides a number of basic operators for performing arithmetic \(the method
 | `/` | **Division** - Divides left hand operand by right hand operand | `a / b = 2` |
 | `%` | **Modulus** - Divides left hand operand by right hand operand and returns remainder | `a % b = 0` |
 | `**` | **Exponent** - Performs exponential \(power\) calculation on operators | `a**b = 10240000000000` |
-
-This is a good time to read about Simple Arithmetic in chapter 1 of [Chris Pine's, Learn to Program book ](https://pine.fm/LearnToProgram/chap_01.html) and go through the examples and exercises there.
 
 ### Comparison Operators
 
