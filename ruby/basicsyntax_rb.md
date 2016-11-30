@@ -1,6 +1,5 @@
-## Basic syntax
+## Files
 
-### Files
 A Ruby program can, of course, be stored in a file. By convention, Ruby source files have the `.rb` file extension. In most editors, like Atom, your code will automatically be color coded. That is very convenient.
 
 Let's say you write a short Ruby script and save it in a file called `hello_world.rb`. 
@@ -15,7 +14,7 @@ end
 
 ```
 
-(Think about what this code does and consider the simplicity of Ruby.) If you want to execute it from your terminal you can do:
+What do you think this code will do? (Hint: `puts` will print onto the terminal). When you have a guess, run the file in your terminal:
 
 ```shell
 $ ruby hello_world.rb
@@ -33,14 +32,7 @@ Hello Thomas
 Hello Kalle
 Hello Anders
  => true 
-2.2.0 :002 > require './hello_world.rb'
-Hello Thomas
-Hello Kalle
-Hello Anders
- => true 
 ```
-
-Please note the different way you point to the file when you use the `load` command and when you use the `require` command. Why is that?
 
 ### Exercise
 
