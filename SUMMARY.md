@@ -28,6 +28,7 @@
    * [Classes](ruby/classes.md)
    * [Operators](ruby/operators.md)
    * [Don't read me](ruby/dont_read_me.md)
+   * methods
 * [Test Driven Development](tdd/tdd_intro.md)
    * [Fizz-Buzz](tdd/fizz-buzz_1.md)
    * [Setting the stage](tdd/step_1_setting_the_stage.md)
