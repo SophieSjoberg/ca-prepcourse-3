@@ -40,6 +40,7 @@ class House
   end
 end
 ```
+
 Try this code in `irb` by defining the class and trying to instantiate an new  `Account` object. What happens if you do this?
 
 ```bash
@@ -61,7 +62,18 @@ Try instead to pass in a name and a balance as "arguments":
 ```
 Looks like that works better, right?
 
-However, we are still not quite where we want to be. In many cases you want to be not only be able to access the values (that we can do at this point), but also modify them. For that we need some **setter methods**. We could define those methods ourselves, but Ruby offers us a better way. How about this code:
+The `initialize` method takes the paramaters `color` and `windows`, then _sets_ those values on the object. The line `@color = color` means it will take the `color` that is input to the method and save it as part of the instance. `color` and `@color` are variables - they could both be called anything. Don't believe me? Try:
+```ruby
+class House  
+  def initialize(dinosaurs, bugs)
+    @color = dinosaurs
+    @windows = bugs
+  end
+end
+```
+Run this in irb and see what a new `House` object looks like. Where are the dinosuars?
+
+We are still not quite where we want to be. In many cases you want to be not only be able to access the values (that we can do at this point), but also modify them. For that we need some **setter methods**. We could define those methods ourselves, but Ruby offers us a better way. How about this code:
 
 ```ruby
 class House  
