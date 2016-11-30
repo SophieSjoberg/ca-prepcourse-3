@@ -26,7 +26,7 @@
    * [The basics](ruby/the_basics.md)
    * [Basic syntax](ruby/basicsyntax_rb.md)
    * [Classes](ruby/classes.md)
-   * methods
+   * [methods](ruby/methods.md)
    * [Operators](ruby/operators.md)
    * [Don't read me](ruby/dont_read_me.md)
 * [Test Driven Development](tdd/tdd_intro.md)
