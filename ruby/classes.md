@@ -40,7 +40,7 @@ class House
   end
 end
 ```
-Try this code in `irb` by defining the class and trying to instantiate an new  `Account` object. What happens if you do this? (You'll have to load the file again to get the new changes.)
+Try this code in `irb` by defining the class and trying to instantiate an new  `Account` object. What happens if you do this?
 
 ```bash
 2.2.0 :001 > a = House.new
