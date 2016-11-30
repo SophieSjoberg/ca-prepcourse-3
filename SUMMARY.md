@@ -26,9 +26,9 @@
    * [The basics](ruby/the_basics.md)
    * [Basic syntax](ruby/basicsyntax_rb.md)
    * [Classes](ruby/classes.md)
+   * methods
    * [Operators](ruby/operators.md)
    * [Don't read me](ruby/dont_read_me.md)
-   * methods
 * [Test Driven Development](tdd/tdd_intro.md)
    * [Fizz-Buzz](tdd/fizz-buzz_1.md)
    * [Setting the stage](tdd/step_1_setting_the_stage.md)
