@@ -1,0 +1,2 @@
+# Javascript Exercises #1
+
