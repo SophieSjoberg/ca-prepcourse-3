@@ -7,3 +7,4 @@
 
 ### Extra Credit
 - Read and understand [this article](https://blog.makersacademy.com/coding101-ruby-classes-explained-b0645a721288#.3fraw5sks) explaining Ruby classes.
+- [Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html)
