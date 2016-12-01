@@ -44,4 +44,5 @@
    * [Javascript Exercises #1](javascript_exercises_1.md)
    * [Defining Functions](defining_functions.md)
    * [Prototypes and Classes](prototypes_and_classes.md)
+   * miscellaneous
 
