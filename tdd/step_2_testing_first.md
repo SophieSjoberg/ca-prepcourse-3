@@ -185,6 +185,8 @@ def fizz_buzz(number)
   end
 end
 ```
+If modulus (%) is still unclear, try [this YouTube video](https://www.youtube.com/watch?v=b5cb_nfDyyM) explaining it visually. Modulus is an important, though confusing, operator to understand.
+
 And we also need to add a `divisible_by_three` method and allow it to take one argument. One way to figure out if a number is divisible by another is to use the modulus operator. Remember, in computing, a modulus operation finds the remainder after division of one number by another. If the reminder is `0` then the method returns `true` - if not, it will return `false`.
 
 ```ruby
