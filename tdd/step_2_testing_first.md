@@ -198,7 +198,7 @@ Finished in 0.00148 seconds (files took 0.13955 seconds to load)
 2 examples, 0 failures
 ```
 ### Review and reflect
-Okay, so at this point we need to take a step back and review and reflect on what we have done. There is a series of questions you need to ask yourself:
+Okay, so at this point we need to take a step back and review and reflect on what we have done. There are a series of questions you need to ask yourself:
 1. How does flow control work?
 2. Can you come up with another example of flow control that you could have used here?
 3. How does the `%` operator work?
