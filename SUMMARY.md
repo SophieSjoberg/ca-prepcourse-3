@@ -41,4 +41,5 @@
    * [Introduction to Javascript](introduction_to_javascript.md)
    * [Variables, Objects and Arrays](variables,_objects_and_arrays.md)
    * [Comparisons and Manipulations](comparisons_and_manipulations.md)
+   * Javascript Exercises #1
 
