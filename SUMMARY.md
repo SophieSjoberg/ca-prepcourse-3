@@ -38,4 +38,5 @@
    * [Testing first](tdd/step_2_testing_first.md)
    * [Wrap it up](tdd/step_3_wrap_it_up.md)
 * [Week Four - Javascript, JQuery and Wrapping up the Prep course](week_four_-_javascript,_jquery_and_wrapping_up_the.md)
+   * Introduction to Javascript
 
