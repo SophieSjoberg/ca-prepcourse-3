@@ -37,7 +37,5 @@
    * [Setting the stage](tdd/step_1_setting_the_stage.md)
    * [Testing first](tdd/step_2_testing_first.md)
    * [Wrap it up](tdd/step_3_wrap_it_up.md)
-* [Introduction to Frameworks](the_web/introduction_to_frameworks.md)
-   * [Sinatra - first steps](the_web/sinatra_first_steps.md)
 * [Week Four - Javascript, JQuery and Wrapping up the Prep course](week_four_-_javascript,_jquery_and_wrapping_up_the.md)
 
