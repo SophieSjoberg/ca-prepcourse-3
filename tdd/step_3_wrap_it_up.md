@@ -114,6 +114,8 @@ def has_zero_remainder?(number, divider)
 end
 ```
 
+**When you are done with the fizz-buzz program, upload your work to Github and paste a link in Slack.**
+
 ### Extra resources
 
 Here are some links to documentation for the things mentioned in this chapter. It is always a good idea to glance over the docs to see what else exists in the API or DSL you are using.
