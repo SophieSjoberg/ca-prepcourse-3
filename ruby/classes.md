@@ -1,43 +1,50 @@
 # Classes
 
-A class is the blueprint from which individual objects are created. A Ruby class always starts with the keyword `class` followed by the name of the class. The name should always be in initial capitals. For instance a `Account` class can be created as:
+The concept of a "class" is abstract. You can think of classes as _blueprints_ for creating objects. Say you want to make a house. You'll need some instructions for how to make a house - a blueprint. A house should have a roof, and some windows, and needs to be on a piece of land, it needs to have paint, etc. You can use that blueprint to make any number of houses, right? And the blueprint itself is not a house. It's just a plan about how to make a house.
+
+Classes work the same way. We'll create a class and give it "properties" or "attributes". Any objects created from that class will have the same attributes, but different values. For instance, our blueprint might say that a house needs to have "paint". When we create a real house from that blueprint, we'll define that paint color.
+
+A Ruby class always starts with the keyword `class` followed by the name of the class. The name should always be in initial capitals. For instance a `House` class can be created as:
 
 ```ruby
-class Account
+class House
 end 
 ``` 
-This is the bare minimum code you need to write to create a class. Try to define and instantiate the `Account` class in `irb`:
+This is the bare minimum code you need to write to create a class. Try to define and instantiate the `House` class in `irb`:
 
 ```bash
 $ irb
-2.2.0 :001 > class Account
+2.2.0 :001 > class House
 2.2.0 :002?>   end
  => nil
  ````
 Now let's create a account object and use it:
 ```ruby
-2.2.0 :003 > a = Account.new
- => #<Account:0x007fc55110ad60> 
+2.2.0 :003 > a = House.new
+ => #<House:0x007fc55110ad60> 
 ```
-The `a = Account.new` command creates an **instance** of the `Account` class and stores it in a local variable called `a`. At this point there is not much we can do with this object, but still, it has come to life ;-)
+The `a = House.new` command creates an **instance** of the `House` class and stores it in a local variable called `a`. At this point there is not much we can do with this object, but still, it has come to life ;-)
+
+Now `a` stores a "real" `House`, whereas the `House` class is just instructions for creating one.
 
 ### The `initialize` method
-Let's say that we want the `Account` class to have some attributes, like the account holders name and account balance (Yeah, I forgot to mention that, let's assume that we are creating a bank account and not a user account in a system). 
+Let's say that we want the `House` class to have some attributes, like color or number of windows. 
 
-Every Ruby class invokes a **constructor** method called `initialize`. The `initialize` method is useful when you want to initialize some class variables at the time of object creation. This method can, like any other ruby method, take a list of arguments and store them as local variables:
+Every Ruby class invokes a **constructor** method called `initialize`. This is stuff that happens to the instance of the class (the object) right when it is created.
 
 ```ruby
-class Account  
-  def initialize(holder, balance)
-    @holder = holder
-    @balance = balance
+class House  
+  def initialize(color, windows)
+    @color = color
+    @windows = windows
   end
 end
 ```
+
 Try this code in `irb` by defining the class and trying to instantiate an new  `Account` object. What happens if you do this?
 
 ```bash
-2.2.0 :001 > a = Account.new
+2.2.0 :001 > a = House.new
 ```
 You have not passed in any values to the `initialize` method and you are getting an error, right? It might look something like this:
 ```bash
@@ -48,64 +55,44 @@ ArgumentError: wrong number of arguments (0 for 2)
 	from /Users/thomas/.rvm/rubies/ruby-2.2.0/bin/irb:11:in `<main>'
 ```
 
-Try instead to pass in a name and a balance as arguments:
+Try instead to pass in a name and a balance as "arguments":
 ```bash
-2.2.0 :098 > a = Account.new 'Thomas', 100
- => #<Account:0x007fb35421ab60 @holder="Thomas", @balance=100> 
+2.2.0 :098 > a = House.new 'blue', 10
+ => #<House:0x007fb35421ab60 @color="blue", @windows=10> 
 ```
 Looks like that works better, right?
 
-However, we are still not quite where we want to be. In many cases you want to be not only be able to access the values (that we can do at this point), but also modify them. For that we need some **setter methods**. We could define those methods ourselves, but Ruby offers us a better way. How about this code:
-
+The `initialize` method takes the paramaters `color` and `windows`, then _sets_ those values on the object. The line `@color = color` means it will take the `color` that is input to the method and save it as part of the instance. `color` and `@color` are variables - they could both be called anything. Don't believe me? Try:
 ```ruby
-class Account  
-  attr_accessor :holder, :balance
-  def initialize(holder, balance)
-    self.holder, self.balance = holder, balance
+class House  
+  def initialize(dinosaurs, bugs)
+    @color = dinosaurs
+    @windows = bugs
   end
 end
 ```
+Run this in irb and see what a new `House` object looks like. Where are the dinosuars?
+
+We are still not quite where we want to be. In many cases you want to be not only be able to access the values (that we can do at this point), but also modify them. For that we need some **setter methods**. We could define those methods ourselves, but Ruby offers us a better way. How about this code:
+
+```ruby
+class House  
+  attr_accessor :color, :windows
+  def initialize(color, windows)
+    @color = color
+    @windows = windows
+  end
+end
+```
+That `attr_accessor` is a helper method that allows us to `read` and `write` to the _attributes_ listed after it. So now we can "set" the attributes `color` and `windows`. Try running your code again in irb. Change the color of the house. Give it some more windows.
 
 ### Exercise
-Have a look at the latest code defining the `Account` class. 
+Have a look at the latest code defining the `House` class. 
 * What methods are available to you now?
-* What does the `self` keyword mean?
+* What does it mean when there is a `@` in front of a variable?
 * Can you modify the attributes of an account? 
 * Is it good to always be able to do that? 
 * What changes would you introduce?
 
-Think about this by putting this class and objects you can create with it in a real life context. For instance, if this was a real life bank account, would it be good to be useful to be able to modify the account holders name after the account has been opened? Why? Why not?
-
-
-
-
-## Extending Ruby classes
-
-As a programmer, you are free to modify, change or extend any class. Even those that are built in to the Ruby language. For instance, let's say that you want a method that check if a given number id even or odd. That might come in handy, right? We know that a number without decimals is of a `Fixnum` class. Let's extend that class with a custom method:
-
-```ruby
-class Fixnum
-  def is_even?
-    self % 2 == 0
-  end
-end
-```
-We just created a `is_even?` method that can be called on any number. We are using a `Modulus` operator (`%`) that divides the number we are calling this method on with 2 and returns `true` if the reminder equals to `0`. If not, the method returns `false`.
-
-Try to define this method in `irb` and call it on some numbers.
-```bash
-$ irb
-2.2.0 :001 > class Fixnum
-2.2.0 :002?>     def is_even?
-2.2.0 :003?>         self % 2 == 0
-2.2.0 :004?>     end
-2.2.0 :005?> end
- => :is_even? 
-2.2.0 :006 > 4.is_even?
- => true 
-2.2.0 :007 > 5.is_even?
- => false 
-```
-
-If you do this and want to use the extension or modification in a program that you've created, then I suggest you create a separate file and store it in the `lib` folder, something like: `/lib/core_ext.rb`. Make sure to `require` that file in your main program file or controller or what have you. 
+Think about this by putting this class and objects you can create with it in a real life context. For instance, it's good that we can change the paint color - we do that to houses in real life, yes? But what about windows? Should those be so easy to change?
 

@@ -4,27 +4,18 @@
 ### Coding as a Craft - in 12 weeks
 Craft Academy is a 12-week intensive, practice-oriented course for aspiring junior developers. The course is delivered as a coding bootcamp by Craft Academy in Gothenburg, Sweden. It gives you the basics you need to create, develop and launch web-based applications.
 
-The concept is simple, it is a 12 week intensive coding camp. The aim is to teach you the fundamentals of web development, enabling you to hit the ground running – and keep running. But what is important is that modern engineering practices are considered to be part of this foundation. As a student, you work from day one with **automated testing**, **continuous integration and deployment**, and other essential skills. Meaning that when you enter the workforce and are faced with problem, your instinct will be to solve right rather than just hacking a solution together.
- 
- 
- What will we cover in this prep course? There will be a lot of basics:
- 
- 1. Terminal commands
- 2. Introduction to Ruby
- 3. Internet infrastructure overview
- 4. Basic HTML & CSS
- 
+The aim is to teach you the fundamentals of web development, enabling you to hit the ground running – and keep running. But what is important is that modern engineering practices are considered to be part of this foundation. As a student, you'll work from day one with **automated testing**, **continuous integration and deployment**, and other essential skills. This means that when you enter the workforce and are faced with a problem, your instinct will be to solve intelligently rather than just hacking a solution together.
 
 ### Open Source
-This publication contains the course materials we ask all our future students to go through. You are free to use it for your personal learning needs even if you are not attending our bootcamp, we encourage that. 
+This publication contains the course materials we ask all our future students to go through. You are free to use it for your personal learning needs even if you are not attending our bootcamp; we encourage that. 
 
-**It is however not allowed to use this material in a commercial context without our written consent. It is not okay and it is against the very meaning of open source.** 
+**It is, however, not allowed to use this material in a commercial context without our written consent. It is not okay and it is against the very meaning of open source.** 
 
 If you have any questions, feel free to contact us at info@craftacademy.se
 
 
 **Thomas Ochman**<br>
-Gothenburg, December 2015<br>
+Gothenburg, December 2016<br>
 www.craftacademy.se
 
 **Disclaimer: This is very much a Work In Progress (WIP) and we will be pushing content regularly so please use the online version if you can or make sure you download/update the pdf, mobi or epub versions regularly.**

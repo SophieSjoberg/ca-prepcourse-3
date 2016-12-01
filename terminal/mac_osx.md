@@ -26,6 +26,8 @@ Check if Xcode Command Line Tools are installed by typing in the following comma
 $ xcode-select -p
 ```
 
+**Note: anytime you see the `$`, that means we are referring to something to type in your terminal.**
+
 Install:
 ```shell
 $ xcode-select --install
@@ -160,28 +162,36 @@ $ git --version
 git version 2.4.4
 ```
 
-Next, let's tell git who we are.
+Next, let's tell git who we are. `your_name` should be replaced with your name.
 ```shell
-$ git config --global user.name "you name"
-$ git config --global user.email "your@email.com"
+$ git config --global user.name your_name
+    # Sets the default name for git to use when you commit
+$ git config --global user.email your@email.com
+    # Sets the default email for git to use when you commit
 ```
 Now, you are ready to use Git. 
 
 #### Git Autocomplete
 
-Install bash-completion: `brew install brew install bash-completion` 
+Install bash-completion: `brew install bash-completion` 
 
-Add bash-completion to your `~/.bash_profile`.
+Add bash-completion to the file: `~/.bash_profile`.
 
 ```
 $ atom ~/.bash_profile
 ```
+Inside of the file that opens up inside of Atom, put:
 
 ```
+# ~/.bash_profile
+
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
 ```
+** Note that when we use a `#` we are referring to the file where we want to put code. You will _not_ type `# ~/.bash_profile` into your command line.**
+
+The code you just added allows us to tab-complete folders and commands inside of git. This will be a huge time-saver later.
 
 #### Terminal prompt
 When you work with git and version control it is a good idea to set up your prompt that displays some useful information such as:
@@ -200,9 +210,7 @@ Once the installation is complete, you need to open the `.bash_profile` file:
 $ atom ~/.bash_profile
 ```
 
-This should open the file in your newly installed text editor.
-
-Now add the following configuration at the bottom of the file and save. 
+Now add the following configuration at the bottom of the file (do not delete the lines we added above) and save. 
 
 ```bash
 # ~/.bash_profile

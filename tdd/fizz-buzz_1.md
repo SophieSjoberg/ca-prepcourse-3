@@ -22,7 +22,9 @@ Return:
 
 ### User stories
 
-Here are examples of user stories that will set the scope of the program
+In Test-Driven Development, we employ User Stories to describe what our program's users need and want. They are little "stories" that help guide our programming so that we build only what is necessary.
+
+Here are examples of user stories that will set the scope of our fizz buzz program.
 
 ```
 As a programmer
