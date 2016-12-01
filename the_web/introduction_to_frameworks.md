@@ -3,13 +3,13 @@
 ### What is a Web Framework?
 You can think of a web framework as a set of tools designed to simplify your work as a developer. Frameworks exist to save you from having to re-invent the wheel and help alleviate some of the overhead when you're building a new site. Typically frameworks provide libraries for accessing a database, managing sessions and cookies, creating templates to display your HTML and in general, promote the reuse of code.
 
-It's important not to confuse a framework with a content management system. While a framework deals with many of the same issues and, in some cases, may make it very easy to build a content management system, a framework is much more general.
+The difference between a web application and a static web site is persistent data. We use frameworks to manage our databases and access the content stored in them. A static web site does not need to access, write, or delete any data - it simply displays it.
 
 **Think of a framework as a collection of tools, rather than one specific thing.**
 
 
 ### What Can You Do With a Web Framework
-Frameworks exist to make building software faster and easier. Typically frameworks provide tools to cover the common CRUD cases. For instance, you'll likely find libraries for accessing a database, managing sessions and cookies, creating templates to display your HTML pages and more.
+Frameworks exist to make building software faster and easier. Typically frameworks provide tools to cover the common CRUD (Create - Read - Update - Delete) cases. For instance, you'll likely find libraries for accessing a database, managing sessions and cookies, creating templates to display your HTML pages and more.
 
 Frameworks also promote the reuse of code. With a good framework you only need to design, for instance, a contact form once. Then you can drop your generic contact form code into all your projects and save yourself some time and effort.
 
