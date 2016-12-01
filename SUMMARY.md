@@ -45,6 +45,6 @@
    * [Defining Functions](defining_functions.md)
    * [Prototypes and Classes](prototypes_and_classes.md)
    * [miscellaneous](miscellaneous.md)
-   * JQuery
+   * [JQuery](jquery.md)
    * [Javascript Extra Assignment](javascript_extra_assignment.md)
 
