@@ -1,5 +1,7 @@
 ## Sinatra - first steps
 
+Let's use a framework to put together a simple website. We will not be making use of a database right now, but you should know that we _could_. We will start doing that in week three of the bootcamp.
+
 In your terminal create a project folder:
 ```
 mkdir my_app
@@ -15,8 +17,9 @@ Run
 ```shell
 $ rspec-sinatra init --app  MyApp lib/my_app.rb
 ```
+to set up our app for testing with Rspec.
 
-Also, edit the `.rspec` file and add `--format documentation` to see a more verbose rspec output. Your `.rspec` file needs to look like this:
+Edit the `.rspec` file and add `--format documentation` to see a more verbose rspec output. Your `.rspec` file needs to look like this:
 
 ```
 --format documentation
@@ -36,9 +39,10 @@ group :development, :test do
   gem 'launchy'
   gem 'rspec'
   gem 'shotgun'
+  gem 'rack-test'
 end
 ```
-Add `gem 'rack-test'` to your Gemfile and run `bundle`
+Run `bundle`.
 
 Also add `config.include Rack::Test::Methods` to your `Rspec.configure block` in `spec/spec-helper.rb`.
 
