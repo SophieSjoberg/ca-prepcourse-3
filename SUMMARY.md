@@ -43,5 +43,5 @@
    * [Comparisons and Manipulations](comparisons_and_manipulations.md)
    * [Javascript Exercises #1](javascript_exercises_1.md)
    * [Defining Functions](defining_functions.md)
-   * Prototypes and Classes
+   * [Prototypes and Classes](prototypes_and_classes.md)
 
