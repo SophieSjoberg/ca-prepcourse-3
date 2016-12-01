@@ -39,5 +39,5 @@
    * [Wrap it up](tdd/step_3_wrap_it_up.md)
 * [Week Four - Javascript, JQuery and Wrapping up the Prep course](week_four_-_javascript,_jquery_and_wrapping_up_the.md)
    * [Introduction to Javascript](introduction_to_javascript.md)
-   * Variables, Objects and Arrays
+   * [Variables, Objects and Arrays](variables,_objects_and_arrays.md)
 
