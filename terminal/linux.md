@@ -19,27 +19,6 @@ libffi-dev libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
 Next we are going to install [Ruby Version Manager (RVM)](http://rvm.io/). `RVM` will allow us to install and manage multiple versions of Ruby in our environment. We first have to download the [author's](http://rvm.io/authors/mpapis) public key to ensure we're downloading the correct packages.
 
 ```shell
-$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3# Linux
-
-In this section we will cover the steps required to setup your development environment on Ubuntu 16.04
-
-If you haven't already, grab a copy of Ubuntu 16.04 LTS (Xenial Xerus) [here](http://www.ubuntu.com/download/desktop) and install it on your computer.
-
-### Installing Ruby
-
-First thing we want to do is make sure our system has the latest updates and security patches. We will also install some dependencies for Ruby.
-
-```shell
-$ sudo apt-get update && sudo apt-get upgrade -y
-$ sudo apt-get install git-core curl zlib1g-dev build-essential \
-libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 \
-libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties \
-libffi-dev libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
-```
-
-Next we are going to install [Ruby Version Manager (RVM)](http://rvm.io/). `RVM` will allow us to install and manage multiple versions of Ruby in our environment. We first have to download the [author's](http://rvm.io/authors/mpapis) public key to ensure we're downloading the correct packages.
-
-```shell
 $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 ```
 
