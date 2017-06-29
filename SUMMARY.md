@@ -52,5 +52,4 @@
   * [JQuery](jquery.md)
   * [Javascript Extra Assignment](javascript_extra_assignment.md)
   * [Javascript Quiz](javascript-quiz.md)
-* [Introduction to S.O.L.I.D.](introduction-to-solid.md)
 
