@@ -1,4 +1,4 @@
-# Mac OSX
+# macOS
 
 Almost everything that follows below needs to be dine by typing in commands in your terminal. There's plenty of steps that needs to be finished before your development environment is set up. See this as a learning experience - a big part of a programmers job is to use third party tools and tweak his own, or a remote system.
 
@@ -96,7 +96,7 @@ $ curl -L https://get.rvm.io | bash -s stable --auto-dotfiles --autolibs=enable 
 > ```shell
 > brew install gnupg gnupg2
 > ```
-
+>
 > In rare cases the gpg --keyserver is failing, use this instead:
 >
 > ```
