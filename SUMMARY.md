@@ -15,6 +15,7 @@
     * [Windows, really?](terminal/vm_on_windows.md)
     * Extras
       * [PostgreSQL](terminal/postgresql.md)
+      * [Atom Plugins](terminal/atom-plugins.md)
 * [The Terminal](terminal/terminal_1.md)
 * [Cheatsheet](terminal/cheatsheet.md)
 * [Terminal Resources](terminal_resources.md)
