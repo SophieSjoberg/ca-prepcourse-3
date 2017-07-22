@@ -14,17 +14,18 @@
     * [Working in the cloud](terminal/working_in_the_cloud.md)
     * [Windows, really?](terminal/vm_on_windows.md)
     * Extras
+      * [Atom Plugins](#)
       * [PostgreSQL](terminal/postgresql.md)
-      * [Atom Plugins](terminal/atom-plugins.md)
+
       * [Setting up QT](terminal/setting-up-qt.md)
-* [The Terminal](terminal/terminal_1.md)
-* [Cheatsheet](terminal/cheatsheet.md)
-* [Terminal Resources](terminal_resources.md)
-  * [Terminal Quiz](terminal-quiz.md)
-* [Version Control](git/version_control.md)
-  * [Tips and Tricks](git/tips_and_tricks.md)
-  * [git-exercises](git/git-exercises.md)
-  * [Version Control Quiz](git/version-control-quiz.md)
+  * [The Terminal](terminal/terminal_1.md)
+  * [Cheatsheet](terminal/cheatsheet.md)
+  * [Terminal Resources](terminal_resources.md)
+    * [Terminal Quiz](terminal-quiz.md)
+  * [Version Control](git/version_control.md)
+    * [Tips and Tricks](git/tips_and_tricks.md)
+    * [git-exercises](git/git-exercises.md)
+    * [Version Control Quiz](git/version-control-quiz.md)
 * [Week Two - HTML \/ CSS and Introduction to Ruby](week_two_-_html__css_and_introduction_to_ruby.md)
   * [HTML quiz](html-quiz.md)
 * [Your first website](the_web/your_first_website.md)
@@ -56,4 +57,6 @@
   * [JQuery](jquery.md)
   * [Javascript Extra Assignment](javascript_extra_assignment.md)
   * [Javascript Quiz](javascript-quiz.md)
+
+
 
