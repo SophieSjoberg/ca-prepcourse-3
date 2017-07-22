@@ -13,6 +13,8 @@
     * [Linux](terminal/linux.md)
     * [Working in the cloud](terminal/working_in_the_cloud.md)
     * [Windows, really?](terminal/vm_on_windows.md)
+    * Extras
+      * [PostgreSQL](terminal/postgresql.md)
 * [The Terminal](terminal/terminal_1.md)
 * [Cheatsheet](terminal/cheatsheet.md)
 * [Terminal Resources](terminal_resources.md)
