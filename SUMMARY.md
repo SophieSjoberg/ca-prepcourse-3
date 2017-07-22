@@ -15,11 +15,9 @@
     * [Linux](terminal/linux.md)
     * [Working in the cloud](terminal/working_in_the_cloud.md)
     * [Windows, really?](terminal/vm_on_windows.md)
-    * Extras
-
-      * [Atom Plugins](#)
+    * [Extras](#)
+      * [Atom Plugins](terminal/atom-plugins.md)
       * [PostgreSQL](terminal/postgresql.md)
-
       * [Setting up QT](terminal/setting-up-qt.md)
 
   * [The Terminal](terminal/terminal_1.md)
