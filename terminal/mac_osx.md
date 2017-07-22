@@ -127,13 +127,13 @@ $ rvm list
 And install new rubies with:
 
 ```shell
-$ rvm install 2.2.3  # or whatever version you need
+$ rvm install 2.3.4  # or whatever version you need
 ```
 
 To switch between Ruby versions make use of the `use` command:
 
 ```shell
-$ rvm use 2.2.3
+$ rvm use 2.3.4
 ```
 
 Read the [RVM documentation](https://github.com/rvm/rvm#action) to see all the different actions you can use.
@@ -183,7 +183,7 @@ And verify your installation:
 
 ```shell
 $ git --version
-git version 2.4.4
+git version 2.13.2
 ```
 
 Next, let's tell git who we are. `your_name` should be replaced with your name.

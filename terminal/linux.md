@@ -38,8 +38,8 @@ $ source ~/.rvm/scripts/rvm
 Now that we have `RVM` installed, let's install ruby.
 
 ```shell
-$ rvm install 2.3.1
-$ rvm use 2.3.1 --default
+$ rvm install 2.3.4
+$ rvm use 2.3.4 --default
 $ ruby -v
 ```
 
