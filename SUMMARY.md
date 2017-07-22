@@ -16,6 +16,7 @@
     * Extras
       * [PostgreSQL](terminal/postgresql.md)
       * [Atom Plugins](terminal/atom-plugins.md)
+      * [Setting up QT](terminal/setting-up-qt.md)
 * [The Terminal](terminal/terminal_1.md)
 * [Cheatsheet](terminal/cheatsheet.md)
 * [Terminal Resources](terminal_resources.md)
