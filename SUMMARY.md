@@ -8,24 +8,29 @@
   * [Soft Skills](the_web/soft_skills.md)
   * [Pair Learning](workflow/pair_learning.md)
 * [Week One - The Terminal, Development Environment, Version Control](week_one_-_the_terminal,_development_environment,_.md)
+
   * [Setup for developers](terminal/setup_for_developers.md)
+
     * [macOS](terminal/mac_osx.md)
     * [Linux](terminal/linux.md)
     * [Working in the cloud](terminal/working_in_the_cloud.md)
     * [Windows, really?](terminal/vm_on_windows.md)
     * Extras
+
       * [Atom Plugins](#)
       * [PostgreSQL](terminal/postgresql.md)
 
       * [Setting up QT](terminal/setting-up-qt.md)
+
   * [The Terminal](terminal/terminal_1.md)
-  * [Cheatsheet](terminal/cheatsheet.md)
+    * [Cheatsheet](terminal/cheatsheet.md)
   * [Terminal Resources](terminal_resources.md)
     * [Terminal Quiz](terminal-quiz.md)
   * [Version Control](git/version_control.md)
     * [Tips and Tricks](git/tips_and_tricks.md)
     * [git-exercises](git/git-exercises.md)
     * [Version Control Quiz](git/version-control-quiz.md)
+
 * [Week Two - HTML \/ CSS and Introduction to Ruby](week_two_-_html__css_and_introduction_to_ruby.md)
   * [HTML quiz](html-quiz.md)
 * [Your first website](the_web/your_first_website.md)
