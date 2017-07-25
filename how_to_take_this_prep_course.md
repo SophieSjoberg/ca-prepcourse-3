@@ -16,9 +16,9 @@
  
  |  | Materials | Demos |
 | -- | -- | -- |
-| Week One | Terminal Commands<br>Setting up our developer environment<br>Version Control | Git workflow<br>Office Hours for help with setup |
-| Week Two | Basic HTML & CSS and our first website<br>Introduction to Ruby Programming | Publishing a website<br>Our first Ruby program |
-| Week Three | Introduction to testing with RSpec<br>Writing our first program with Test-Driven Development | Our first unit tests with RSpec<br>Fizz Buzz demo |
+| Week One | Terminal Commands<br>Setting up our developer environment<br>Version Control<br>Basic HTML & CSS and our first website | Git workflow<br>Office Hours for help with setup<br>Publishing a website |
+| Week Two | Introduction to Ruby Programming<br>Introduction to testing with RSpec | Our first Ruby program<br>Our first unit tests with RSpec |
+| Week Three | Writing our first program with Test-Driven Development | Fizz Buzz demo |
 | Week Four | Introduction to programming with Javascript<br>Manipulating websites with jQuery | Our first Javascript program<br>Office hours for any last-minute help |
 
 **Links to demos and office hours will be posted on Slack. Make sure you check in regularly. Dates and times for individual demos will be posted under the Week pages.**
