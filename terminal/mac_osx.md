@@ -169,6 +169,32 @@ $ bundle install
 
 We'll be covering `bundler` and gems more extensively later on when we work with our challenges.
 
+#### Node
+
+Node.js is a JavaScript runtime environment for executing JavaScript code server-side. We will make use of a number of packages throughout the camp that rely on Node.js. To install those packages, we will need npm \(_Node Package Manager_\) which is distributed with Node.js installation. Execute the following command in your terminal to install Node.js:
+
+```
+$ brew install node
+```
+
+##### Check that you have node and npm installed
+
+To check if you have Node.js installed, run this command in your terminal:
+
+```
+$ node -v
+
+v8.1.2  # <== You should get an output similar to this
+```
+
+To confirm that you have `npm` installed you can run this command in your terminal:
+
+```
+$ npm -v
+
+5.2.0  # <== You should get an output similar to this
+```
+
 #### Git
 
 Git is a version control system that we'll be using extensively during the course. Version Control lets you track your files, changes and avoid general chaos over time.
