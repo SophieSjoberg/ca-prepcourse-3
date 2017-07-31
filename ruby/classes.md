@@ -8,8 +8,9 @@ A Ruby class always starts with the keyword `class` followed by the name of the 
 
 ```ruby
 class House
-end 
-``` 
+end
+```
+
 This is the bare minimum code you need to write to create a class. Try to define and instantiate the `House` class in `irb`:
 
 ```bash
@@ -17,20 +18,25 @@ $ irb
 2.2.0 :001 > class House
 2.2.0 :002?>   end
  => nil
- ````
+ `
+```
+
 Now let's create a account object and use it:
+
 ```ruby
 2.2.0 :003 > a = House.new
- => #<House:0x007fc55110ad60> 
+ => #<House:0x007fc55110ad60>
 ```
-The `a = House.new` command creates an **instance** of the `House` class and stores it in a local variable called `a`. At this point there is not much we can do with this object, but still, it has come to life ;-)
+
+The `a = House.new` command creates an **instance** of the `House` class and stores it in a local variable called `a`. At this point there is not much we can do with this object, but still, it has come to life ;-\)
 
 Now `a` stores a "real" `House`, whereas the `House` class is just instructions for creating one.
 
 ### The `initialize` method
-Let's say that we want the `House` class to have some attributes, like color or number of windows. 
 
-Every Ruby class invokes a **constructor** method called `initialize`. This is stuff that happens to the instance of the class (the object) right when it is created.
+Let's say that we want the `House` class to have some attributes, like color or number of windows.
+
+Every Ruby class invokes a **constructor** method called `initialize`. This is stuff that happens to the instance of the class \(the object\) right when it is created.
 
 ```ruby
 class House  
@@ -41,28 +47,33 @@ class House
 end
 ```
 
-Try this code in `irb` by defining the class and trying to instantiate an new  `Account` object. What happens if you do this?
+Try this code in `irb` by defining the class and trying to instantiate an new  `House` object. What happens if you do this?
 
 ```bash
 2.2.0 :001 > a = House.new
 ```
+
 You have not passed in any values to the `initialize` method and you are getting an error, right? It might look something like this:
+
 ```bash
 ArgumentError: wrong number of arguments (0 for 2)
-	from (irb):87:in `initialize'
-	from (irb):96:in `new'
-	from (irb):96
-	from /Users/thomas/.rvm/rubies/ruby-2.2.0/bin/irb:11:in `<main>'
+    from (irb):87:in `initialize'
+    from (irb):96:in `new'
+    from (irb):96
+    from /Users/thomas/.rvm/rubies/ruby-2.2.0/bin/irb:11:in `<main>'
 ```
 
 Try instead to pass in a name and a balance as "arguments":
+
 ```bash
 2.2.0 :098 > a = House.new 'blue', 10
- => #<House:0x007fb35421ab60 @color="blue", @windows=10> 
+ => #<House:0x007fb35421ab60 @color="blue", @windows=10>
 ```
+
 Looks like that works better, right?
 
 The `initialize` method takes the paramaters `color` and `windows`, then _sets_ those values on the object. The line `@color = color` means it will take the `color` that is input to the method and save it as part of the instance. `color` and `@color` are variables - they could both be called anything. Don't believe me? Try:
+
 ```ruby
 class House  
   def initialize(dinosaurs, bugs)
@@ -71,9 +82,10 @@ class House
   end
 end
 ```
+
 Run this in irb and see what a new `House` object looks like. Where are the dinosuars?
 
-We are still not quite where we want to be. In many cases you want to be not only be able to access the values (that we can do at this point), but also modify them. For that we need some **setter methods**. We could define those methods ourselves, but Ruby offers us a better way. How about this code:
+We are still not quite where we want to be. In many cases you want to be not only be able to access the values \(that we can do at this point\), but also modify them. For that we need some **setter methods**. We could define those methods ourselves, but Ruby offers us a better way. How about this code:
 
 ```ruby
 class House  
@@ -84,10 +96,13 @@ class House
   end
 end
 ```
+
 That `attr_accessor` is a helper method that allows us to `read` and `write` to the _attributes_ listed after it. So now we can "set" the attributes `color` and `windows`. Try running your code again in irb. Change the color of the house. Give it some more windows.
 
 ### Exercise
-Have a look at the latest code defining the `House` class. 
+
+Have a look at the latest code defining the `House` class.
+
 * What methods are available to you now?
 * What does it mean when there is a `@` in front of a variable?
 * Can you modify the attributes of an account? 
