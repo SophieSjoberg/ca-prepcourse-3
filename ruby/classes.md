@@ -18,19 +18,18 @@ $ irb
 2.2.0 :001 > class House
 2.2.0 :002?>   end
  => nil
- `
 ```
 
 Now let's create a account object and use it:
 
 ```ruby
-2.2.0 :003 > a = House.new
+2.2.0 :003 > house = House.new
  => #<House:0x007fc55110ad60>
 ```
 
-The `a = House.new` command creates an **instance** of the `House` class and stores it in a local variable called `a`. At this point there is not much we can do with this object, but still, it has come to life ;-\)
+The `house = House.new` command creates an **instance** of the `House` class and stores it in a local variable called `house`. At this point there is not much we can do with this object, but still, it has come to life ;-\)
 
-Now `a` stores a "real" `House`, whereas the `House` class is just instructions for creating one.
+Now `house` stores a "real" `House`, whereas the `House` class is just instructions for creating one.
 
 ### The `initialize` method
 
@@ -50,7 +49,7 @@ end
 Try this code in `irb` by defining the class and trying to instantiate an new  `House` object. What happens if you do this?
 
 ```bash
-2.2.0 :001 > a = House.new
+2.2.0 :001 > house = House.new
 ```
 
 You have not passed in any values to the `initialize` method and you are getting an error, right? It might look something like this:
@@ -66,7 +65,7 @@ ArgumentError: wrong number of arguments (0 for 2)
 Try instead to pass in a name and a balance as "arguments":
 
 ```bash
-2.2.0 :098 > a = House.new 'blue', 10
+2.2.0 :098 > house = House.new 'blue', 10
  => #<House:0x007fb35421ab60 @color="blue", @windows=10>
 ```
 

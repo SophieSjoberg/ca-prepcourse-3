@@ -32,10 +32,10 @@
   * [Introduction to Ruby](ruby/introduction_to_ruby.md)
     * [The basics](ruby/the_basics.md)
     * [Basic syntax](ruby/basicsyntax_rb.md)
-    * [Classes](ruby/classes.md)
-    * [methods](ruby/methods.md)
     * [Control Flow](ruby/control_flow.md)
     * [Operators](ruby/operators.md)
+    * [Classes](ruby/classes.md)
+    * [methods](ruby/methods.md)
     * [Don't read me](ruby/dont_read_me.md)
     * [Ruby Exercises](ruby/ruby_exercises.md)
     * [Ruby Quiz](ruby/ruby-quiz.md)
@@ -56,6 +56,4 @@
   * [JQuery](jquery.md)
   * [Javascript Extra Assignment](javascript_extra_assignment.md)
   * [Javascript Quiz](javascript-quiz.md)
-
-
 

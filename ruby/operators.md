@@ -36,7 +36,7 @@ Comparison operators are used to check for equality between two values. Ruby pro
 | `<=` | Checks if the value of left operand is less than or equal to the value of right operand, if yes then condition becomes true. | `a <= b` returns `false` |
 | `<=>` | **Combined comparison operator** - Returns 0 if first operand equals second, 1 if first operand is greater than the second and -1 if first operand is less than the second. | `a <=> b` returns `-1` |
 | `===` | Used to test equality within a `when` clause of a `case` statement. | `(1...10) === 5` returns `true` |
-| `.eql?` | `true` if the receiver and argument have both the same type and equal values \(compare to `1 == 1.0` returns `true`). | `1.eql?(1.0)` returns `false` |
+| `.eql?` | `true` if the receiver and argument have both the same type and equal values \(compare to `1 == 1.0` returns `true`\). | `1.eql?(1.0)` returns `false` |
 | `equal?` | `true` if the receiver and argument have the same object id. | see below. |
 
 if `aObj` is a duplicate of `bObj` then:
@@ -57,16 +57,18 @@ Assignment Operators allows us to assign the result of an expression to a variab
 | `*=` | Multiply AND assignment operator, It multiplies right operand with the left operand and assign the result to left operand | `c *= a` is equivalent to `c = c * a` |
 | `/=` | Divide AND assignment operator, It divides left operand with the right operand and assign the result to left operand | `c /= a` is equivalent to `c = c / a` |
 | `%=` | Modulus AND assignment operator, It takes modulus using two operands and assign the result to left operand | `c %= a` is equivalent to `c = c % a` |
-| `**=` | Exponent AND assignment operator, Performs exponential (power) calculation on operators and assign value to the left operand | `c **= a` is equivalent to `c = c ** a` |
+| `**=` | Exponent AND assignment operator, Performs exponential \(power\) calculation on operators and assign value to the left operand | `c **= a` is equivalent to `c = c ** a` |
 
 ### Logical Operators
 
 | Operator | Description | Example |
 | :--- | :--- | :--- |
 | `&&` | Logical **AND** operator. If both the operands are non zero, then the condition becomes true. | true && true |
-| `||` | Logical **OR** Operator. If any of the two operands are non zero, then the condition becomes true. | true && false |
+| \|\| | Logical **OR** Operator. If any of the two operands are non zero, then the condition becomes true. | true \|\| false |
 | `!` | Logical **NOT** Operator. Use to reverses the logical state of its operand. If a condition is true, then Logical NOT operator will make false. | !false == true |
 | `and` | Control flow **AND** modifier | \[TBD\] |
 | `or` | Control flow **OR** modifier | \[TBD\] |
 | `not` | Control flow **NOT** modifier | \[TBD\] |
+
+
 
