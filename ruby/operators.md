@@ -64,7 +64,7 @@ Assignment Operators allows us to assign the result of an expression to a variab
 | Operator | Description | Example |
 | :--- | :--- | :--- |
 | `&&` | Logical **AND** operator. If both the operands are non zero, then the condition becomes true. | true && true |
-| \|\| | Logical **OR** Operator. If any of the two operands are non zero, then the condition becomes true. | true \|\| false |
+| \\|\\| | Logical **OR** Operator. If any of the two operands are non zero, then the condition becomes true. | true \\|\\| false |
 | `!` | Logical **NOT** Operator. Use to reverses the logical state of its operand. If a condition is true, then Logical NOT operator will make false. | !false == true |
 | `and` | Control flow **AND** modifier | \[TBD\] |
 | `or` | Control flow **OR** modifier | \[TBD\] |
