@@ -58,5 +58,8 @@
   * [Javascript Quiz](javascript-quiz.md)
 * [Chapter 5](chapter-6.md)
   * [Step 1 - Setting the stage](chapter-6/step-1.md)
+  * [Step 2 - The core functionality](chapter-6/step-2.md)
+  * [Step 3 - Interacting with objects](chapter-6/step-3.md)
+  * [Step 4 - Refactoring](chapter-6/step-4.md)
 * [Chapter 6](chapter-6.md)
 
