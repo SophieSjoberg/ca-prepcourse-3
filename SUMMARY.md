@@ -66,5 +66,11 @@
   * [Step 7 - The Account](chapter-6/step-7.md)
   * [Step 8 - The Person](chapter-6/step-8-the-person.md)
   * [Step 9 - Making it all work together](chapter-6/step-9-making-it-all-work-together.md)
-* [Chapter 6](chapter-6.md)
+* [hello](hello.md)
+  * [Jasmine - Set up](hello/hell1.md)
+  * [First tests](hello/first-tests.md)
+  * [The calculator](hello/the-calculator.md)
+  * [The Document-Object Model](hello/the-document-object-model.md)
+  * [Web interface](hello/web-interface.md)
+  * [Acceptance tests](hello/acceptance-tests.md)
 
