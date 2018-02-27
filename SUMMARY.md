@@ -73,4 +73,5 @@
   * [The Document-Object Model](hello/the-document-object-model.md)
   * [Web interface](hello/web-interface.md)
   * [Acceptance tests](hello/acceptance-tests.md)
+  * [Moving on](hello/moving-on.md)
 
