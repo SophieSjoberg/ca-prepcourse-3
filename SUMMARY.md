@@ -57,5 +57,6 @@
   * [Javascript Extra Assignment](javascript_extra_assignment.md)
   * [Javascript Quiz](javascript-quiz.md)
 * [Chapter 5](chapter-6.md)
-* Chapter 6
+  * [Step 1 - Setting the stage](chapter-6/step-1.md)
+* [Chapter 6](chapter-6.md)
 
