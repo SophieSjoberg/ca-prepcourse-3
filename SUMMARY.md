@@ -40,12 +40,12 @@
     * [Don't read me](ruby/dont_read_me.md)
     * [Ruby Exercises](ruby/ruby_exercises.md)
     * [Ruby Quiz](ruby/ruby-quiz.md)
-* [Chapter 4](tdd/tdd_intro.md)
+* [Chapter 3](tdd/tdd_intro.md)
   * [Fizz-Buzz](tdd/fizz-buzz_1.md)
   * [Setting the stage](tdd/step_1_setting_the_stage.md)
   * [Testing first](tdd/step_2_testing_first.md)
   * [Wrap it up](tdd/step_3_wrap_it_up.md)
-* [Chapter 5](week_four_-_javascript,_jquery_and_wrapping_up_the.md)
+* [Chapter 4](week_four_-_javascript,_jquery_and_wrapping_up_the.md)
   * [Introduction to Javascript](introduction_to_javascript.md)
   * [Variables, Objects and Arrays](variables,_objects_and_arrays.md)
   * [Comparisons and Manipulations](comparisons_and_manipulations.md)
@@ -56,6 +56,6 @@
   * [JQuery](jquery.md)
   * [Javascript Extra Assignment](javascript_extra_assignment.md)
   * [Javascript Quiz](javascript-quiz.md)
+* [Chapter 5](chapter-6.md)
 * Chapter 6
-* Chapter 7
 
