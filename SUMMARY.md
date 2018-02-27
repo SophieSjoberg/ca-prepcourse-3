@@ -61,5 +61,6 @@
   * [Step 2 - The core functionality](chapter-6/step-2.md)
   * [Step 3 - Interacting with objects](chapter-6/step-3.md)
   * [Step 4 - Refactoring](chapter-6/step-4.md)
+  * [Step 5 - Testing the sad path](chapter-6/step-5-testing-the-sad-path.md)
 * [Chapter 6](chapter-6.md)
 
