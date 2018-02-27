@@ -62,5 +62,9 @@
   * [Step 3 - Interacting with objects](chapter-6/step-3.md)
   * [Step 4 - Refactoring](chapter-6/step-4.md)
   * [Step 5 - Testing the sad path](chapter-6/step-5-testing-the-sad-path.md)
+  * [Step 6 - Cash is King](chapter-6/step-6-cash-is-king.md)
+  * [Step 7 - The Account](chapter-6/step-7.md)
+  * [Step 8 - The Person](chapter-6/step-8-the-person.md)
+  * [Step 9 - Making it all work together](chapter-6/step-9-making-it-all-work-together.md)
 * [Chapter 6](chapter-6.md)
 
