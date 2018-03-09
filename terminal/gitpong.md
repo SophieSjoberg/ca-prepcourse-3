@@ -1,8 +1,8 @@
 # **So you want to collaborate and write code with your pairing partner?**
 
 In order to work with a pairing partner you will need to have a good git flow. This means that two programmers use git and version control to share code. The following guide is used to collaborate with version control, we call it "GitPong".  
-For this exercise you need to collaborate with another student and follow these following steps:  
-  
+For this exercise you need to collaborate with another student and follow these following steps:
+
 **Step 1 Setting the stage**
 
 Create a new directory from your terminal
@@ -13,14 +13,18 @@ Move into the new directory
 
 ![](/assets/cdgit.png)
 
-_**Both**_** **programmers fork the [main repo](https://github.com/CraftAcademy/gitpong) 
+_**Both**_** **programmers fork the [main repo](https://github.com/CraftAcademy/gitpong)
 
-**  **[![](/assets/Screen Shot 2018-02-22 at 13.47.27.png)](https://github.com/CraftAcademy/gitpong)**    
+**  **[![](/assets/Screen Shot 2018-02-22 at 13.47.27.png)](https://github.com/CraftAcademy/gitpong)**      
 **
 
 _**Both**_** **programmers clone the main repo
 
 ![](/assets/Screen Shot 2018-02-22 at 13.37.21.png)
+
+**And** clone it to their local machines with
+
+![](/assets/Screen Shot 2018-03-09 at 11.42.27.png)
 
 **Both** programmers add the main repo as the upstream![](/assets/Screen Shot 2018-02-22 at 15.15.55.png)
 
