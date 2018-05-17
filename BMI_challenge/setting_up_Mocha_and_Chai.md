@@ -36,7 +36,7 @@ Open you text editor
 
 package.json was created and should look like this: 
 
-```
+``` javascript
 {
   "name": "bmi",
   "version": "1.0.0",
@@ -85,7 +85,6 @@ Add the following snippet in your `specrunner.html`
 
 <script>mocha.setup('bdd')</script>
 <script>mocha.setup('bdd')</script>
-
 
 <script src="src/sum.js"></script>
 <script src="test/sum.test.js"></script>
