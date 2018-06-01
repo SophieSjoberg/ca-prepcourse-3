@@ -1,5 +1,3 @@
-## Soft Skills
-
 **Software development is a people's business.**
 
 That's a pretty bold statement, but the way we see it -

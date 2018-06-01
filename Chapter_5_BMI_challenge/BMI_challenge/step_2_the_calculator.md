@@ -89,5 +89,5 @@ BMICalculator.prototype.metric_bmi = function(obj) {
 ```
 
 ### Review and reflect
-1. Why does the `setBMIMessage(obj);` call do?
+1. What does the `setBMIMessage(obj);` call do?
 2. Why do we have a separate function called `setBMIMessage`? 

@@ -1,5 +1,5 @@
 ## The stack
-During the Craft Academy Bootcamp we will be working with technologies across the entire stack behind a web application. Let's just quickly go over the differences and their meaning. We will cover technologies in italics during the main bootcamp.
+During this course we will be working with technologies across the entire stack behind a web application. Let's just quickly go over the differences and their meaning. We will cover technologies in italics during this course.
 
 ### Front End
 The front end of a website is the part that users interact with. Everything that you see when you're navigating a website, from fonts and colors to dropdown menus, sliders and forms. The front end is a combo of HTML, CSS, and JavaScript controlled by your computer's browser.
@@ -22,15 +22,4 @@ The back end of a website consists of a server, an application and a database. A
 * NoSQL (MongoDB)
 
 ### Full stack
-Full stack developers work mostly on the server side of web programming, but they can also speak the front-end languages that control how content looks on a web site's user-facing side. 
-
-Craft Academy is a full-stack bootcamp. We use Ruby as a back-end language with frameworks like Sinatra and Rails. For front end development, we use Javascript and JS frameworks like AngularJS and Ionic.
-
-
-
-
-
-
- 
-
-
+Full stack developers work mostly on the server side of web programming, but they can also speak the front-end languages that control how content looks on a web site's user-facing side.

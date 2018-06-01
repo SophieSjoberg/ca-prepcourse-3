@@ -1,6 +1,4 @@
-# Student letter (English)
-
-####Dear Craft Academy Student
+**Dear Craft Academy Student**
 
 Big congratulations for joining the course. We really look forward to helping you find your way as a developer. You will learn a lot, make new friends, be challenged and engaged - your life will be turned upside down. A smart move.
 
@@ -10,7 +8,7 @@ Please read this document carefully to ensure that you understand what you are g
 
 Craft Academy was founded to help people get to a level of employability in web development. We do not work in education for education's sake. We work on training you to able to go out and get a well-paying job as a junior developer and build projects in the real world.
 
-####Learning the Craft Academy Way
+###Learning the Craft Academy Way
 
 Our course is unique, not only in intensity but also in approach.
 
@@ -22,7 +20,7 @@ We believe that traditional education teaches people to pass tests rather than l
 
 We will not review your code as if it were homework; we will be here to show and guide you to improve, and your fellow students and seniors will help you learn things as much as your instructors.
 
-####What happens in this course
+###What happens in this course
 
 We have no magic wand that can make you a developer. Along with a positive attitude, hard work is what will make the difference between success and failure.
 
@@ -32,7 +30,8 @@ Instead of being 'taught' you will teach yourself. Success for us as a company m
 
 Obviously, we cannot guarantee you a job. None of us knows what will happen during the 12 weeks. You may love or hate the software. When it comes down to it, your chances of getting a job are based on your efforts and how far you can get in 12 weeks - so make the most out of it.
 
-####Openness, feedback and improvement
+
+###Openness, feedback and improvement
 
 Most businesses do not have an open communication policy and do not allow anyone to know other people's actions.
 
@@ -40,8 +39,6 @@ Craft Academy team has a policy of extreme openness. It is not always nice, but 
 
 We do it.
 
-The whole team will take note of your feedback and we sit regularly with students individually to talk face to face. Every two weeks we will hold a group meeting to discuss how the course is going and what improvements can be made to have a more successful bootcamp. Your feedback is mandatory – everyone needs to have an opinion in their own success and learning.
+The whole team will take note of your feedback and we sit regularly with students individually to talk face to face. Every two weeks we will hold a group meeting to discuss how the course is going and what improvements can be made to have a more successful bootcamp. Your feedback is mandatory – everyone needs to have an opinion intheir own success and learning.
 
-The most important thing is that we trust that if you have any problems with the course, you will know that it is your responsibility to share it with us. Then it's up to us to listen to your opinions and give you answers.
-Good Luck!
-
+The most important thing is that we trust that if you have any problems with the course, you will know that it is your responsibility to share it with us. Then it's up to us to listen to your opinions and give you answers. Good Luck!

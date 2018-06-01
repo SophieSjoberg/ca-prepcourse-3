@@ -1,20 +1,15 @@
-# macOS
+Almost everything that follows below needs to be done by typing in commands in your terminal. There's plenty of steps that need to be finished before your development environment is set up. See this as a learning experience - a big part of a programmers job is to use third party tools and tweak his own or a remote system.
 
-Almost everything that follows below needs to be dine by typing in commands in your terminal. There's plenty of steps that needs to be finished before your development environment is set up. See this as a learning experience - a big part of a programmers job is to use third party tools and tweak his own, or a remote system.
+#### Visual Studio Code 
 
-#### Atom
+There are many editors out there we can use. [Sublime](http://www.sublimetext.com/) is one, [TextMate](https://macromates.com/) is another, but our editor of choice for this course is [Visual Studio Code](https://code.visualstudio.com/). It is brought to us by the good people of Microsoft and comes with over 3000 extension packages - all open sourced.
 
-At the beginning of the course \(week 1 - 6\) we'll be using a text editor to write code. There are many editors out there we can use. [Sublime](http://www.sublimetext.com/) is one, [TextMate](https://macromates.com/) is another, but our editor of choice for this course is [Atom](https://atom.io). It is brought to us by the good people of GitHub and comes with over 3000 extension packages - all open sourced.
+Download and install VSC by following the instructions on their [website](https://code.visualstudio.com/). Once that's done you can browse around for some packages you might find useful. Or you wait with that until you actually know what 'useful' is in the context of coding.
 
-_"Atom is a text editor that's modern, approachable, yet hackable to the core — a tool you can customize to do anything but also use productively without ever touching a config file."_ - [https://atom.io](https://atom.io)  
-![Atom.io - Download for OS X](../images/atom_io_landing_page.png)
-
-Download and install Atom by following the instructions on their [web site](). Once that's done you can browse around for some packages you might find useful. Or you wait with that until you actually know what '_useful_' is in the context of coding. If you want to find out more about how to install Atom packages head over to their excellent [documentation](https://atom.io/docs/v1.2.4/using-atom-atom-packages) site. Also, read through this blog post about some Atom extensions that might prove useful: [http://www.sitepoint.com/10-essential-atom-add-ons/](http://www.sitepoint.com/10-essential-atom-add-ons/)
-
-For now, what you really want to do is to set Atom as the default editor fir Git \(trust me, you are going to need it\):
+For now, what you really want to do is to set VSC as the default editor for Git (trust me, you are going to need it). Type in the following command in your terminal (find your terminal wit cmd+space then type terminal):
 
 ```shell
-$ git config --global core.editor "atom --wait"
+$ git config --global core.editor "code --wait"
 ```
 
 #### Xcode Command Line Tools
@@ -230,7 +225,7 @@ Install bash-completion: `brew install bash-completion`
 Add bash-completion to the file: `~/.bash_profile`.
 
 ```
-$ atom ~/.bash_profile
+$ code ~/.bash_profile
 ```
 
 Inside of the file that opens up inside of Atom, put:
@@ -263,7 +258,7 @@ $ brew install bash-git-prompt
 Once the installation is complete, you need to open the `.bash_profile` file:
 
 ```bash
-$ atom ~/.bash_profile
+$ code ~/.bash_profile
 ```
 
 Now add the following configuration at the bottom of the file \(do not delete the lines we added above\) and save.
@@ -290,4 +285,3 @@ Your terminal prompt will now show a lot more useful information that will help 
 You are all set up, you have your necessary compilers \(with Xcode CLT\) to be able to effectively use ruby gems, your package managers \(RVM, Bundler and Homebrew\) are in place, you have your Ruby versions installed, a version control system \(Git\) and you have a text editor. In your terminal, where you will be spending most of your time, you have a prompt that tells you all you need to know about where you are in your version control process.
 
 **You are all good!**
-
